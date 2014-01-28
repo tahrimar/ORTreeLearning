@@ -1,0 +1,7 @@
+digraph G {
+splines=true;
+0 [shape=circle, label=0]
+1 [shape=circle, label=1]
+0->1;
+1->0;
+}

@@ -1,0 +1,5998 @@
+graph G {
+splines=true;
+0 [shape=box, label = "root" ]
+0--1;
+1 [shape=circle, label="26:1"]
+1--2[label = 0.500, labelangle=110];
+2 [shape=box, label="0:2"]
+2--3;
+3 [shape=circle, label="0:3"]
+3--4[label = 0.500, labelangle=110];
+4 [shape=box, label="0:4"]
+4--5;
+5 [shape=circle, label="11:5"]
+5--6[label = 0.500, labelangle=110];
+6 [shape=box, label="0:6"]
+6--7;
+7 [shape=circle, label="40:7"]
+7--8[label = 0.488, labelangle=110];
+8 [shape=box, label="0:8"]
+8--9;
+9 [shape=circle, label="23:9"]
+9--10[label = 0.492, labelangle=110];
+10 [shape=box, label="0:10"]
+10--11;
+11 [shape=circle, label="18:11"]
+11--12[label = 0.500, labelangle=110];
+12 [shape=box, label="0:12"]
+12--13;
+13 [shape=circle, label="25:13"]
+13--14[label = 0.533, labelangle=110];
+14 [shape=box, label="0:14"]
+14--15;
+15 [shape=circle, label="42:15"]
+15--16[label = 0.500, labelangle=110];
+16 [shape=box, label="0:16"]
+16--17;
+17 [shape=circle, label="39:17"]
+17--18[label = 0.500, labelangle=110];
+18 [shape=box, label="0:18"]
+18--19;
+19 [shape=circle, label="45:19"]
+19--20[label = 0.500, labelangle=110];
+20 [shape=box, label="0:20"]
+19--21[label = 0.500, labelangle=110];
+21 [shape=box, label="1:20"]
+17--22[label = 0.500, labelangle=110];
+22 [shape=box, label="1:18"]
+22--23;
+23 [shape=circle, label="41:19"]
+23--24[label = 0.500, labelangle=110];
+24 [shape=box, label="0:20"]
+23--25[label = 0.500, labelangle=110];
+25 [shape=box, label="1:20"]
+15--26[label = 0.500, labelangle=110];
+26 [shape=box, label="1:16"]
+26--27;
+27 [shape=circle, label="45:17"]
+27--28[label = 0.500, labelangle=110];
+28 [shape=box, label="0:18"]
+28--29;
+29 [shape=circle, label="41:19"]
+29--30[label = 0.500, labelangle=110];
+30 [shape=box, label="0:20"]
+29--31[label = 0.500, labelangle=110];
+31 [shape=box, label="1:20"]
+27--32[label = 0.500, labelangle=110];
+32 [shape=box, label="1:18"]
+32--33;
+33 [shape=circle, label="39:19"]
+33--34[label = 0.500, labelangle=110];
+34 [shape=box, label="0:20"]
+33--35[label = 0.500, labelangle=110];
+35 [shape=box, label="1:20"]
+13--36[label = 0.467, labelangle=110];
+36 [shape=box, label="1:14"]
+36--37;
+37 [shape=circle, label="43:15"]
+37--38[label = 0.429, labelangle=110];
+38 [shape=box, label="0:16"]
+38--39;
+39 [shape=circle, label="45:17"]
+39--40[label = 0.333, labelangle=110];
+40 [shape=box, label="0:18"]
+39--41[label = 0.667, labelangle=110];
+41 [shape=box, label="1:18"]
+41--42;
+42 [shape=circle, label="42:19"]
+42--43[label = 0.500, labelangle=110];
+43 [shape=box, label="0:20"]
+42--44[label = 0.500, labelangle=110];
+44 [shape=box, label="1:20"]
+37--45[label = 0.571, labelangle=110];
+45 [shape=box, label="1:16"]
+45--46;
+46 [shape=circle, label="24:17"]
+46--47[label = 0.500, labelangle=110];
+47 [shape=box, label="0:18"]
+47--48;
+48 [shape=circle, label="38:19"]
+48--49[label = 0.500, labelangle=110];
+49 [shape=box, label="0:20"]
+48--50[label = 0.500, labelangle=110];
+50 [shape=box, label="1:20"]
+46--51[label = 0.500, labelangle=110];
+51 [shape=box, label="1:18"]
+51--52;
+52 [shape=circle, label="44:19"]
+52--53[label = 0.500, labelangle=110];
+53 [shape=box, label="0:20"]
+52--54[label = 0.500, labelangle=110];
+54 [shape=box, label="1:20"]
+11--55[label = 0.500, labelangle=110];
+55 [shape=box, label="1:12"]
+55--56;
+56 [shape=circle, label="41:13"]
+56--57[label = 0.467, labelangle=110];
+57 [shape=box, label="0:14"]
+57--58;
+58 [shape=circle, label="43:15"]
+58--59[label = 0.429, labelangle=110];
+59 [shape=box, label="0:16"]
+59--60;
+60 [shape=circle, label="45:17"]
+60--61[label = 0.333, labelangle=110];
+61 [shape=box, label="0:18"]
+60--62[label = 0.667, labelangle=110];
+62 [shape=box, label="1:18"]
+62--63;
+63 [shape=circle, label="39:19"]
+63--64[label = 0.500, labelangle=110];
+64 [shape=box, label="0:20"]
+63--65[label = 0.500, labelangle=110];
+65 [shape=box, label="1:20"]
+58--66[label = 0.571, labelangle=110];
+66 [shape=box, label="1:16"]
+66--67;
+67 [shape=circle, label="42:17"]
+67--68[label = 0.500, labelangle=110];
+68 [shape=box, label="0:18"]
+68--69;
+69 [shape=circle, label="39:19"]
+69--70[label = 0.500, labelangle=110];
+70 [shape=box, label="0:20"]
+69--71[label = 0.500, labelangle=110];
+71 [shape=box, label="1:20"]
+67--72[label = 0.500, labelangle=110];
+72 [shape=box, label="1:18"]
+72--73;
+73 [shape=circle, label="45:19"]
+73--74[label = 0.500, labelangle=110];
+74 [shape=box, label="0:20"]
+73--75[label = 0.500, labelangle=110];
+75 [shape=box, label="1:20"]
+56--76[label = 0.533, labelangle=110];
+76 [shape=box, label="1:14"]
+76--77;
+77 [shape=circle, label="45:15"]
+77--78[label = 0.500, labelangle=110];
+78 [shape=box, label="0:16"]
+78--79;
+79 [shape=circle, label="43:17"]
+79--80[label = 0.500, labelangle=110];
+80 [shape=box, label="0:18"]
+80--81;
+81 [shape=circle, label="44:19"]
+81--82[label = 0.500, labelangle=110];
+82 [shape=box, label="0:20"]
+81--83[label = 0.500, labelangle=110];
+83 [shape=box, label="1:20"]
+79--84[label = 0.500, labelangle=110];
+84 [shape=box, label="1:18"]
+84--85;
+85 [shape=circle, label="42:19"]
+85--86[label = 0.500, labelangle=110];
+86 [shape=box, label="0:20"]
+85--87[label = 0.500, labelangle=110];
+87 [shape=box, label="1:20"]
+77--88[label = 0.500, labelangle=110];
+88 [shape=box, label="1:16"]
+88--89;
+89 [shape=circle, label="42:17"]
+89--90[label = 0.500, labelangle=110];
+90 [shape=box, label="0:18"]
+90--91;
+91 [shape=circle, label="37:19"]
+91--92[label = 0.500, labelangle=110];
+92 [shape=box, label="0:20"]
+91--93[label = 0.500, labelangle=110];
+93 [shape=box, label="1:20"]
+89--94[label = 0.500, labelangle=110];
+94 [shape=box, label="1:18"]
+94--95;
+95 [shape=circle, label="39:19"]
+95--96[label = 0.500, labelangle=110];
+96 [shape=box, label="0:20"]
+95--97[label = 0.500, labelangle=110];
+97 [shape=box, label="1:20"]
+9--98[label = 0.508, labelangle=110];
+98 [shape=box, label="1:10"]
+98--99;
+99 [shape=circle, label="42:11"]
+99--100[label = 0.484, labelangle=110];
+100 [shape=box, label="0:12"]
+100--101;
+101 [shape=circle, label="39:13"]
+101--102[label = 0.533, labelangle=110];
+102 [shape=box, label="0:14"]
+102--103;
+103 [shape=circle, label="43:15"]
+103--104[label = 0.500, labelangle=110];
+104 [shape=box, label="0:16"]
+104--105;
+105 [shape=circle, label="13:17"]
+105--106[label = 0.500, labelangle=110];
+106 [shape=box, label="0:18"]
+106--107;
+107 [shape=circle, label="38:19"]
+107--108[label = 0.500, labelangle=110];
+108 [shape=box, label="0:20"]
+107--109[label = 0.500, labelangle=110];
+109 [shape=box, label="1:20"]
+105--110[label = 0.500, labelangle=110];
+110 [shape=box, label="1:18"]
+110--111;
+111 [shape=circle, label="45:19"]
+111--112[label = 0.500, labelangle=110];
+112 [shape=box, label="0:20"]
+111--113[label = 0.500, labelangle=110];
+113 [shape=box, label="1:20"]
+103--114[label = 0.500, labelangle=110];
+114 [shape=box, label="1:16"]
+114--115;
+115 [shape=circle, label="33:17"]
+115--116[label = 0.500, labelangle=110];
+116 [shape=box, label="0:18"]
+116--117;
+117 [shape=circle, label="45:19"]
+117--118[label = 0.500, labelangle=110];
+118 [shape=box, label="0:20"]
+117--119[label = 0.500, labelangle=110];
+119 [shape=box, label="1:20"]
+115--120[label = 0.500, labelangle=110];
+120 [shape=box, label="1:18"]
+120--121;
+121 [shape=circle, label="41:19"]
+121--122[label = 0.500, labelangle=110];
+122 [shape=box, label="0:20"]
+121--123[label = 0.500, labelangle=110];
+123 [shape=box, label="1:20"]
+101--124[label = 0.467, labelangle=110];
+124 [shape=box, label="1:14"]
+124--125;
+125 [shape=circle, label="45:15"]
+125--126[label = 0.571, labelangle=110];
+126 [shape=box, label="0:16"]
+126--127;
+127 [shape=circle, label="41:17"]
+127--128[label = 0.500, labelangle=110];
+128 [shape=box, label="0:18"]
+128--129;
+129 [shape=circle, label="43:19"]
+129--130[label = 0.500, labelangle=110];
+130 [shape=box, label="0:20"]
+129--131[label = 0.500, labelangle=110];
+131 [shape=box, label="1:20"]
+127--132[label = 0.500, labelangle=110];
+132 [shape=box, label="1:18"]
+132--133;
+133 [shape=circle, label="38:19"]
+133--134[label = 0.500, labelangle=110];
+134 [shape=box, label="0:20"]
+133--135[label = 0.500, labelangle=110];
+135 [shape=box, label="1:20"]
+125--136[label = 0.429, labelangle=110];
+136 [shape=box, label="1:16"]
+136--137;
+137 [shape=circle, label="41:17"]
+137--138[label = 0.667, labelangle=110];
+138 [shape=box, label="0:18"]
+138--139;
+139 [shape=circle, label="37:19"]
+139--140[label = 0.500, labelangle=110];
+140 [shape=box, label="0:20"]
+139--141[label = 0.500, labelangle=110];
+141 [shape=box, label="1:20"]
+137--142[label = 0.333, labelangle=110];
+142 [shape=box, label="1:18"]
+99--143[label = 0.516, labelangle=110];
+143 [shape=box, label="1:12"]
+143--144;
+144 [shape=circle, label="27:13"]
+144--145[label = 0.500, labelangle=110];
+145 [shape=box, label="0:14"]
+145--146;
+146 [shape=circle, label="37:15"]
+146--147[label = 0.500, labelangle=110];
+147 [shape=box, label="0:16"]
+147--148;
+148 [shape=circle, label="39:17"]
+148--149[label = 0.500, labelangle=110];
+149 [shape=box, label="0:18"]
+149--150;
+150 [shape=circle, label="45:19"]
+150--151[label = 0.500, labelangle=110];
+151 [shape=box, label="0:20"]
+150--152[label = 0.500, labelangle=110];
+152 [shape=box, label="1:20"]
+148--153[label = 0.500, labelangle=110];
+153 [shape=box, label="1:18"]
+153--154;
+154 [shape=circle, label="43:19"]
+154--155[label = 0.500, labelangle=110];
+155 [shape=box, label="0:20"]
+154--156[label = 0.500, labelangle=110];
+156 [shape=box, label="1:20"]
+146--157[label = 0.500, labelangle=110];
+157 [shape=box, label="1:16"]
+157--158;
+158 [shape=circle, label="34:17"]
+158--159[label = 0.500, labelangle=110];
+159 [shape=box, label="0:18"]
+159--160;
+160 [shape=circle, label="41:19"]
+160--161[label = 0.500, labelangle=110];
+161 [shape=box, label="0:20"]
+160--162[label = 0.500, labelangle=110];
+162 [shape=box, label="1:20"]
+158--163[label = 0.500, labelangle=110];
+163 [shape=box, label="1:18"]
+163--164;
+164 [shape=circle, label="45:19"]
+164--165[label = 0.500, labelangle=110];
+165 [shape=box, label="0:20"]
+164--166[label = 0.500, labelangle=110];
+166 [shape=box, label="1:20"]
+144--167[label = 0.500, labelangle=110];
+167 [shape=box, label="1:14"]
+167--168;
+168 [shape=circle, label="39:15"]
+168--169[label = 0.500, labelangle=110];
+169 [shape=box, label="0:16"]
+169--170;
+170 [shape=circle, label="43:17"]
+170--171[label = 0.500, labelangle=110];
+171 [shape=box, label="0:18"]
+171--172;
+172 [shape=circle, label="45:19"]
+172--173[label = 0.500, labelangle=110];
+173 [shape=box, label="0:20"]
+172--174[label = 0.500, labelangle=110];
+174 [shape=box, label="1:20"]
+170--175[label = 0.500, labelangle=110];
+175 [shape=box, label="1:18"]
+175--176;
+176 [shape=circle, label="41:19"]
+176--177[label = 0.500, labelangle=110];
+177 [shape=box, label="0:20"]
+176--178[label = 0.500, labelangle=110];
+178 [shape=box, label="1:20"]
+168--179[label = 0.500, labelangle=110];
+179 [shape=box, label="1:16"]
+179--180;
+180 [shape=circle, label="45:17"]
+180--181[label = 0.500, labelangle=110];
+181 [shape=box, label="0:18"]
+181--182;
+182 [shape=circle, label="44:19"]
+182--183[label = 0.500, labelangle=110];
+183 [shape=box, label="0:20"]
+182--184[label = 0.500, labelangle=110];
+184 [shape=box, label="1:20"]
+180--185[label = 0.500, labelangle=110];
+185 [shape=box, label="1:18"]
+185--186;
+186 [shape=circle, label="41:19"]
+186--187[label = 0.500, labelangle=110];
+187 [shape=box, label="0:20"]
+186--188[label = 0.500, labelangle=110];
+188 [shape=box, label="1:20"]
+7--189[label = 0.512, labelangle=110];
+189 [shape=box, label="1:8"]
+189--190;
+190 [shape=circle, label="45:9"]
+190--191[label = 0.500, labelangle=110];
+191 [shape=box, label="0:10"]
+191--192;
+192 [shape=circle, label="43:11"]
+192--193[label = 0.500, labelangle=110];
+193 [shape=box, label="0:12"]
+193--194;
+194 [shape=circle, label="41:13"]
+194--195[label = 0.500, labelangle=110];
+195 [shape=box, label="0:14"]
+195--196;
+196 [shape=circle, label="39:15"]
+196--197[label = 0.500, labelangle=110];
+197 [shape=box, label="0:16"]
+197--198;
+198 [shape=circle, label="44:17"]
+198--199[label = 0.500, labelangle=110];
+199 [shape=box, label="0:18"]
+199--200;
+200 [shape=circle, label="36:19"]
+200--201[label = 0.500, labelangle=110];
+201 [shape=box, label="0:20"]
+200--202[label = 0.500, labelangle=110];
+202 [shape=box, label="1:20"]
+198--203[label = 0.500, labelangle=110];
+203 [shape=box, label="1:18"]
+203--204;
+204 [shape=circle, label="42:19"]
+204--205[label = 0.500, labelangle=110];
+205 [shape=box, label="0:20"]
+204--206[label = 0.500, labelangle=110];
+206 [shape=box, label="1:20"]
+196--207[label = 0.500, labelangle=110];
+207 [shape=box, label="1:16"]
+207--208;
+208 [shape=circle, label="36:17"]
+208--209[label = 0.500, labelangle=110];
+209 [shape=box, label="0:18"]
+209--210;
+210 [shape=circle, label="44:19"]
+210--211[label = 0.500, labelangle=110];
+211 [shape=box, label="0:20"]
+210--212[label = 0.500, labelangle=110];
+212 [shape=box, label="1:20"]
+208--213[label = 0.500, labelangle=110];
+213 [shape=box, label="1:18"]
+213--214;
+214 [shape=circle, label="38:19"]
+214--215[label = 0.500, labelangle=110];
+215 [shape=box, label="0:20"]
+214--216[label = 0.500, labelangle=110];
+216 [shape=box, label="1:20"]
+194--217[label = 0.500, labelangle=110];
+217 [shape=box, label="1:14"]
+217--218;
+218 [shape=circle, label="34:15"]
+218--219[label = 0.500, labelangle=110];
+219 [shape=box, label="0:16"]
+219--220;
+220 [shape=circle, label="28:17"]
+220--221[label = 0.500, labelangle=110];
+221 [shape=box, label="0:18"]
+221--222;
+222 [shape=circle, label="29:19"]
+222--223[label = 0.500, labelangle=110];
+223 [shape=box, label="0:20"]
+222--224[label = 0.500, labelangle=110];
+224 [shape=box, label="1:20"]
+220--225[label = 0.500, labelangle=110];
+225 [shape=box, label="1:18"]
+225--226;
+226 [shape=circle, label="37:19"]
+226--227[label = 0.500, labelangle=110];
+227 [shape=box, label="0:20"]
+226--228[label = 0.500, labelangle=110];
+228 [shape=box, label="1:20"]
+218--229[label = 0.500, labelangle=110];
+229 [shape=box, label="1:16"]
+229--230;
+230 [shape=circle, label="39:17"]
+230--231[label = 0.500, labelangle=110];
+231 [shape=box, label="0:18"]
+231--232;
+232 [shape=circle, label="44:19"]
+232--233[label = 0.500, labelangle=110];
+233 [shape=box, label="0:20"]
+232--234[label = 0.500, labelangle=110];
+234 [shape=box, label="1:20"]
+230--235[label = 0.500, labelangle=110];
+235 [shape=box, label="1:18"]
+235--236;
+236 [shape=circle, label="42:19"]
+236--237[label = 0.500, labelangle=110];
+237 [shape=box, label="0:20"]
+236--238[label = 0.500, labelangle=110];
+238 [shape=box, label="1:20"]
+192--239[label = 0.500, labelangle=110];
+239 [shape=box, label="1:12"]
+239--240;
+240 [shape=circle, label="37:13"]
+240--241[label = 0.500, labelangle=110];
+241 [shape=box, label="0:14"]
+241--242;
+242 [shape=circle, label="34:15"]
+242--243[label = 0.500, labelangle=110];
+243 [shape=box, label="0:16"]
+243--244;
+244 [shape=circle, label="27:17"]
+244--245[label = 0.500, labelangle=110];
+245 [shape=box, label="0:18"]
+245--246;
+246 [shape=circle, label="42:19"]
+246--247[label = 0.500, labelangle=110];
+247 [shape=box, label="0:20"]
+246--248[label = 0.500, labelangle=110];
+248 [shape=box, label="1:20"]
+244--249[label = 0.500, labelangle=110];
+249 [shape=box, label="1:18"]
+249--250;
+250 [shape=circle, label="36:19"]
+250--251[label = 0.500, labelangle=110];
+251 [shape=box, label="0:20"]
+250--252[label = 0.500, labelangle=110];
+252 [shape=box, label="1:20"]
+242--253[label = 0.500, labelangle=110];
+253 [shape=box, label="1:16"]
+253--254;
+254 [shape=circle, label="42:17"]
+254--255[label = 0.500, labelangle=110];
+255 [shape=box, label="0:18"]
+255--256;
+256 [shape=circle, label="35:19"]
+256--257[label = 0.500, labelangle=110];
+257 [shape=box, label="0:20"]
+256--258[label = 0.500, labelangle=110];
+258 [shape=box, label="1:20"]
+254--259[label = 0.500, labelangle=110];
+259 [shape=box, label="1:18"]
+259--260;
+260 [shape=circle, label="41:19"]
+260--261[label = 0.500, labelangle=110];
+261 [shape=box, label="0:20"]
+260--262[label = 0.500, labelangle=110];
+262 [shape=box, label="1:20"]
+240--263[label = 0.500, labelangle=110];
+263 [shape=box, label="1:14"]
+263--264;
+264 [shape=circle, label="15:15"]
+264--265[label = 0.500, labelangle=110];
+265 [shape=box, label="0:16"]
+265--266;
+266 [shape=circle, label="44:17"]
+266--267[label = 0.500, labelangle=110];
+267 [shape=box, label="0:18"]
+267--268;
+268 [shape=circle, label="41:19"]
+268--269[label = 0.500, labelangle=110];
+269 [shape=box, label="0:20"]
+268--270[label = 0.500, labelangle=110];
+270 [shape=box, label="1:20"]
+266--271[label = 0.500, labelangle=110];
+271 [shape=box, label="1:18"]
+271--272;
+272 [shape=circle, label="42:19"]
+272--273[label = 0.500, labelangle=110];
+273 [shape=box, label="0:20"]
+272--274[label = 0.500, labelangle=110];
+274 [shape=box, label="1:20"]
+264--275[label = 0.500, labelangle=110];
+275 [shape=box, label="1:16"]
+275--276;
+276 [shape=circle, label="30:17"]
+276--277[label = 0.500, labelangle=110];
+277 [shape=box, label="0:18"]
+277--278;
+278 [shape=circle, label="41:19"]
+278--279[label = 0.500, labelangle=110];
+279 [shape=box, label="0:20"]
+278--280[label = 0.500, labelangle=110];
+280 [shape=box, label="1:20"]
+276--281[label = 0.500, labelangle=110];
+281 [shape=box, label="1:18"]
+281--282;
+282 [shape=circle, label="44:19"]
+282--283[label = 0.500, labelangle=110];
+283 [shape=box, label="0:20"]
+282--284[label = 0.500, labelangle=110];
+284 [shape=box, label="1:20"]
+190--285[label = 0.500, labelangle=110];
+285 [shape=box, label="1:10"]
+285--286;
+286 [shape=circle, label="39:11"]
+286--287[label = 0.500, labelangle=110];
+287 [shape=box, label="0:12"]
+287--288;
+288 [shape=circle, label="24:13"]
+288--289[label = 0.500, labelangle=110];
+289 [shape=box, label="0:14"]
+289--290;
+290 [shape=circle, label="42:15"]
+290--291[label = 0.500, labelangle=110];
+291 [shape=box, label="0:16"]
+291--292;
+292 [shape=circle, label="36:17"]
+292--293[label = 0.500, labelangle=110];
+293 [shape=box, label="0:18"]
+293--294;
+294 [shape=circle, label="41:19"]
+294--295[label = 0.500, labelangle=110];
+295 [shape=box, label="0:20"]
+294--296[label = 0.500, labelangle=110];
+296 [shape=box, label="1:20"]
+292--297[label = 0.500, labelangle=110];
+297 [shape=box, label="1:18"]
+297--298;
+298 [shape=circle, label="35:19"]
+298--299[label = 0.500, labelangle=110];
+299 [shape=box, label="0:20"]
+298--300[label = 0.500, labelangle=110];
+300 [shape=box, label="1:20"]
+290--301[label = 0.500, labelangle=110];
+301 [shape=box, label="1:16"]
+301--302;
+302 [shape=circle, label="44:17"]
+302--303[label = 0.500, labelangle=110];
+303 [shape=box, label="0:18"]
+303--304;
+304 [shape=circle, label="43:19"]
+304--305[label = 0.500, labelangle=110];
+305 [shape=box, label="0:20"]
+304--306[label = 0.500, labelangle=110];
+306 [shape=box, label="1:20"]
+302--307[label = 0.500, labelangle=110];
+307 [shape=box, label="1:18"]
+307--308;
+308 [shape=circle, label="43:19"]
+308--309[label = 0.500, labelangle=110];
+309 [shape=box, label="0:20"]
+308--310[label = 0.500, labelangle=110];
+310 [shape=box, label="1:20"]
+288--311[label = 0.500, labelangle=110];
+311 [shape=box, label="1:14"]
+311--312;
+312 [shape=circle, label="41:15"]
+312--313[label = 0.500, labelangle=110];
+313 [shape=box, label="0:16"]
+313--314;
+314 [shape=circle, label="44:17"]
+314--315[label = 0.500, labelangle=110];
+315 [shape=box, label="0:18"]
+315--316;
+316 [shape=circle, label="36:19"]
+316--317[label = 0.500, labelangle=110];
+317 [shape=box, label="0:20"]
+316--318[label = 0.500, labelangle=110];
+318 [shape=box, label="1:20"]
+314--319[label = 0.500, labelangle=110];
+319 [shape=box, label="1:18"]
+319--320;
+320 [shape=circle, label="43:19"]
+320--321[label = 0.500, labelangle=110];
+321 [shape=box, label="0:20"]
+320--322[label = 0.500, labelangle=110];
+322 [shape=box, label="1:20"]
+312--323[label = 0.500, labelangle=110];
+323 [shape=box, label="1:16"]
+323--324;
+324 [shape=circle, label="43:17"]
+324--325[label = 0.500, labelangle=110];
+325 [shape=box, label="0:18"]
+325--326;
+326 [shape=circle, label="33:19"]
+326--327[label = 0.500, labelangle=110];
+327 [shape=box, label="0:20"]
+326--328[label = 0.500, labelangle=110];
+328 [shape=box, label="1:20"]
+324--329[label = 0.500, labelangle=110];
+329 [shape=box, label="1:18"]
+329--330;
+330 [shape=circle, label="38:19"]
+330--331[label = 0.500, labelangle=110];
+331 [shape=box, label="0:20"]
+330--332[label = 0.500, labelangle=110];
+332 [shape=box, label="1:20"]
+286--333[label = 0.500, labelangle=110];
+333 [shape=box, label="1:12"]
+333--334;
+334 [shape=circle, label="3:13"]
+334--335[label = 0.500, labelangle=110];
+335 [shape=box, label="0:14"]
+335--336;
+336 [shape=circle, label="29:15"]
+336--337[label = 0.500, labelangle=110];
+337 [shape=box, label="0:16"]
+337--338;
+338 [shape=circle, label="42:17"]
+338--339[label = 0.500, labelangle=110];
+339 [shape=box, label="0:18"]
+339--340;
+340 [shape=circle, label="43:19"]
+340--341[label = 0.500, labelangle=110];
+341 [shape=box, label="0:20"]
+340--342[label = 0.500, labelangle=110];
+342 [shape=box, label="1:20"]
+338--343[label = 0.500, labelangle=110];
+343 [shape=box, label="1:18"]
+343--344;
+344 [shape=circle, label="44:19"]
+344--345[label = 0.500, labelangle=110];
+345 [shape=box, label="0:20"]
+344--346[label = 0.500, labelangle=110];
+346 [shape=box, label="1:20"]
+336--347[label = 0.500, labelangle=110];
+347 [shape=box, label="1:16"]
+347--348;
+348 [shape=circle, label="44:17"]
+348--349[label = 0.500, labelangle=110];
+349 [shape=box, label="0:18"]
+349--350;
+350 [shape=circle, label="41:19"]
+350--351[label = 0.500, labelangle=110];
+351 [shape=box, label="0:20"]
+350--352[label = 0.500, labelangle=110];
+352 [shape=box, label="1:20"]
+348--353[label = 0.500, labelangle=110];
+353 [shape=box, label="1:18"]
+353--354;
+354 [shape=circle, label="38:19"]
+354--355[label = 0.500, labelangle=110];
+355 [shape=box, label="0:20"]
+354--356[label = 0.500, labelangle=110];
+356 [shape=box, label="1:20"]
+334--357[label = 0.500, labelangle=110];
+357 [shape=box, label="1:14"]
+357--358;
+358 [shape=circle, label="44:15"]
+358--359[label = 0.500, labelangle=110];
+359 [shape=box, label="0:16"]
+359--360;
+360 [shape=circle, label="42:17"]
+360--361[label = 0.500, labelangle=110];
+361 [shape=box, label="0:18"]
+361--362;
+362 [shape=circle, label="41:19"]
+362--363[label = 0.500, labelangle=110];
+363 [shape=box, label="0:20"]
+362--364[label = 0.500, labelangle=110];
+364 [shape=box, label="1:20"]
+360--365[label = 0.500, labelangle=110];
+365 [shape=box, label="1:18"]
+365--366;
+366 [shape=circle, label="38:19"]
+366--367[label = 0.500, labelangle=110];
+367 [shape=box, label="0:20"]
+366--368[label = 0.500, labelangle=110];
+368 [shape=box, label="1:20"]
+358--369[label = 0.500, labelangle=110];
+369 [shape=box, label="1:16"]
+369--370;
+370 [shape=circle, label="41:17"]
+370--371[label = 0.500, labelangle=110];
+371 [shape=box, label="0:18"]
+371--372;
+372 [shape=circle, label="37:19"]
+372--373[label = 0.500, labelangle=110];
+373 [shape=box, label="0:20"]
+372--374[label = 0.500, labelangle=110];
+374 [shape=box, label="1:20"]
+370--375[label = 0.500, labelangle=110];
+375 [shape=box, label="1:18"]
+375--376;
+376 [shape=circle, label="43:19"]
+376--377[label = 0.500, labelangle=110];
+377 [shape=box, label="0:20"]
+376--378[label = 0.500, labelangle=110];
+378 [shape=box, label="1:20"]
+5--379[label = 0.500, labelangle=110];
+379 [shape=box, label="1:6"]
+379--380;
+380 [shape=circle, label="45:7"]
+380--381[label = 0.504, labelangle=110];
+381 [shape=box, label="0:8"]
+381--382;
+382 [shape=circle, label="42:9"]
+382--383[label = 0.492, labelangle=110];
+383 [shape=box, label="0:10"]
+383--384;
+384 [shape=circle, label="40:11"]
+384--385[label = 0.516, labelangle=110];
+385 [shape=box, label="0:12"]
+385--386;
+386 [shape=circle, label="16:13"]
+386--387[label = 0.500, labelangle=110];
+387 [shape=box, label="0:14"]
+387--388;
+388 [shape=circle, label="39:15"]
+388--389[label = 0.500, labelangle=110];
+389 [shape=box, label="0:16"]
+389--390;
+390 [shape=circle, label="37:17"]
+390--391[label = 0.500, labelangle=110];
+391 [shape=box, label="0:18"]
+391--392;
+392 [shape=circle, label="41:19"]
+392--393[label = 0.500, labelangle=110];
+393 [shape=box, label="0:20"]
+392--394[label = 0.500, labelangle=110];
+394 [shape=box, label="1:20"]
+390--395[label = 0.500, labelangle=110];
+395 [shape=box, label="1:18"]
+395--396;
+396 [shape=circle, label="43:19"]
+396--397[label = 0.500, labelangle=110];
+397 [shape=box, label="0:20"]
+396--398[label = 0.500, labelangle=110];
+398 [shape=box, label="1:20"]
+388--399[label = 0.500, labelangle=110];
+399 [shape=box, label="1:16"]
+399--400;
+400 [shape=circle, label="34:17"]
+400--401[label = 0.500, labelangle=110];
+401 [shape=box, label="0:18"]
+401--402;
+402 [shape=circle, label="41:19"]
+402--403[label = 0.500, labelangle=110];
+403 [shape=box, label="0:20"]
+402--404[label = 0.500, labelangle=110];
+404 [shape=box, label="1:20"]
+400--405[label = 0.500, labelangle=110];
+405 [shape=box, label="1:18"]
+405--406;
+406 [shape=circle, label="44:19"]
+406--407[label = 0.500, labelangle=110];
+407 [shape=box, label="0:20"]
+406--408[label = 0.500, labelangle=110];
+408 [shape=box, label="1:20"]
+386--409[label = 0.500, labelangle=110];
+409 [shape=box, label="1:14"]
+409--410;
+410 [shape=circle, label="34:15"]
+410--411[label = 0.500, labelangle=110];
+411 [shape=box, label="0:16"]
+411--412;
+412 [shape=circle, label="43:17"]
+412--413[label = 0.500, labelangle=110];
+413 [shape=box, label="0:18"]
+413--414;
+414 [shape=circle, label="44:19"]
+414--415[label = 0.500, labelangle=110];
+415 [shape=box, label="0:20"]
+414--416[label = 0.500, labelangle=110];
+416 [shape=box, label="1:20"]
+412--417[label = 0.500, labelangle=110];
+417 [shape=box, label="1:18"]
+417--418;
+418 [shape=circle, label="36:19"]
+418--419[label = 0.500, labelangle=110];
+419 [shape=box, label="0:20"]
+418--420[label = 0.500, labelangle=110];
+420 [shape=box, label="1:20"]
+410--421[label = 0.500, labelangle=110];
+421 [shape=box, label="1:16"]
+421--422;
+422 [shape=circle, label="36:17"]
+422--423[label = 0.500, labelangle=110];
+423 [shape=box, label="0:18"]
+423--424;
+424 [shape=circle, label="39:19"]
+424--425[label = 0.500, labelangle=110];
+425 [shape=box, label="0:20"]
+424--426[label = 0.500, labelangle=110];
+426 [shape=box, label="1:20"]
+422--427[label = 0.500, labelangle=110];
+427 [shape=box, label="1:18"]
+427--428;
+428 [shape=circle, label="43:19"]
+428--429[label = 0.500, labelangle=110];
+429 [shape=box, label="0:20"]
+428--430[label = 0.500, labelangle=110];
+430 [shape=box, label="1:20"]
+384--431[label = 0.484, labelangle=110];
+431 [shape=box, label="1:12"]
+431--432;
+432 [shape=circle, label="44:13"]
+432--433[label = 0.467, labelangle=110];
+433 [shape=box, label="0:14"]
+433--434;
+434 [shape=circle, label="39:15"]
+434--435[label = 0.429, labelangle=110];
+435 [shape=box, label="0:16"]
+435--436;
+436 [shape=circle, label="43:17"]
+436--437[label = 0.333, labelangle=110];
+437 [shape=box, label="0:18"]
+436--438[label = 0.667, labelangle=110];
+438 [shape=box, label="1:18"]
+438--439;
+439 [shape=circle, label="41:19"]
+439--440[label = 0.500, labelangle=110];
+440 [shape=box, label="0:20"]
+439--441[label = 0.500, labelangle=110];
+441 [shape=box, label="1:20"]
+434--442[label = 0.571, labelangle=110];
+442 [shape=box, label="1:16"]
+442--443;
+443 [shape=circle, label="37:17"]
+443--444[label = 0.500, labelangle=110];
+444 [shape=box, label="0:18"]
+444--445;
+445 [shape=circle, label="36:19"]
+445--446[label = 0.500, labelangle=110];
+446 [shape=box, label="0:20"]
+445--447[label = 0.500, labelangle=110];
+447 [shape=box, label="1:20"]
+443--448[label = 0.500, labelangle=110];
+448 [shape=box, label="1:18"]
+448--449;
+449 [shape=circle, label="43:19"]
+449--450[label = 0.500, labelangle=110];
+450 [shape=box, label="0:20"]
+449--451[label = 0.500, labelangle=110];
+451 [shape=box, label="1:20"]
+432--452[label = 0.533, labelangle=110];
+452 [shape=box, label="1:14"]
+452--453;
+453 [shape=circle, label="35:15"]
+453--454[label = 0.500, labelangle=110];
+454 [shape=box, label="0:16"]
+454--455;
+455 [shape=circle, label="37:17"]
+455--456[label = 0.500, labelangle=110];
+456 [shape=box, label="0:18"]
+456--457;
+457 [shape=circle, label="36:19"]
+457--458[label = 0.500, labelangle=110];
+458 [shape=box, label="0:20"]
+457--459[label = 0.500, labelangle=110];
+459 [shape=box, label="1:20"]
+455--460[label = 0.500, labelangle=110];
+460 [shape=box, label="1:18"]
+460--461;
+461 [shape=circle, label="43:19"]
+461--462[label = 0.500, labelangle=110];
+462 [shape=box, label="0:20"]
+461--463[label = 0.500, labelangle=110];
+463 [shape=box, label="1:20"]
+453--464[label = 0.500, labelangle=110];
+464 [shape=box, label="1:16"]
+464--465;
+465 [shape=circle, label="39:17"]
+465--466[label = 0.500, labelangle=110];
+466 [shape=box, label="0:18"]
+466--467;
+467 [shape=circle, label="41:19"]
+467--468[label = 0.500, labelangle=110];
+468 [shape=box, label="0:20"]
+467--469[label = 0.500, labelangle=110];
+469 [shape=box, label="1:20"]
+465--470[label = 0.500, labelangle=110];
+470 [shape=box, label="1:18"]
+470--471;
+471 [shape=circle, label="34:19"]
+471--472[label = 0.500, labelangle=110];
+472 [shape=box, label="0:20"]
+471--473[label = 0.500, labelangle=110];
+473 [shape=box, label="1:20"]
+382--474[label = 0.508, labelangle=110];
+474 [shape=box, label="1:10"]
+474--475;
+475 [shape=circle, label="43:11"]
+475--476[label = 0.500, labelangle=110];
+476 [shape=box, label="0:12"]
+476--477;
+477 [shape=circle, label="33:13"]
+477--478[label = 0.500, labelangle=110];
+478 [shape=box, label="0:14"]
+478--479;
+479 [shape=circle, label="36:15"]
+479--480[label = 0.500, labelangle=110];
+480 [shape=box, label="0:16"]
+480--481;
+481 [shape=circle, label="34:17"]
+481--482[label = 0.500, labelangle=110];
+482 [shape=box, label="0:18"]
+482--483;
+483 [shape=circle, label="41:19"]
+483--484[label = 0.500, labelangle=110];
+484 [shape=box, label="0:20"]
+483--485[label = 0.500, labelangle=110];
+485 [shape=box, label="1:20"]
+481--486[label = 0.500, labelangle=110];
+486 [shape=box, label="1:18"]
+486--487;
+487 [shape=circle, label="40:19"]
+487--488[label = 0.500, labelangle=110];
+488 [shape=box, label="0:20"]
+487--489[label = 0.500, labelangle=110];
+489 [shape=box, label="1:20"]
+479--490[label = 0.500, labelangle=110];
+490 [shape=box, label="1:16"]
+490--491;
+491 [shape=circle, label="44:17"]
+491--492[label = 0.500, labelangle=110];
+492 [shape=box, label="0:18"]
+492--493;
+493 [shape=circle, label="40:19"]
+493--494[label = 0.500, labelangle=110];
+494 [shape=box, label="0:20"]
+493--495[label = 0.500, labelangle=110];
+495 [shape=box, label="1:20"]
+491--496[label = 0.500, labelangle=110];
+496 [shape=box, label="1:18"]
+496--497;
+497 [shape=circle, label="29:19"]
+497--498[label = 0.500, labelangle=110];
+498 [shape=box, label="0:20"]
+497--499[label = 0.500, labelangle=110];
+499 [shape=box, label="1:20"]
+477--500[label = 0.500, labelangle=110];
+500 [shape=box, label="1:14"]
+500--501;
+501 [shape=circle, label="27:15"]
+501--502[label = 0.500, labelangle=110];
+502 [shape=box, label="0:16"]
+502--503;
+503 [shape=circle, label="40:17"]
+503--504[label = 0.500, labelangle=110];
+504 [shape=box, label="0:18"]
+504--505;
+505 [shape=circle, label="41:19"]
+505--506[label = 0.500, labelangle=110];
+506 [shape=box, label="0:20"]
+505--507[label = 0.500, labelangle=110];
+507 [shape=box, label="1:20"]
+503--508[label = 0.500, labelangle=110];
+508 [shape=box, label="1:18"]
+508--509;
+509 [shape=circle, label="39:19"]
+509--510[label = 0.500, labelangle=110];
+510 [shape=box, label="0:20"]
+509--511[label = 0.500, labelangle=110];
+511 [shape=box, label="1:20"]
+501--512[label = 0.500, labelangle=110];
+512 [shape=box, label="1:16"]
+512--513;
+513 [shape=circle, label="37:17"]
+513--514[label = 0.500, labelangle=110];
+514 [shape=box, label="0:18"]
+514--515;
+515 [shape=circle, label="36:19"]
+515--516[label = 0.500, labelangle=110];
+516 [shape=box, label="0:20"]
+515--517[label = 0.500, labelangle=110];
+517 [shape=box, label="1:20"]
+513--518[label = 0.500, labelangle=110];
+518 [shape=box, label="1:18"]
+518--519;
+519 [shape=circle, label="44:19"]
+519--520[label = 0.500, labelangle=110];
+520 [shape=box, label="0:20"]
+519--521[label = 0.500, labelangle=110];
+521 [shape=box, label="1:20"]
+475--522[label = 0.500, labelangle=110];
+522 [shape=box, label="1:12"]
+522--523;
+523 [shape=circle, label="44:13"]
+523--524[label = 0.500, labelangle=110];
+524 [shape=box, label="0:14"]
+524--525;
+525 [shape=circle, label="36:15"]
+525--526[label = 0.500, labelangle=110];
+526 [shape=box, label="0:16"]
+526--527;
+527 [shape=circle, label="40:17"]
+527--528[label = 0.500, labelangle=110];
+528 [shape=box, label="0:18"]
+528--529;
+529 [shape=circle, label="41:19"]
+529--530[label = 0.500, labelangle=110];
+530 [shape=box, label="0:20"]
+529--531[label = 0.500, labelangle=110];
+531 [shape=box, label="1:20"]
+527--532[label = 0.500, labelangle=110];
+532 [shape=box, label="1:18"]
+532--533;
+533 [shape=circle, label="31:19"]
+533--534[label = 0.500, labelangle=110];
+534 [shape=box, label="0:20"]
+533--535[label = 0.500, labelangle=110];
+535 [shape=box, label="1:20"]
+525--536[label = 0.500, labelangle=110];
+536 [shape=box, label="1:16"]
+536--537;
+537 [shape=circle, label="39:17"]
+537--538[label = 0.500, labelangle=110];
+538 [shape=box, label="0:18"]
+538--539;
+539 [shape=circle, label="41:19"]
+539--540[label = 0.500, labelangle=110];
+540 [shape=box, label="0:20"]
+539--541[label = 0.500, labelangle=110];
+541 [shape=box, label="1:20"]
+537--542[label = 0.500, labelangle=110];
+542 [shape=box, label="1:18"]
+542--543;
+543 [shape=circle, label="40:19"]
+543--544[label = 0.500, labelangle=110];
+544 [shape=box, label="0:20"]
+543--545[label = 0.500, labelangle=110];
+545 [shape=box, label="1:20"]
+523--546[label = 0.500, labelangle=110];
+546 [shape=box, label="1:14"]
+546--547;
+547 [shape=circle, label="41:15"]
+547--548[label = 0.500, labelangle=110];
+548 [shape=box, label="0:16"]
+548--549;
+549 [shape=circle, label="34:17"]
+549--550[label = 0.500, labelangle=110];
+550 [shape=box, label="0:18"]
+550--551;
+551 [shape=circle, label="40:19"]
+551--552[label = 0.500, labelangle=110];
+552 [shape=box, label="0:20"]
+551--553[label = 0.500, labelangle=110];
+553 [shape=box, label="1:20"]
+549--554[label = 0.500, labelangle=110];
+554 [shape=box, label="1:18"]
+554--555;
+555 [shape=circle, label="38:19"]
+555--556[label = 0.500, labelangle=110];
+556 [shape=box, label="0:20"]
+555--557[label = 0.500, labelangle=110];
+557 [shape=box, label="1:20"]
+547--558[label = 0.500, labelangle=110];
+558 [shape=box, label="1:16"]
+558--559;
+559 [shape=circle, label="34:17"]
+559--560[label = 0.500, labelangle=110];
+560 [shape=box, label="0:18"]
+560--561;
+561 [shape=circle, label="36:19"]
+561--562[label = 0.500, labelangle=110];
+562 [shape=box, label="0:20"]
+561--563[label = 0.500, labelangle=110];
+563 [shape=box, label="1:20"]
+559--564[label = 0.500, labelangle=110];
+564 [shape=box, label="1:18"]
+564--565;
+565 [shape=circle, label="39:19"]
+565--566[label = 0.500, labelangle=110];
+566 [shape=box, label="0:20"]
+565--567[label = 0.500, labelangle=110];
+567 [shape=box, label="1:20"]
+380--568[label = 0.496, labelangle=110];
+568 [shape=box, label="1:8"]
+568--569;
+569 [shape=circle, label="18:9"]
+569--570[label = 0.500, labelangle=110];
+570 [shape=box, label="0:10"]
+570--571;
+571 [shape=circle, label="43:11"]
+571--572[label = 0.484, labelangle=110];
+572 [shape=box, label="0:12"]
+572--573;
+573 [shape=circle, label="40:13"]
+573--574[label = 0.467, labelangle=110];
+574 [shape=box, label="0:14"]
+574--575;
+575 [shape=circle, label="42:15"]
+575--576[label = 0.571, labelangle=110];
+576 [shape=box, label="0:16"]
+576--577;
+577 [shape=circle, label="41:17"]
+577--578[label = 0.500, labelangle=110];
+578 [shape=box, label="0:18"]
+578--579;
+579 [shape=circle, label="39:19"]
+579--580[label = 0.500, labelangle=110];
+580 [shape=box, label="0:20"]
+579--581[label = 0.500, labelangle=110];
+581 [shape=box, label="1:20"]
+577--582[label = 0.500, labelangle=110];
+582 [shape=box, label="1:18"]
+582--583;
+583 [shape=circle, label="38:19"]
+583--584[label = 0.500, labelangle=110];
+584 [shape=box, label="0:20"]
+583--585[label = 0.500, labelangle=110];
+585 [shape=box, label="1:20"]
+575--586[label = 0.429, labelangle=110];
+586 [shape=box, label="1:16"]
+586--587;
+587 [shape=circle, label="41:17"]
+587--588[label = 0.333, labelangle=110];
+588 [shape=box, label="0:18"]
+587--589[label = 0.667, labelangle=110];
+589 [shape=box, label="1:18"]
+589--590;
+590 [shape=circle, label="34:19"]
+590--591[label = 0.500, labelangle=110];
+591 [shape=box, label="0:20"]
+590--592[label = 0.500, labelangle=110];
+592 [shape=box, label="1:20"]
+573--593[label = 0.533, labelangle=110];
+593 [shape=box, label="1:14"]
+593--594;
+594 [shape=circle, label="37:15"]
+594--595[label = 0.500, labelangle=110];
+595 [shape=box, label="0:16"]
+595--596;
+596 [shape=circle, label="44:17"]
+596--597[label = 0.500, labelangle=110];
+597 [shape=box, label="0:18"]
+597--598;
+598 [shape=circle, label="41:19"]
+598--599[label = 0.500, labelangle=110];
+599 [shape=box, label="0:20"]
+598--600[label = 0.500, labelangle=110];
+600 [shape=box, label="1:20"]
+596--601[label = 0.500, labelangle=110];
+601 [shape=box, label="1:18"]
+601--602;
+602 [shape=circle, label="42:19"]
+602--603[label = 0.500, labelangle=110];
+603 [shape=box, label="0:20"]
+602--604[label = 0.500, labelangle=110];
+604 [shape=box, label="1:20"]
+594--605[label = 0.500, labelangle=110];
+605 [shape=box, label="1:16"]
+605--606;
+606 [shape=circle, label="42:17"]
+606--607[label = 0.500, labelangle=110];
+607 [shape=box, label="0:18"]
+607--608;
+608 [shape=circle, label="39:19"]
+608--609[label = 0.500, labelangle=110];
+609 [shape=box, label="0:20"]
+608--610[label = 0.500, labelangle=110];
+610 [shape=box, label="1:20"]
+606--611[label = 0.500, labelangle=110];
+611 [shape=box, label="1:18"]
+611--612;
+612 [shape=circle, label="44:19"]
+612--613[label = 0.500, labelangle=110];
+613 [shape=box, label="0:20"]
+612--614[label = 0.500, labelangle=110];
+614 [shape=box, label="1:20"]
+571--615[label = 0.516, labelangle=110];
+615 [shape=box, label="1:12"]
+615--616;
+616 [shape=circle, label="20:13"]
+616--617[label = 0.500, labelangle=110];
+617 [shape=box, label="0:14"]
+617--618;
+618 [shape=circle, label="36:15"]
+618--619[label = 0.500, labelangle=110];
+619 [shape=box, label="0:16"]
+619--620;
+620 [shape=circle, label="42:17"]
+620--621[label = 0.500, labelangle=110];
+621 [shape=box, label="0:18"]
+621--622;
+622 [shape=circle, label="40:19"]
+622--623[label = 0.500, labelangle=110];
+623 [shape=box, label="0:20"]
+622--624[label = 0.500, labelangle=110];
+624 [shape=box, label="1:20"]
+620--625[label = 0.500, labelangle=110];
+625 [shape=box, label="1:18"]
+625--626;
+626 [shape=circle, label="41:19"]
+626--627[label = 0.500, labelangle=110];
+627 [shape=box, label="0:20"]
+626--628[label = 0.500, labelangle=110];
+628 [shape=box, label="1:20"]
+618--629[label = 0.500, labelangle=110];
+629 [shape=box, label="1:16"]
+629--630;
+630 [shape=circle, label="41:17"]
+630--631[label = 0.500, labelangle=110];
+631 [shape=box, label="0:18"]
+631--632;
+632 [shape=circle, label="40:19"]
+632--633[label = 0.500, labelangle=110];
+633 [shape=box, label="0:20"]
+632--634[label = 0.500, labelangle=110];
+634 [shape=box, label="1:20"]
+630--635[label = 0.500, labelangle=110];
+635 [shape=box, label="1:18"]
+635--636;
+636 [shape=circle, label="40:19"]
+636--637[label = 0.500, labelangle=110];
+637 [shape=box, label="0:20"]
+636--638[label = 0.500, labelangle=110];
+638 [shape=box, label="1:20"]
+616--639[label = 0.500, labelangle=110];
+639 [shape=box, label="1:14"]
+639--640;
+640 [shape=circle, label="40:15"]
+640--641[label = 0.500, labelangle=110];
+641 [shape=box, label="0:16"]
+641--642;
+642 [shape=circle, label="41:17"]
+642--643[label = 0.500, labelangle=110];
+643 [shape=box, label="0:18"]
+643--644;
+644 [shape=circle, label="42:19"]
+644--645[label = 0.500, labelangle=110];
+645 [shape=box, label="0:20"]
+644--646[label = 0.500, labelangle=110];
+646 [shape=box, label="1:20"]
+642--647[label = 0.500, labelangle=110];
+647 [shape=box, label="1:18"]
+647--648;
+648 [shape=circle, label="39:19"]
+648--649[label = 0.500, labelangle=110];
+649 [shape=box, label="0:20"]
+648--650[label = 0.500, labelangle=110];
+650 [shape=box, label="1:20"]
+640--651[label = 0.500, labelangle=110];
+651 [shape=box, label="1:16"]
+651--652;
+652 [shape=circle, label="39:17"]
+652--653[label = 0.500, labelangle=110];
+653 [shape=box, label="0:18"]
+653--654;
+654 [shape=circle, label="44:19"]
+654--655[label = 0.500, labelangle=110];
+655 [shape=box, label="0:20"]
+654--656[label = 0.500, labelangle=110];
+656 [shape=box, label="1:20"]
+652--657[label = 0.500, labelangle=110];
+657 [shape=box, label="1:18"]
+657--658;
+658 [shape=circle, label="37:19"]
+658--659[label = 0.500, labelangle=110];
+659 [shape=box, label="0:20"]
+658--660[label = 0.500, labelangle=110];
+660 [shape=box, label="1:20"]
+569--661[label = 0.500, labelangle=110];
+661 [shape=box, label="1:10"]
+661--662;
+662 [shape=circle, label="43:11"]
+662--663[label = 0.484, labelangle=110];
+663 [shape=box, label="0:12"]
+663--664;
+664 [shape=circle, label="42:13"]
+664--665[label = 0.467, labelangle=110];
+665 [shape=box, label="0:14"]
+665--666;
+666 [shape=circle, label="41:15"]
+666--667[label = 0.429, labelangle=110];
+667 [shape=box, label="0:16"]
+667--668;
+668 [shape=circle, label="40:17"]
+668--669[label = 0.333, labelangle=110];
+669 [shape=box, label="0:18"]
+668--670[label = 0.667, labelangle=110];
+670 [shape=box, label="1:18"]
+670--671;
+671 [shape=circle, label="39:19"]
+671--672[label = 0.500, labelangle=110];
+672 [shape=box, label="0:20"]
+671--673[label = 0.500, labelangle=110];
+673 [shape=box, label="1:20"]
+666--674[label = 0.571, labelangle=110];
+674 [shape=box, label="1:16"]
+674--675;
+675 [shape=circle, label="44:17"]
+675--676[label = 0.500, labelangle=110];
+676 [shape=box, label="0:18"]
+676--677;
+677 [shape=circle, label="40:19"]
+677--678[label = 0.500, labelangle=110];
+678 [shape=box, label="0:20"]
+677--679[label = 0.500, labelangle=110];
+679 [shape=box, label="1:20"]
+675--680[label = 0.500, labelangle=110];
+680 [shape=box, label="1:18"]
+680--681;
+681 [shape=circle, label="40:19"]
+681--682[label = 0.500, labelangle=110];
+682 [shape=box, label="0:20"]
+681--683[label = 0.500, labelangle=110];
+683 [shape=box, label="1:20"]
+664--684[label = 0.533, labelangle=110];
+684 [shape=box, label="1:14"]
+684--685;
+685 [shape=circle, label="41:15"]
+685--686[label = 0.500, labelangle=110];
+686 [shape=box, label="0:16"]
+686--687;
+687 [shape=circle, label="39:17"]
+687--688[label = 0.500, labelangle=110];
+688 [shape=box, label="0:18"]
+688--689;
+689 [shape=circle, label="37:19"]
+689--690[label = 0.500, labelangle=110];
+690 [shape=box, label="0:20"]
+689--691[label = 0.500, labelangle=110];
+691 [shape=box, label="1:20"]
+687--692[label = 0.500, labelangle=110];
+692 [shape=box, label="1:18"]
+692--693;
+693 [shape=circle, label="37:19"]
+693--694[label = 0.500, labelangle=110];
+694 [shape=box, label="0:20"]
+693--695[label = 0.500, labelangle=110];
+695 [shape=box, label="1:20"]
+685--696[label = 0.500, labelangle=110];
+696 [shape=box, label="1:16"]
+696--697;
+697 [shape=circle, label="38:17"]
+697--698[label = 0.500, labelangle=110];
+698 [shape=box, label="0:18"]
+698--699;
+699 [shape=circle, label="40:19"]
+699--700[label = 0.500, labelangle=110];
+700 [shape=box, label="0:20"]
+699--701[label = 0.500, labelangle=110];
+701 [shape=box, label="1:20"]
+697--702[label = 0.500, labelangle=110];
+702 [shape=box, label="1:18"]
+702--703;
+703 [shape=circle, label="39:19"]
+703--704[label = 0.500, labelangle=110];
+704 [shape=box, label="0:20"]
+703--705[label = 0.500, labelangle=110];
+705 [shape=box, label="1:20"]
+662--706[label = 0.516, labelangle=110];
+706 [shape=box, label="1:12"]
+706--707;
+707 [shape=circle, label="34:13"]
+707--708[label = 0.500, labelangle=110];
+708 [shape=box, label="0:14"]
+708--709;
+709 [shape=circle, label="24:15"]
+709--710[label = 0.500, labelangle=110];
+710 [shape=box, label="0:16"]
+710--711;
+711 [shape=circle, label="40:17"]
+711--712[label = 0.500, labelangle=110];
+712 [shape=box, label="0:18"]
+712--713;
+713 [shape=circle, label="37:19"]
+713--714[label = 0.500, labelangle=110];
+714 [shape=box, label="0:20"]
+713--715[label = 0.500, labelangle=110];
+715 [shape=box, label="1:20"]
+711--716[label = 0.500, labelangle=110];
+716 [shape=box, label="1:18"]
+716--717;
+717 [shape=circle, label="44:19"]
+717--718[label = 0.500, labelangle=110];
+718 [shape=box, label="0:20"]
+717--719[label = 0.500, labelangle=110];
+719 [shape=box, label="1:20"]
+709--720[label = 0.500, labelangle=110];
+720 [shape=box, label="1:16"]
+720--721;
+721 [shape=circle, label="44:17"]
+721--722[label = 0.500, labelangle=110];
+722 [shape=box, label="0:18"]
+722--723;
+723 [shape=circle, label="42:19"]
+723--724[label = 0.500, labelangle=110];
+724 [shape=box, label="0:20"]
+723--725[label = 0.500, labelangle=110];
+725 [shape=box, label="1:20"]
+721--726[label = 0.500, labelangle=110];
+726 [shape=box, label="1:18"]
+726--727;
+727 [shape=circle, label="41:19"]
+727--728[label = 0.500, labelangle=110];
+728 [shape=box, label="0:20"]
+727--729[label = 0.500, labelangle=110];
+729 [shape=box, label="1:20"]
+707--730[label = 0.500, labelangle=110];
+730 [shape=box, label="1:14"]
+730--731;
+731 [shape=circle, label="22:15"]
+731--732[label = 0.500, labelangle=110];
+732 [shape=box, label="0:16"]
+732--733;
+733 [shape=circle, label="44:17"]
+733--734[label = 0.500, labelangle=110];
+734 [shape=box, label="0:18"]
+734--735;
+735 [shape=circle, label="42:19"]
+735--736[label = 0.500, labelangle=110];
+736 [shape=box, label="0:20"]
+735--737[label = 0.500, labelangle=110];
+737 [shape=box, label="1:20"]
+733--738[label = 0.500, labelangle=110];
+738 [shape=box, label="1:18"]
+738--739;
+739 [shape=circle, label="42:19"]
+739--740[label = 0.500, labelangle=110];
+740 [shape=box, label="0:20"]
+739--741[label = 0.500, labelangle=110];
+741 [shape=box, label="1:20"]
+731--742[label = 0.500, labelangle=110];
+742 [shape=box, label="1:16"]
+742--743;
+743 [shape=circle, label="40:17"]
+743--744[label = 0.500, labelangle=110];
+744 [shape=box, label="0:18"]
+744--745;
+745 [shape=circle, label="42:19"]
+745--746[label = 0.500, labelangle=110];
+746 [shape=box, label="0:20"]
+745--747[label = 0.500, labelangle=110];
+747 [shape=box, label="1:20"]
+743--748[label = 0.500, labelangle=110];
+748 [shape=box, label="1:18"]
+748--749;
+749 [shape=circle, label="44:19"]
+749--750[label = 0.500, labelangle=110];
+750 [shape=box, label="0:20"]
+749--751[label = 0.500, labelangle=110];
+751 [shape=box, label="1:20"]
+3--752[label = 0.500, labelangle=110];
+752 [shape=box, label="1:4"]
+752--753;
+753 [shape=circle, label="29:5"]
+753--754[label = 0.500, labelangle=110];
+754 [shape=box, label="0:6"]
+754--755;
+755 [shape=circle, label="43:7"]
+755--756[label = 0.496, labelangle=110];
+756 [shape=box, label="0:8"]
+756--757;
+757 [shape=circle, label="13:9"]
+757--758[label = 0.500, labelangle=110];
+758 [shape=box, label="0:10"]
+758--759;
+759 [shape=circle, label="42:11"]
+759--760[label = 0.484, labelangle=110];
+760 [shape=box, label="0:12"]
+760--761;
+761 [shape=circle, label="45:13"]
+761--762[label = 0.467, labelangle=110];
+762 [shape=box, label="0:14"]
+762--763;
+763 [shape=circle, label="41:15"]
+763--764[label = 0.571, labelangle=110];
+764 [shape=box, label="0:16"]
+764--765;
+765 [shape=circle, label="39:17"]
+765--766[label = 0.500, labelangle=110];
+766 [shape=box, label="0:18"]
+766--767;
+767 [shape=circle, label="37:19"]
+767--768[label = 0.500, labelangle=110];
+768 [shape=box, label="0:20"]
+767--769[label = 0.500, labelangle=110];
+769 [shape=box, label="1:20"]
+765--770[label = 0.500, labelangle=110];
+770 [shape=box, label="1:18"]
+770--771;
+771 [shape=circle, label="37:19"]
+771--772[label = 0.500, labelangle=110];
+772 [shape=box, label="0:20"]
+771--773[label = 0.500, labelangle=110];
+773 [shape=box, label="1:20"]
+763--774[label = 0.429, labelangle=110];
+774 [shape=box, label="1:16"]
+774--775;
+775 [shape=circle, label="44:17"]
+775--776[label = 0.333, labelangle=110];
+776 [shape=box, label="0:18"]
+775--777[label = 0.667, labelangle=110];
+777 [shape=box, label="1:18"]
+777--778;
+778 [shape=circle, label="39:19"]
+778--779[label = 0.500, labelangle=110];
+779 [shape=box, label="0:20"]
+778--780[label = 0.500, labelangle=110];
+780 [shape=box, label="1:20"]
+761--781[label = 0.533, labelangle=110];
+781 [shape=box, label="1:14"]
+781--782;
+782 [shape=circle, label="40:15"]
+782--783[label = 0.500, labelangle=110];
+783 [shape=box, label="0:16"]
+783--784;
+784 [shape=circle, label="41:17"]
+784--785[label = 0.500, labelangle=110];
+785 [shape=box, label="0:18"]
+785--786;
+786 [shape=circle, label="39:19"]
+786--787[label = 0.500, labelangle=110];
+787 [shape=box, label="0:20"]
+786--788[label = 0.500, labelangle=110];
+788 [shape=box, label="1:20"]
+784--789[label = 0.500, labelangle=110];
+789 [shape=box, label="1:18"]
+789--790;
+790 [shape=circle, label="39:19"]
+790--791[label = 0.500, labelangle=110];
+791 [shape=box, label="0:20"]
+790--792[label = 0.500, labelangle=110];
+792 [shape=box, label="1:20"]
+782--793[label = 0.500, labelangle=110];
+793 [shape=box, label="1:16"]
+793--794;
+794 [shape=circle, label="34:17"]
+794--795[label = 0.500, labelangle=110];
+795 [shape=box, label="0:18"]
+795--796;
+796 [shape=circle, label="30:19"]
+796--797[label = 0.500, labelangle=110];
+797 [shape=box, label="0:20"]
+796--798[label = 0.500, labelangle=110];
+798 [shape=box, label="1:20"]
+794--799[label = 0.500, labelangle=110];
+799 [shape=box, label="1:18"]
+799--800;
+800 [shape=circle, label="44:19"]
+800--801[label = 0.500, labelangle=110];
+801 [shape=box, label="0:20"]
+800--802[label = 0.500, labelangle=110];
+802 [shape=box, label="1:20"]
+759--803[label = 0.516, labelangle=110];
+803 [shape=box, label="1:12"]
+803--804;
+804 [shape=circle, label="41:13"]
+804--805[label = 0.500, labelangle=110];
+805 [shape=box, label="0:14"]
+805--806;
+806 [shape=circle, label="27:15"]
+806--807[label = 0.500, labelangle=110];
+807 [shape=box, label="0:16"]
+807--808;
+808 [shape=circle, label="40:17"]
+808--809[label = 0.500, labelangle=110];
+809 [shape=box, label="0:18"]
+809--810;
+810 [shape=circle, label="37:19"]
+810--811[label = 0.500, labelangle=110];
+811 [shape=box, label="0:20"]
+810--812[label = 0.500, labelangle=110];
+812 [shape=box, label="1:20"]
+808--813[label = 0.500, labelangle=110];
+813 [shape=box, label="1:18"]
+813--814;
+814 [shape=circle, label="45:19"]
+814--815[label = 0.500, labelangle=110];
+815 [shape=box, label="0:20"]
+814--816[label = 0.500, labelangle=110];
+816 [shape=box, label="1:20"]
+806--817[label = 0.500, labelangle=110];
+817 [shape=box, label="1:16"]
+817--818;
+818 [shape=circle, label="37:17"]
+818--819[label = 0.500, labelangle=110];
+819 [shape=box, label="0:18"]
+819--820;
+820 [shape=circle, label="44:19"]
+820--821[label = 0.500, labelangle=110];
+821 [shape=box, label="0:20"]
+820--822[label = 0.500, labelangle=110];
+822 [shape=box, label="1:20"]
+818--823[label = 0.500, labelangle=110];
+823 [shape=box, label="1:18"]
+823--824;
+824 [shape=circle, label="40:19"]
+824--825[label = 0.500, labelangle=110];
+825 [shape=box, label="0:20"]
+824--826[label = 0.500, labelangle=110];
+826 [shape=box, label="1:20"]
+804--827[label = 0.500, labelangle=110];
+827 [shape=box, label="1:14"]
+827--828;
+828 [shape=circle, label="40:15"]
+828--829[label = 0.500, labelangle=110];
+829 [shape=box, label="0:16"]
+829--830;
+830 [shape=circle, label="34:17"]
+830--831[label = 0.500, labelangle=110];
+831 [shape=box, label="0:18"]
+831--832;
+832 [shape=circle, label="33:19"]
+832--833[label = 0.500, labelangle=110];
+833 [shape=box, label="0:20"]
+832--834[label = 0.500, labelangle=110];
+834 [shape=box, label="1:20"]
+830--835[label = 0.500, labelangle=110];
+835 [shape=box, label="1:18"]
+835--836;
+836 [shape=circle, label="39:19"]
+836--837[label = 0.500, labelangle=110];
+837 [shape=box, label="0:20"]
+836--838[label = 0.500, labelangle=110];
+838 [shape=box, label="1:20"]
+828--839[label = 0.500, labelangle=110];
+839 [shape=box, label="1:16"]
+839--840;
+840 [shape=circle, label="45:17"]
+840--841[label = 0.500, labelangle=110];
+841 [shape=box, label="0:18"]
+841--842;
+842 [shape=circle, label="30:19"]
+842--843[label = 0.500, labelangle=110];
+843 [shape=box, label="0:20"]
+842--844[label = 0.500, labelangle=110];
+844 [shape=box, label="1:20"]
+840--845[label = 0.500, labelangle=110];
+845 [shape=box, label="1:18"]
+845--846;
+846 [shape=circle, label="37:19"]
+846--847[label = 0.500, labelangle=110];
+847 [shape=box, label="0:20"]
+846--848[label = 0.500, labelangle=110];
+848 [shape=box, label="1:20"]
+757--849[label = 0.500, labelangle=110];
+849 [shape=box, label="1:10"]
+849--850;
+850 [shape=circle, label="40:11"]
+850--851[label = 0.516, labelangle=110];
+851 [shape=box, label="0:12"]
+851--852;
+852 [shape=circle, label="45:13"]
+852--853[label = 0.500, labelangle=110];
+853 [shape=box, label="0:14"]
+853--854;
+854 [shape=circle, label="42:15"]
+854--855[label = 0.500, labelangle=110];
+855 [shape=box, label="0:16"]
+855--856;
+856 [shape=circle, label="39:17"]
+856--857[label = 0.500, labelangle=110];
+857 [shape=box, label="0:18"]
+857--858;
+858 [shape=circle, label="37:19"]
+858--859[label = 0.500, labelangle=110];
+859 [shape=box, label="0:20"]
+858--860[label = 0.500, labelangle=110];
+860 [shape=box, label="1:20"]
+856--861[label = 0.500, labelangle=110];
+861 [shape=box, label="1:18"]
+861--862;
+862 [shape=circle, label="41:19"]
+862--863[label = 0.500, labelangle=110];
+863 [shape=box, label="0:20"]
+862--864[label = 0.500, labelangle=110];
+864 [shape=box, label="1:20"]
+854--865[label = 0.500, labelangle=110];
+865 [shape=box, label="1:16"]
+865--866;
+866 [shape=circle, label="39:17"]
+866--867[label = 0.500, labelangle=110];
+867 [shape=box, label="0:18"]
+867--868;
+868 [shape=circle, label="34:19"]
+868--869[label = 0.500, labelangle=110];
+869 [shape=box, label="0:20"]
+868--870[label = 0.500, labelangle=110];
+870 [shape=box, label="1:20"]
+866--871[label = 0.500, labelangle=110];
+871 [shape=box, label="1:18"]
+871--872;
+872 [shape=circle, label="41:19"]
+872--873[label = 0.500, labelangle=110];
+873 [shape=box, label="0:20"]
+872--874[label = 0.500, labelangle=110];
+874 [shape=box, label="1:20"]
+852--875[label = 0.500, labelangle=110];
+875 [shape=box, label="1:14"]
+875--876;
+876 [shape=circle, label="37:15"]
+876--877[label = 0.500, labelangle=110];
+877 [shape=box, label="0:16"]
+877--878;
+878 [shape=circle, label="42:17"]
+878--879[label = 0.500, labelangle=110];
+879 [shape=box, label="0:18"]
+879--880;
+880 [shape=circle, label="41:19"]
+880--881[label = 0.500, labelangle=110];
+881 [shape=box, label="0:20"]
+880--882[label = 0.500, labelangle=110];
+882 [shape=box, label="1:20"]
+878--883[label = 0.500, labelangle=110];
+883 [shape=box, label="1:18"]
+883--884;
+884 [shape=circle, label="44:19"]
+884--885[label = 0.500, labelangle=110];
+885 [shape=box, label="0:20"]
+884--886[label = 0.500, labelangle=110];
+886 [shape=box, label="1:20"]
+876--887[label = 0.500, labelangle=110];
+887 [shape=box, label="1:16"]
+887--888;
+888 [shape=circle, label="41:17"]
+888--889[label = 0.500, labelangle=110];
+889 [shape=box, label="0:18"]
+889--890;
+890 [shape=circle, label="42:19"]
+890--891[label = 0.500, labelangle=110];
+891 [shape=box, label="0:20"]
+890--892[label = 0.500, labelangle=110];
+892 [shape=box, label="1:20"]
+888--893[label = 0.500, labelangle=110];
+893 [shape=box, label="1:18"]
+893--894;
+894 [shape=circle, label="39:19"]
+894--895[label = 0.500, labelangle=110];
+895 [shape=box, label="0:20"]
+894--896[label = 0.500, labelangle=110];
+896 [shape=box, label="1:20"]
+850--897[label = 0.484, labelangle=110];
+897 [shape=box, label="1:12"]
+897--898;
+898 [shape=circle, label="42:13"]
+898--899[label = 0.533, labelangle=110];
+899 [shape=box, label="0:14"]
+899--900;
+900 [shape=circle, label="44:15"]
+900--901[label = 0.500, labelangle=110];
+901 [shape=box, label="0:16"]
+901--902;
+902 [shape=circle, label="45:17"]
+902--903[label = 0.500, labelangle=110];
+903 [shape=box, label="0:18"]
+903--904;
+904 [shape=circle, label="41:19"]
+904--905[label = 0.500, labelangle=110];
+905 [shape=box, label="0:20"]
+904--906[label = 0.500, labelangle=110];
+906 [shape=box, label="1:20"]
+902--907[label = 0.500, labelangle=110];
+907 [shape=box, label="1:18"]
+907--908;
+908 [shape=circle, label="39:19"]
+908--909[label = 0.500, labelangle=110];
+909 [shape=box, label="0:20"]
+908--910[label = 0.500, labelangle=110];
+910 [shape=box, label="1:20"]
+900--911[label = 0.500, labelangle=110];
+911 [shape=box, label="1:16"]
+911--912;
+912 [shape=circle, label="41:17"]
+912--913[label = 0.500, labelangle=110];
+913 [shape=box, label="0:18"]
+913--914;
+914 [shape=circle, label="38:19"]
+914--915[label = 0.500, labelangle=110];
+915 [shape=box, label="0:20"]
+914--916[label = 0.500, labelangle=110];
+916 [shape=box, label="1:20"]
+912--917[label = 0.500, labelangle=110];
+917 [shape=box, label="1:18"]
+917--918;
+918 [shape=circle, label="38:19"]
+918--919[label = 0.500, labelangle=110];
+919 [shape=box, label="0:20"]
+918--920[label = 0.500, labelangle=110];
+920 [shape=box, label="1:20"]
+898--921[label = 0.467, labelangle=110];
+921 [shape=box, label="1:14"]
+921--922;
+922 [shape=circle, label="45:15"]
+922--923[label = 0.429, labelangle=110];
+923 [shape=box, label="0:16"]
+923--924;
+924 [shape=circle, label="41:17"]
+924--925[label = 0.667, labelangle=110];
+925 [shape=box, label="0:18"]
+925--926;
+926 [shape=circle, label="39:19"]
+926--927[label = 0.500, labelangle=110];
+927 [shape=box, label="0:20"]
+926--928[label = 0.500, labelangle=110];
+928 [shape=box, label="1:20"]
+924--929[label = 0.333, labelangle=110];
+929 [shape=box, label="1:18"]
+922--930[label = 0.571, labelangle=110];
+930 [shape=box, label="1:16"]
+930--931;
+931 [shape=circle, label="44:17"]
+931--932[label = 0.500, labelangle=110];
+932 [shape=box, label="0:18"]
+932--933;
+933 [shape=circle, label="41:19"]
+933--934[label = 0.500, labelangle=110];
+934 [shape=box, label="0:20"]
+933--935[label = 0.500, labelangle=110];
+935 [shape=box, label="1:20"]
+931--936[label = 0.500, labelangle=110];
+936 [shape=box, label="1:18"]
+936--937;
+937 [shape=circle, label="34:19"]
+937--938[label = 0.500, labelangle=110];
+938 [shape=box, label="0:20"]
+937--939[label = 0.500, labelangle=110];
+939 [shape=box, label="1:20"]
+755--940[label = 0.504, labelangle=110];
+940 [shape=box, label="1:8"]
+940--941;
+941 [shape=circle, label="34:9"]
+941--942[label = 0.508, labelangle=110];
+942 [shape=box, label="0:10"]
+942--943;
+943 [shape=circle, label="7:11"]
+943--944[label = 0.500, labelangle=110];
+944 [shape=box, label="0:12"]
+944--945;
+945 [shape=circle, label="44:13"]
+945--946[label = 0.500, labelangle=110];
+946 [shape=box, label="0:14"]
+946--947;
+947 [shape=circle, label="22:15"]
+947--948[label = 0.500, labelangle=110];
+948 [shape=box, label="0:16"]
+948--949;
+949 [shape=circle, label="37:17"]
+949--950[label = 0.500, labelangle=110];
+950 [shape=box, label="0:18"]
+950--951;
+951 [shape=circle, label="42:19"]
+951--952[label = 0.500, labelangle=110];
+952 [shape=box, label="0:20"]
+951--953[label = 0.500, labelangle=110];
+953 [shape=box, label="1:20"]
+949--954[label = 0.500, labelangle=110];
+954 [shape=box, label="1:18"]
+954--955;
+955 [shape=circle, label="45:19"]
+955--956[label = 0.500, labelangle=110];
+956 [shape=box, label="0:20"]
+955--957[label = 0.500, labelangle=110];
+957 [shape=box, label="1:20"]
+947--958[label = 0.500, labelangle=110];
+958 [shape=box, label="1:16"]
+958--959;
+959 [shape=circle, label="42:17"]
+959--960[label = 0.500, labelangle=110];
+960 [shape=box, label="0:18"]
+960--961;
+961 [shape=circle, label="41:19"]
+961--962[label = 0.500, labelangle=110];
+962 [shape=box, label="0:20"]
+961--963[label = 0.500, labelangle=110];
+963 [shape=box, label="1:20"]
+959--964[label = 0.500, labelangle=110];
+964 [shape=box, label="1:18"]
+964--965;
+965 [shape=circle, label="45:19"]
+965--966[label = 0.500, labelangle=110];
+966 [shape=box, label="0:20"]
+965--967[label = 0.500, labelangle=110];
+967 [shape=box, label="1:20"]
+945--968[label = 0.500, labelangle=110];
+968 [shape=box, label="1:14"]
+968--969;
+969 [shape=circle, label="42:15"]
+969--970[label = 0.500, labelangle=110];
+970 [shape=box, label="0:16"]
+970--971;
+971 [shape=circle, label="45:17"]
+971--972[label = 0.500, labelangle=110];
+972 [shape=box, label="0:18"]
+972--973;
+973 [shape=circle, label="39:19"]
+973--974[label = 0.500, labelangle=110];
+974 [shape=box, label="0:20"]
+973--975[label = 0.500, labelangle=110];
+975 [shape=box, label="1:20"]
+971--976[label = 0.500, labelangle=110];
+976 [shape=box, label="1:18"]
+976--977;
+977 [shape=circle, label="39:19"]
+977--978[label = 0.500, labelangle=110];
+978 [shape=box, label="0:20"]
+977--979[label = 0.500, labelangle=110];
+979 [shape=box, label="1:20"]
+969--980[label = 0.500, labelangle=110];
+980 [shape=box, label="1:16"]
+980--981;
+981 [shape=circle, label="39:17"]
+981--982[label = 0.500, labelangle=110];
+982 [shape=box, label="0:18"]
+982--983;
+983 [shape=circle, label="41:19"]
+983--984[label = 0.500, labelangle=110];
+984 [shape=box, label="0:20"]
+983--985[label = 0.500, labelangle=110];
+985 [shape=box, label="1:20"]
+981--986[label = 0.500, labelangle=110];
+986 [shape=box, label="1:18"]
+986--987;
+987 [shape=circle, label="37:19"]
+987--988[label = 0.500, labelangle=110];
+988 [shape=box, label="0:20"]
+987--989[label = 0.500, labelangle=110];
+989 [shape=box, label="1:20"]
+943--990[label = 0.500, labelangle=110];
+990 [shape=box, label="1:12"]
+990--991;
+991 [shape=circle, label="42:13"]
+991--992[label = 0.500, labelangle=110];
+992 [shape=box, label="0:14"]
+992--993;
+993 [shape=circle, label="45:15"]
+993--994[label = 0.500, labelangle=110];
+994 [shape=box, label="0:16"]
+994--995;
+995 [shape=circle, label="36:17"]
+995--996[label = 0.500, labelangle=110];
+996 [shape=box, label="0:18"]
+996--997;
+997 [shape=circle, label="41:19"]
+997--998[label = 0.500, labelangle=110];
+998 [shape=box, label="0:20"]
+997--999[label = 0.500, labelangle=110];
+999 [shape=box, label="1:20"]
+995--1000[label = 0.500, labelangle=110];
+1000 [shape=box, label="1:18"]
+1000--1001;
+1001 [shape=circle, label="44:19"]
+1001--1002[label = 0.500, labelangle=110];
+1002 [shape=box, label="0:20"]
+1001--1003[label = 0.500, labelangle=110];
+1003 [shape=box, label="1:20"]
+993--1004[label = 0.500, labelangle=110];
+1004 [shape=box, label="1:16"]
+1004--1005;
+1005 [shape=circle, label="44:17"]
+1005--1006[label = 0.500, labelangle=110];
+1006 [shape=box, label="0:18"]
+1006--1007;
+1007 [shape=circle, label="41:19"]
+1007--1008[label = 0.500, labelangle=110];
+1008 [shape=box, label="0:20"]
+1007--1009[label = 0.500, labelangle=110];
+1009 [shape=box, label="1:20"]
+1005--1010[label = 0.500, labelangle=110];
+1010 [shape=box, label="1:18"]
+1010--1011;
+1011 [shape=circle, label="40:19"]
+1011--1012[label = 0.500, labelangle=110];
+1012 [shape=box, label="0:20"]
+1011--1013[label = 0.500, labelangle=110];
+1013 [shape=box, label="1:20"]
+991--1014[label = 0.500, labelangle=110];
+1014 [shape=box, label="1:14"]
+1014--1015;
+1015 [shape=circle, label="44:15"]
+1015--1016[label = 0.500, labelangle=110];
+1016 [shape=box, label="0:16"]
+1016--1017;
+1017 [shape=circle, label="22:17"]
+1017--1018[label = 0.500, labelangle=110];
+1018 [shape=box, label="0:18"]
+1018--1019;
+1019 [shape=circle, label="41:19"]
+1019--1020[label = 0.500, labelangle=110];
+1020 [shape=box, label="0:20"]
+1019--1021[label = 0.500, labelangle=110];
+1021 [shape=box, label="1:20"]
+1017--1022[label = 0.500, labelangle=110];
+1022 [shape=box, label="1:18"]
+1022--1023;
+1023 [shape=circle, label="45:19"]
+1023--1024[label = 0.500, labelangle=110];
+1024 [shape=box, label="0:20"]
+1023--1025[label = 0.500, labelangle=110];
+1025 [shape=box, label="1:20"]
+1015--1026[label = 0.500, labelangle=110];
+1026 [shape=box, label="1:16"]
+1026--1027;
+1027 [shape=circle, label="45:17"]
+1027--1028[label = 0.500, labelangle=110];
+1028 [shape=box, label="0:18"]
+1028--1029;
+1029 [shape=circle, label="39:19"]
+1029--1030[label = 0.500, labelangle=110];
+1030 [shape=box, label="0:20"]
+1029--1031[label = 0.500, labelangle=110];
+1031 [shape=box, label="1:20"]
+1027--1032[label = 0.500, labelangle=110];
+1032 [shape=box, label="1:18"]
+1032--1033;
+1033 [shape=circle, label="41:19"]
+1033--1034[label = 0.500, labelangle=110];
+1034 [shape=box, label="0:20"]
+1033--1035[label = 0.500, labelangle=110];
+1035 [shape=box, label="1:20"]
+941--1036[label = 0.492, labelangle=110];
+1036 [shape=box, label="1:10"]
+1036--1037;
+1037 [shape=circle, label="20:11"]
+1037--1038[label = 0.484, labelangle=110];
+1038 [shape=box, label="0:12"]
+1038--1039;
+1039 [shape=circle, label="41:13"]
+1039--1040[label = 0.533, labelangle=110];
+1040 [shape=box, label="0:14"]
+1040--1041;
+1041 [shape=circle, label="42:15"]
+1041--1042[label = 0.500, labelangle=110];
+1042 [shape=box, label="0:16"]
+1042--1043;
+1043 [shape=circle, label="39:17"]
+1043--1044[label = 0.500, labelangle=110];
+1044 [shape=box, label="0:18"]
+1044--1045;
+1045 [shape=circle, label="45:19"]
+1045--1046[label = 0.500, labelangle=110];
+1046 [shape=box, label="0:20"]
+1045--1047[label = 0.500, labelangle=110];
+1047 [shape=box, label="1:20"]
+1043--1048[label = 0.500, labelangle=110];
+1048 [shape=box, label="1:18"]
+1048--1049;
+1049 [shape=circle, label="38:19"]
+1049--1050[label = 0.500, labelangle=110];
+1050 [shape=box, label="0:20"]
+1049--1051[label = 0.500, labelangle=110];
+1051 [shape=box, label="1:20"]
+1041--1052[label = 0.500, labelangle=110];
+1052 [shape=box, label="1:16"]
+1052--1053;
+1053 [shape=circle, label="33:17"]
+1053--1054[label = 0.500, labelangle=110];
+1054 [shape=box, label="0:18"]
+1054--1055;
+1055 [shape=circle, label="37:19"]
+1055--1056[label = 0.500, labelangle=110];
+1056 [shape=box, label="0:20"]
+1055--1057[label = 0.500, labelangle=110];
+1057 [shape=box, label="1:20"]
+1053--1058[label = 0.500, labelangle=110];
+1058 [shape=box, label="1:18"]
+1058--1059;
+1059 [shape=circle, label="40:19"]
+1059--1060[label = 0.500, labelangle=110];
+1060 [shape=box, label="0:20"]
+1059--1061[label = 0.500, labelangle=110];
+1061 [shape=box, label="1:20"]
+1039--1062[label = 0.467, labelangle=110];
+1062 [shape=box, label="1:14"]
+1062--1063;
+1063 [shape=circle, label="40:15"]
+1063--1064[label = 0.429, labelangle=110];
+1064 [shape=box, label="0:16"]
+1064--1065;
+1065 [shape=circle, label="45:17"]
+1065--1066[label = 0.667, labelangle=110];
+1066 [shape=box, label="0:18"]
+1066--1067;
+1067 [shape=circle, label="37:19"]
+1067--1068[label = 0.500, labelangle=110];
+1068 [shape=box, label="0:20"]
+1067--1069[label = 0.500, labelangle=110];
+1069 [shape=box, label="1:20"]
+1065--1070[label = 0.333, labelangle=110];
+1070 [shape=box, label="1:18"]
+1063--1071[label = 0.571, labelangle=110];
+1071 [shape=box, label="1:16"]
+1071--1072;
+1072 [shape=circle, label="44:17"]
+1072--1073[label = 0.500, labelangle=110];
+1073 [shape=box, label="0:18"]
+1073--1074;
+1074 [shape=circle, label="45:19"]
+1074--1075[label = 0.500, labelangle=110];
+1075 [shape=box, label="0:20"]
+1074--1076[label = 0.500, labelangle=110];
+1076 [shape=box, label="1:20"]
+1072--1077[label = 0.500, labelangle=110];
+1077 [shape=box, label="1:18"]
+1077--1078;
+1078 [shape=circle, label="42:19"]
+1078--1079[label = 0.500, labelangle=110];
+1079 [shape=box, label="0:20"]
+1078--1080[label = 0.500, labelangle=110];
+1080 [shape=box, label="1:20"]
+1037--1081[label = 0.516, labelangle=110];
+1081 [shape=box, label="1:12"]
+1081--1082;
+1082 [shape=circle, label="45:13"]
+1082--1083[label = 0.500, labelangle=110];
+1083 [shape=box, label="0:14"]
+1083--1084;
+1084 [shape=circle, label="41:15"]
+1084--1085[label = 0.500, labelangle=110];
+1085 [shape=box, label="0:16"]
+1085--1086;
+1086 [shape=circle, label="39:17"]
+1086--1087[label = 0.500, labelangle=110];
+1087 [shape=box, label="0:18"]
+1087--1088;
+1088 [shape=circle, label="44:19"]
+1088--1089[label = 0.500, labelangle=110];
+1089 [shape=box, label="0:20"]
+1088--1090[label = 0.500, labelangle=110];
+1090 [shape=box, label="1:20"]
+1086--1091[label = 0.500, labelangle=110];
+1091 [shape=box, label="1:18"]
+1091--1092;
+1092 [shape=circle, label="42:19"]
+1092--1093[label = 0.500, labelangle=110];
+1093 [shape=box, label="0:20"]
+1092--1094[label = 0.500, labelangle=110];
+1094 [shape=box, label="1:20"]
+1084--1095[label = 0.500, labelangle=110];
+1095 [shape=box, label="1:16"]
+1095--1096;
+1096 [shape=circle, label="42:17"]
+1096--1097[label = 0.500, labelangle=110];
+1097 [shape=box, label="0:18"]
+1097--1098;
+1098 [shape=circle, label="40:19"]
+1098--1099[label = 0.500, labelangle=110];
+1099 [shape=box, label="0:20"]
+1098--1100[label = 0.500, labelangle=110];
+1100 [shape=box, label="1:20"]
+1096--1101[label = 0.500, labelangle=110];
+1101 [shape=box, label="1:18"]
+1101--1102;
+1102 [shape=circle, label="40:19"]
+1102--1103[label = 0.500, labelangle=110];
+1103 [shape=box, label="0:20"]
+1102--1104[label = 0.500, labelangle=110];
+1104 [shape=box, label="1:20"]
+1082--1105[label = 0.500, labelangle=110];
+1105 [shape=box, label="1:14"]
+1105--1106;
+1106 [shape=circle, label="39:15"]
+1106--1107[label = 0.500, labelangle=110];
+1107 [shape=box, label="0:16"]
+1107--1108;
+1108 [shape=circle, label="44:17"]
+1108--1109[label = 0.500, labelangle=110];
+1109 [shape=box, label="0:18"]
+1109--1110;
+1110 [shape=circle, label="41:19"]
+1110--1111[label = 0.500, labelangle=110];
+1111 [shape=box, label="0:20"]
+1110--1112[label = 0.500, labelangle=110];
+1112 [shape=box, label="1:20"]
+1108--1113[label = 0.500, labelangle=110];
+1113 [shape=box, label="1:18"]
+1113--1114;
+1114 [shape=circle, label="42:19"]
+1114--1115[label = 0.500, labelangle=110];
+1115 [shape=box, label="0:20"]
+1114--1116[label = 0.500, labelangle=110];
+1116 [shape=box, label="1:20"]
+1106--1117[label = 0.500, labelangle=110];
+1117 [shape=box, label="1:16"]
+1117--1118;
+1118 [shape=circle, label="42:17"]
+1118--1119[label = 0.500, labelangle=110];
+1119 [shape=box, label="0:18"]
+1119--1120;
+1120 [shape=circle, label="38:19"]
+1120--1121[label = 0.500, labelangle=110];
+1121 [shape=box, label="0:20"]
+1120--1122[label = 0.500, labelangle=110];
+1122 [shape=box, label="1:20"]
+1118--1123[label = 0.500, labelangle=110];
+1123 [shape=box, label="1:18"]
+1123--1124;
+1124 [shape=circle, label="44:19"]
+1124--1125[label = 0.500, labelangle=110];
+1125 [shape=box, label="0:20"]
+1124--1126[label = 0.500, labelangle=110];
+1126 [shape=box, label="1:20"]
+753--1127[label = 0.500, labelangle=110];
+1127 [shape=box, label="1:6"]
+1127--1128;
+1128 [shape=circle, label="13:7"]
+1128--1129[label = 0.496, labelangle=110];
+1129 [shape=box, label="0:8"]
+1129--1130;
+1130 [shape=circle, label="34:9"]
+1130--1131[label = 0.500, labelangle=110];
+1131 [shape=box, label="0:10"]
+1131--1132;
+1132 [shape=circle, label="37:11"]
+1132--1133[label = 0.516, labelangle=110];
+1133 [shape=box, label="0:12"]
+1133--1134;
+1134 [shape=circle, label="45:13"]
+1134--1135[label = 0.500, labelangle=110];
+1135 [shape=box, label="0:14"]
+1135--1136;
+1136 [shape=circle, label="33:15"]
+1136--1137[label = 0.500, labelangle=110];
+1137 [shape=box, label="0:16"]
+1137--1138;
+1138 [shape=circle, label="43:17"]
+1138--1139[label = 0.500, labelangle=110];
+1139 [shape=box, label="0:18"]
+1139--1140;
+1140 [shape=circle, label="36:19"]
+1140--1141[label = 0.500, labelangle=110];
+1141 [shape=box, label="0:20"]
+1140--1142[label = 0.500, labelangle=110];
+1142 [shape=box, label="1:20"]
+1138--1143[label = 0.500, labelangle=110];
+1143 [shape=box, label="1:18"]
+1143--1144;
+1144 [shape=circle, label="44:19"]
+1144--1145[label = 0.500, labelangle=110];
+1145 [shape=box, label="0:20"]
+1144--1146[label = 0.500, labelangle=110];
+1146 [shape=box, label="1:20"]
+1136--1147[label = 0.500, labelangle=110];
+1147 [shape=box, label="1:16"]
+1147--1148;
+1148 [shape=circle, label="41:17"]
+1148--1149[label = 0.500, labelangle=110];
+1149 [shape=box, label="0:18"]
+1149--1150;
+1150 [shape=circle, label="25:19"]
+1150--1151[label = 0.500, labelangle=110];
+1151 [shape=box, label="0:20"]
+1150--1152[label = 0.500, labelangle=110];
+1152 [shape=box, label="1:20"]
+1148--1153[label = 0.500, labelangle=110];
+1153 [shape=box, label="1:18"]
+1153--1154;
+1154 [shape=circle, label="44:19"]
+1154--1155[label = 0.500, labelangle=110];
+1155 [shape=box, label="0:20"]
+1154--1156[label = 0.500, labelangle=110];
+1156 [shape=box, label="1:20"]
+1134--1157[label = 0.500, labelangle=110];
+1157 [shape=box, label="1:14"]
+1157--1158;
+1158 [shape=circle, label="27:15"]
+1158--1159[label = 0.500, labelangle=110];
+1159 [shape=box, label="0:16"]
+1159--1160;
+1160 [shape=circle, label="39:17"]
+1160--1161[label = 0.500, labelangle=110];
+1161 [shape=box, label="0:18"]
+1161--1162;
+1162 [shape=circle, label="44:19"]
+1162--1163[label = 0.500, labelangle=110];
+1163 [shape=box, label="0:20"]
+1162--1164[label = 0.500, labelangle=110];
+1164 [shape=box, label="1:20"]
+1160--1165[label = 0.500, labelangle=110];
+1165 [shape=box, label="1:18"]
+1165--1166;
+1166 [shape=circle, label="43:19"]
+1166--1167[label = 0.500, labelangle=110];
+1167 [shape=box, label="0:20"]
+1166--1168[label = 0.500, labelangle=110];
+1168 [shape=box, label="1:20"]
+1158--1169[label = 0.500, labelangle=110];
+1169 [shape=box, label="1:16"]
+1169--1170;
+1170 [shape=circle, label="42:17"]
+1170--1171[label = 0.500, labelangle=110];
+1171 [shape=box, label="0:18"]
+1171--1172;
+1172 [shape=circle, label="43:19"]
+1172--1173[label = 0.500, labelangle=110];
+1173 [shape=box, label="0:20"]
+1172--1174[label = 0.500, labelangle=110];
+1174 [shape=box, label="1:20"]
+1170--1175[label = 0.500, labelangle=110];
+1175 [shape=box, label="1:18"]
+1175--1176;
+1176 [shape=circle, label="40:19"]
+1176--1177[label = 0.500, labelangle=110];
+1177 [shape=box, label="0:20"]
+1176--1178[label = 0.500, labelangle=110];
+1178 [shape=box, label="1:20"]
+1132--1179[label = 0.484, labelangle=110];
+1179 [shape=box, label="1:12"]
+1179--1180;
+1180 [shape=circle, label="33:13"]
+1180--1181[label = 0.467, labelangle=110];
+1181 [shape=box, label="0:14"]
+1181--1182;
+1182 [shape=circle, label="45:15"]
+1182--1183[label = 0.429, labelangle=110];
+1183 [shape=box, label="0:16"]
+1183--1184;
+1184 [shape=circle, label="44:17"]
+1184--1185[label = 0.333, labelangle=110];
+1185 [shape=box, label="0:18"]
+1184--1186[label = 0.667, labelangle=110];
+1186 [shape=box, label="1:18"]
+1186--1187;
+1187 [shape=circle, label="43:19"]
+1187--1188[label = 0.500, labelangle=110];
+1188 [shape=box, label="0:20"]
+1187--1189[label = 0.500, labelangle=110];
+1189 [shape=box, label="1:20"]
+1182--1190[label = 0.571, labelangle=110];
+1190 [shape=box, label="1:16"]
+1190--1191;
+1191 [shape=circle, label="43:17"]
+1191--1192[label = 0.500, labelangle=110];
+1192 [shape=box, label="0:18"]
+1192--1193;
+1193 [shape=circle, label="44:19"]
+1193--1194[label = 0.500, labelangle=110];
+1194 [shape=box, label="0:20"]
+1193--1195[label = 0.500, labelangle=110];
+1195 [shape=box, label="1:20"]
+1191--1196[label = 0.500, labelangle=110];
+1196 [shape=box, label="1:18"]
+1196--1197;
+1197 [shape=circle, label="41:19"]
+1197--1198[label = 0.500, labelangle=110];
+1198 [shape=box, label="0:20"]
+1197--1199[label = 0.500, labelangle=110];
+1199 [shape=box, label="1:20"]
+1180--1200[label = 0.533, labelangle=110];
+1200 [shape=box, label="1:14"]
+1200--1201;
+1201 [shape=circle, label="41:15"]
+1201--1202[label = 0.500, labelangle=110];
+1202 [shape=box, label="0:16"]
+1202--1203;
+1203 [shape=circle, label="36:17"]
+1203--1204[label = 0.500, labelangle=110];
+1204 [shape=box, label="0:18"]
+1204--1205;
+1205 [shape=circle, label="45:19"]
+1205--1206[label = 0.500, labelangle=110];
+1206 [shape=box, label="0:20"]
+1205--1207[label = 0.500, labelangle=110];
+1207 [shape=box, label="1:20"]
+1203--1208[label = 0.500, labelangle=110];
+1208 [shape=box, label="1:18"]
+1208--1209;
+1209 [shape=circle, label="43:19"]
+1209--1210[label = 0.500, labelangle=110];
+1210 [shape=box, label="0:20"]
+1209--1211[label = 0.500, labelangle=110];
+1211 [shape=box, label="1:20"]
+1201--1212[label = 0.500, labelangle=110];
+1212 [shape=box, label="1:16"]
+1212--1213;
+1213 [shape=circle, label="45:17"]
+1213--1214[label = 0.500, labelangle=110];
+1214 [shape=box, label="0:18"]
+1214--1215;
+1215 [shape=circle, label="43:19"]
+1215--1216[label = 0.500, labelangle=110];
+1216 [shape=box, label="0:20"]
+1215--1217[label = 0.500, labelangle=110];
+1217 [shape=box, label="1:20"]
+1213--1218[label = 0.500, labelangle=110];
+1218 [shape=box, label="1:18"]
+1218--1219;
+1219 [shape=circle, label="44:19"]
+1219--1220[label = 0.500, labelangle=110];
+1220 [shape=box, label="0:20"]
+1219--1221[label = 0.500, labelangle=110];
+1221 [shape=box, label="1:20"]
+1130--1222[label = 0.500, labelangle=110];
+1222 [shape=box, label="1:10"]
+1222--1223;
+1223 [shape=circle, label="16:11"]
+1223--1224[label = 0.516, labelangle=110];
+1224 [shape=box, label="0:12"]
+1224--1225;
+1225 [shape=circle, label="28:13"]
+1225--1226[label = 0.500, labelangle=110];
+1226 [shape=box, label="0:14"]
+1226--1227;
+1227 [shape=circle, label="43:15"]
+1227--1228[label = 0.500, labelangle=110];
+1228 [shape=box, label="0:16"]
+1228--1229;
+1229 [shape=circle, label="37:17"]
+1229--1230[label = 0.500, labelangle=110];
+1230 [shape=box, label="0:18"]
+1230--1231;
+1231 [shape=circle, label="42:19"]
+1231--1232[label = 0.500, labelangle=110];
+1232 [shape=box, label="0:20"]
+1231--1233[label = 0.500, labelangle=110];
+1233 [shape=box, label="1:20"]
+1229--1234[label = 0.500, labelangle=110];
+1234 [shape=box, label="1:18"]
+1234--1235;
+1235 [shape=circle, label="45:19"]
+1235--1236[label = 0.500, labelangle=110];
+1236 [shape=box, label="0:20"]
+1235--1237[label = 0.500, labelangle=110];
+1237 [shape=box, label="1:20"]
+1227--1238[label = 0.500, labelangle=110];
+1238 [shape=box, label="1:16"]
+1238--1239;
+1239 [shape=circle, label="42:17"]
+1239--1240[label = 0.500, labelangle=110];
+1240 [shape=box, label="0:18"]
+1240--1241;
+1241 [shape=circle, label="36:19"]
+1241--1242[label = 0.500, labelangle=110];
+1242 [shape=box, label="0:20"]
+1241--1243[label = 0.500, labelangle=110];
+1243 [shape=box, label="1:20"]
+1239--1244[label = 0.500, labelangle=110];
+1244 [shape=box, label="1:18"]
+1244--1245;
+1245 [shape=circle, label="45:19"]
+1245--1246[label = 0.500, labelangle=110];
+1246 [shape=box, label="0:20"]
+1245--1247[label = 0.500, labelangle=110];
+1247 [shape=box, label="1:20"]
+1225--1248[label = 0.500, labelangle=110];
+1248 [shape=box, label="1:14"]
+1248--1249;
+1249 [shape=circle, label="42:15"]
+1249--1250[label = 0.500, labelangle=110];
+1250 [shape=box, label="0:16"]
+1250--1251;
+1251 [shape=circle, label="44:17"]
+1251--1252[label = 0.500, labelangle=110];
+1252 [shape=box, label="0:18"]
+1252--1253;
+1253 [shape=circle, label="45:19"]
+1253--1254[label = 0.500, labelangle=110];
+1254 [shape=box, label="0:20"]
+1253--1255[label = 0.500, labelangle=110];
+1255 [shape=box, label="1:20"]
+1251--1256[label = 0.500, labelangle=110];
+1256 [shape=box, label="1:18"]
+1256--1257;
+1257 [shape=circle, label="43:19"]
+1257--1258[label = 0.500, labelangle=110];
+1258 [shape=box, label="0:20"]
+1257--1259[label = 0.500, labelangle=110];
+1259 [shape=box, label="1:20"]
+1249--1260[label = 0.500, labelangle=110];
+1260 [shape=box, label="1:16"]
+1260--1261;
+1261 [shape=circle, label="45:17"]
+1261--1262[label = 0.500, labelangle=110];
+1262 [shape=box, label="0:18"]
+1262--1263;
+1263 [shape=circle, label="43:19"]
+1263--1264[label = 0.500, labelangle=110];
+1264 [shape=box, label="0:20"]
+1263--1265[label = 0.500, labelangle=110];
+1265 [shape=box, label="1:20"]
+1261--1266[label = 0.500, labelangle=110];
+1266 [shape=box, label="1:18"]
+1266--1267;
+1267 [shape=circle, label="30:19"]
+1267--1268[label = 0.500, labelangle=110];
+1268 [shape=box, label="0:20"]
+1267--1269[label = 0.500, labelangle=110];
+1269 [shape=box, label="1:20"]
+1223--1270[label = 0.484, labelangle=110];
+1270 [shape=box, label="1:12"]
+1270--1271;
+1271 [shape=circle, label="43:13"]
+1271--1272[label = 0.467, labelangle=110];
+1272 [shape=box, label="0:14"]
+1272--1273;
+1273 [shape=circle, label="45:15"]
+1273--1274[label = 0.429, labelangle=110];
+1274 [shape=box, label="0:16"]
+1274--1275;
+1275 [shape=circle, label="44:17"]
+1275--1276[label = 0.667, labelangle=110];
+1276 [shape=box, label="0:18"]
+1276--1277;
+1277 [shape=circle, label="42:19"]
+1277--1278[label = 0.500, labelangle=110];
+1278 [shape=box, label="0:20"]
+1277--1279[label = 0.500, labelangle=110];
+1279 [shape=box, label="1:20"]
+1275--1280[label = 0.333, labelangle=110];
+1280 [shape=box, label="1:18"]
+1273--1281[label = 0.571, labelangle=110];
+1281 [shape=box, label="1:16"]
+1281--1282;
+1282 [shape=circle, label="41:17"]
+1282--1283[label = 0.500, labelangle=110];
+1283 [shape=box, label="0:18"]
+1283--1284;
+1284 [shape=circle, label="40:19"]
+1284--1285[label = 0.500, labelangle=110];
+1285 [shape=box, label="0:20"]
+1284--1286[label = 0.500, labelangle=110];
+1286 [shape=box, label="1:20"]
+1282--1287[label = 0.500, labelangle=110];
+1287 [shape=box, label="1:18"]
+1287--1288;
+1288 [shape=circle, label="44:19"]
+1288--1289[label = 0.500, labelangle=110];
+1289 [shape=box, label="0:20"]
+1288--1290[label = 0.500, labelangle=110];
+1290 [shape=box, label="1:20"]
+1271--1291[label = 0.533, labelangle=110];
+1291 [shape=box, label="1:14"]
+1291--1292;
+1292 [shape=circle, label="22:15"]
+1292--1293[label = 0.500, labelangle=110];
+1293 [shape=box, label="0:16"]
+1293--1294;
+1294 [shape=circle, label="45:17"]
+1294--1295[label = 0.500, labelangle=110];
+1295 [shape=box, label="0:18"]
+1295--1296;
+1296 [shape=circle, label="44:19"]
+1296--1297[label = 0.500, labelangle=110];
+1297 [shape=box, label="0:20"]
+1296--1298[label = 0.500, labelangle=110];
+1298 [shape=box, label="1:20"]
+1294--1299[label = 0.500, labelangle=110];
+1299 [shape=box, label="1:18"]
+1299--1300;
+1300 [shape=circle, label="40:19"]
+1300--1301[label = 0.500, labelangle=110];
+1301 [shape=box, label="0:20"]
+1300--1302[label = 0.500, labelangle=110];
+1302 [shape=box, label="1:20"]
+1292--1303[label = 0.500, labelangle=110];
+1303 [shape=box, label="1:16"]
+1303--1304;
+1304 [shape=circle, label="41:17"]
+1304--1305[label = 0.500, labelangle=110];
+1305 [shape=box, label="0:18"]
+1305--1306;
+1306 [shape=circle, label="42:19"]
+1306--1307[label = 0.500, labelangle=110];
+1307 [shape=box, label="0:20"]
+1306--1308[label = 0.500, labelangle=110];
+1308 [shape=box, label="1:20"]
+1304--1309[label = 0.500, labelangle=110];
+1309 [shape=box, label="1:18"]
+1309--1310;
+1310 [shape=circle, label="39:19"]
+1310--1311[label = 0.500, labelangle=110];
+1311 [shape=box, label="0:20"]
+1310--1312[label = 0.500, labelangle=110];
+1312 [shape=box, label="1:20"]
+1128--1313[label = 0.504, labelangle=110];
+1313 [shape=box, label="1:8"]
+1313--1314;
+1314 [shape=circle, label="42:9"]
+1314--1315[label = 0.492, labelangle=110];
+1315 [shape=box, label="0:10"]
+1315--1316;
+1316 [shape=circle, label="39:11"]
+1316--1317[label = 0.516, labelangle=110];
+1317 [shape=box, label="0:12"]
+1317--1318;
+1318 [shape=circle, label="41:13"]
+1318--1319[label = 0.500, labelangle=110];
+1319 [shape=box, label="0:14"]
+1319--1320;
+1320 [shape=circle, label="44:15"]
+1320--1321[label = 0.500, labelangle=110];
+1321 [shape=box, label="0:16"]
+1321--1322;
+1322 [shape=circle, label="43:17"]
+1322--1323[label = 0.500, labelangle=110];
+1323 [shape=box, label="0:18"]
+1323--1324;
+1324 [shape=circle, label="37:19"]
+1324--1325[label = 0.500, labelangle=110];
+1325 [shape=box, label="0:20"]
+1324--1326[label = 0.500, labelangle=110];
+1326 [shape=box, label="1:20"]
+1322--1327[label = 0.500, labelangle=110];
+1327 [shape=box, label="1:18"]
+1327--1328;
+1328 [shape=circle, label="45:19"]
+1328--1329[label = 0.500, labelangle=110];
+1329 [shape=box, label="0:20"]
+1328--1330[label = 0.500, labelangle=110];
+1330 [shape=box, label="1:20"]
+1320--1331[label = 0.500, labelangle=110];
+1331 [shape=box, label="1:16"]
+1331--1332;
+1332 [shape=circle, label="45:17"]
+1332--1333[label = 0.500, labelangle=110];
+1333 [shape=box, label="0:18"]
+1333--1334;
+1334 [shape=circle, label="43:19"]
+1334--1335[label = 0.500, labelangle=110];
+1335 [shape=box, label="0:20"]
+1334--1336[label = 0.500, labelangle=110];
+1336 [shape=box, label="1:20"]
+1332--1337[label = 0.500, labelangle=110];
+1337 [shape=box, label="1:18"]
+1337--1338;
+1338 [shape=circle, label="43:19"]
+1338--1339[label = 0.500, labelangle=110];
+1339 [shape=box, label="0:20"]
+1338--1340[label = 0.500, labelangle=110];
+1340 [shape=box, label="1:20"]
+1318--1341[label = 0.500, labelangle=110];
+1341 [shape=box, label="1:14"]
+1341--1342;
+1342 [shape=circle, label="40:15"]
+1342--1343[label = 0.500, labelangle=110];
+1343 [shape=box, label="0:16"]
+1343--1344;
+1344 [shape=circle, label="37:17"]
+1344--1345[label = 0.500, labelangle=110];
+1345 [shape=box, label="0:18"]
+1345--1346;
+1346 [shape=circle, label="33:19"]
+1346--1347[label = 0.500, labelangle=110];
+1347 [shape=box, label="0:20"]
+1346--1348[label = 0.500, labelangle=110];
+1348 [shape=box, label="1:20"]
+1344--1349[label = 0.500, labelangle=110];
+1349 [shape=box, label="1:18"]
+1349--1350;
+1350 [shape=circle, label="34:19"]
+1350--1351[label = 0.500, labelangle=110];
+1351 [shape=box, label="0:20"]
+1350--1352[label = 0.500, labelangle=110];
+1352 [shape=box, label="1:20"]
+1342--1353[label = 0.500, labelangle=110];
+1353 [shape=box, label="1:16"]
+1353--1354;
+1354 [shape=circle, label="45:17"]
+1354--1355[label = 0.500, labelangle=110];
+1355 [shape=box, label="0:18"]
+1355--1356;
+1356 [shape=circle, label="44:19"]
+1356--1357[label = 0.500, labelangle=110];
+1357 [shape=box, label="0:20"]
+1356--1358[label = 0.500, labelangle=110];
+1358 [shape=box, label="1:20"]
+1354--1359[label = 0.500, labelangle=110];
+1359 [shape=box, label="1:18"]
+1359--1360;
+1360 [shape=circle, label="43:19"]
+1360--1361[label = 0.500, labelangle=110];
+1361 [shape=box, label="0:20"]
+1360--1362[label = 0.500, labelangle=110];
+1362 [shape=box, label="1:20"]
+1316--1363[label = 0.484, labelangle=110];
+1363 [shape=box, label="1:12"]
+1363--1364;
+1364 [shape=circle, label="23:13"]
+1364--1365[label = 0.467, labelangle=110];
+1365 [shape=box, label="0:14"]
+1365--1366;
+1366 [shape=circle, label="45:15"]
+1366--1367[label = 0.429, labelangle=110];
+1367 [shape=box, label="0:16"]
+1367--1368;
+1368 [shape=circle, label="43:17"]
+1368--1369[label = 0.333, labelangle=110];
+1369 [shape=box, label="0:18"]
+1368--1370[label = 0.667, labelangle=110];
+1370 [shape=box, label="1:18"]
+1370--1371;
+1371 [shape=circle, label="40:19"]
+1371--1372[label = 0.500, labelangle=110];
+1372 [shape=box, label="0:20"]
+1371--1373[label = 0.500, labelangle=110];
+1373 [shape=box, label="1:20"]
+1366--1374[label = 0.571, labelangle=110];
+1374 [shape=box, label="1:16"]
+1374--1375;
+1375 [shape=circle, label="40:17"]
+1375--1376[label = 0.500, labelangle=110];
+1376 [shape=box, label="0:18"]
+1376--1377;
+1377 [shape=circle, label="37:19"]
+1377--1378[label = 0.500, labelangle=110];
+1378 [shape=box, label="0:20"]
+1377--1379[label = 0.500, labelangle=110];
+1379 [shape=box, label="1:20"]
+1375--1380[label = 0.500, labelangle=110];
+1380 [shape=box, label="1:18"]
+1380--1381;
+1381 [shape=circle, label="43:19"]
+1381--1382[label = 0.500, labelangle=110];
+1382 [shape=box, label="0:20"]
+1381--1383[label = 0.500, labelangle=110];
+1383 [shape=box, label="1:20"]
+1364--1384[label = 0.533, labelangle=110];
+1384 [shape=box, label="1:14"]
+1384--1385;
+1385 [shape=circle, label="37:15"]
+1385--1386[label = 0.500, labelangle=110];
+1386 [shape=box, label="0:16"]
+1386--1387;
+1387 [shape=circle, label="45:17"]
+1387--1388[label = 0.500, labelangle=110];
+1388 [shape=box, label="0:18"]
+1388--1389;
+1389 [shape=circle, label="43:19"]
+1389--1390[label = 0.500, labelangle=110];
+1390 [shape=box, label="0:20"]
+1389--1391[label = 0.500, labelangle=110];
+1391 [shape=box, label="1:20"]
+1387--1392[label = 0.500, labelangle=110];
+1392 [shape=box, label="1:18"]
+1392--1393;
+1393 [shape=circle, label="33:19"]
+1393--1394[label = 0.500, labelangle=110];
+1394 [shape=box, label="0:20"]
+1393--1395[label = 0.500, labelangle=110];
+1395 [shape=box, label="1:20"]
+1385--1396[label = 0.500, labelangle=110];
+1396 [shape=box, label="1:16"]
+1396--1397;
+1397 [shape=circle, label="44:17"]
+1397--1398[label = 0.500, labelangle=110];
+1398 [shape=box, label="0:18"]
+1398--1399;
+1399 [shape=circle, label="43:19"]
+1399--1400[label = 0.500, labelangle=110];
+1400 [shape=box, label="0:20"]
+1399--1401[label = 0.500, labelangle=110];
+1401 [shape=box, label="1:20"]
+1397--1402[label = 0.500, labelangle=110];
+1402 [shape=box, label="1:18"]
+1402--1403;
+1403 [shape=circle, label="45:19"]
+1403--1404[label = 0.500, labelangle=110];
+1404 [shape=box, label="0:20"]
+1403--1405[label = 0.500, labelangle=110];
+1405 [shape=box, label="1:20"]
+1314--1406[label = 0.508, labelangle=110];
+1406 [shape=box, label="1:10"]
+1406--1407;
+1407 [shape=circle, label="36:11"]
+1407--1408[label = 0.500, labelangle=110];
+1408 [shape=box, label="0:12"]
+1408--1409;
+1409 [shape=circle, label="34:13"]
+1409--1410[label = 0.500, labelangle=110];
+1410 [shape=box, label="0:14"]
+1410--1411;
+1411 [shape=circle, label="40:15"]
+1411--1412[label = 0.500, labelangle=110];
+1412 [shape=box, label="0:16"]
+1412--1413;
+1413 [shape=circle, label="37:17"]
+1413--1414[label = 0.500, labelangle=110];
+1414 [shape=box, label="0:18"]
+1414--1415;
+1415 [shape=circle, label="41:19"]
+1415--1416[label = 0.500, labelangle=110];
+1416 [shape=box, label="0:20"]
+1415--1417[label = 0.500, labelangle=110];
+1417 [shape=box, label="1:20"]
+1413--1418[label = 0.500, labelangle=110];
+1418 [shape=box, label="1:18"]
+1418--1419;
+1419 [shape=circle, label="45:19"]
+1419--1420[label = 0.500, labelangle=110];
+1420 [shape=box, label="0:20"]
+1419--1421[label = 0.500, labelangle=110];
+1421 [shape=box, label="1:20"]
+1411--1422[label = 0.500, labelangle=110];
+1422 [shape=box, label="1:16"]
+1422--1423;
+1423 [shape=circle, label="44:17"]
+1423--1424[label = 0.500, labelangle=110];
+1424 [shape=box, label="0:18"]
+1424--1425;
+1425 [shape=circle, label="41:19"]
+1425--1426[label = 0.500, labelangle=110];
+1426 [shape=box, label="0:20"]
+1425--1427[label = 0.500, labelangle=110];
+1427 [shape=box, label="1:20"]
+1423--1428[label = 0.500, labelangle=110];
+1428 [shape=box, label="1:18"]
+1428--1429;
+1429 [shape=circle, label="45:19"]
+1429--1430[label = 0.500, labelangle=110];
+1430 [shape=box, label="0:20"]
+1429--1431[label = 0.500, labelangle=110];
+1431 [shape=box, label="1:20"]
+1409--1432[label = 0.500, labelangle=110];
+1432 [shape=box, label="1:14"]
+1432--1433;
+1433 [shape=circle, label="39:15"]
+1433--1434[label = 0.500, labelangle=110];
+1434 [shape=box, label="0:16"]
+1434--1435;
+1435 [shape=circle, label="45:17"]
+1435--1436[label = 0.500, labelangle=110];
+1436 [shape=box, label="0:18"]
+1436--1437;
+1437 [shape=circle, label="40:19"]
+1437--1438[label = 0.500, labelangle=110];
+1438 [shape=box, label="0:20"]
+1437--1439[label = 0.500, labelangle=110];
+1439 [shape=box, label="1:20"]
+1435--1440[label = 0.500, labelangle=110];
+1440 [shape=box, label="1:18"]
+1440--1441;
+1441 [shape=circle, label="43:19"]
+1441--1442[label = 0.500, labelangle=110];
+1442 [shape=box, label="0:20"]
+1441--1443[label = 0.500, labelangle=110];
+1443 [shape=box, label="1:20"]
+1433--1444[label = 0.500, labelangle=110];
+1444 [shape=box, label="1:16"]
+1444--1445;
+1445 [shape=circle, label="40:17"]
+1445--1446[label = 0.500, labelangle=110];
+1446 [shape=box, label="0:18"]
+1446--1447;
+1447 [shape=circle, label="44:19"]
+1447--1448[label = 0.500, labelangle=110];
+1448 [shape=box, label="0:20"]
+1447--1449[label = 0.500, labelangle=110];
+1449 [shape=box, label="1:20"]
+1445--1450[label = 0.500, labelangle=110];
+1450 [shape=box, label="1:18"]
+1450--1451;
+1451 [shape=circle, label="41:19"]
+1451--1452[label = 0.500, labelangle=110];
+1452 [shape=box, label="0:20"]
+1451--1453[label = 0.500, labelangle=110];
+1453 [shape=box, label="1:20"]
+1407--1454[label = 0.500, labelangle=110];
+1454 [shape=box, label="1:12"]
+1454--1455;
+1455 [shape=circle, label="43:13"]
+1455--1456[label = 0.500, labelangle=110];
+1456 [shape=box, label="0:14"]
+1456--1457;
+1457 [shape=circle, label="34:15"]
+1457--1458[label = 0.500, labelangle=110];
+1458 [shape=box, label="0:16"]
+1458--1459;
+1459 [shape=circle, label="45:17"]
+1459--1460[label = 0.500, labelangle=110];
+1460 [shape=box, label="0:18"]
+1460--1461;
+1461 [shape=circle, label="44:19"]
+1461--1462[label = 0.500, labelangle=110];
+1462 [shape=box, label="0:20"]
+1461--1463[label = 0.500, labelangle=110];
+1463 [shape=box, label="1:20"]
+1459--1464[label = 0.500, labelangle=110];
+1464 [shape=box, label="1:18"]
+1464--1465;
+1465 [shape=circle, label="44:19"]
+1465--1466[label = 0.500, labelangle=110];
+1466 [shape=box, label="0:20"]
+1465--1467[label = 0.500, labelangle=110];
+1467 [shape=box, label="1:20"]
+1457--1468[label = 0.500, labelangle=110];
+1468 [shape=box, label="1:16"]
+1468--1469;
+1469 [shape=circle, label="40:17"]
+1469--1470[label = 0.500, labelangle=110];
+1470 [shape=box, label="0:18"]
+1470--1471;
+1471 [shape=circle, label="38:19"]
+1471--1472[label = 0.500, labelangle=110];
+1472 [shape=box, label="0:20"]
+1471--1473[label = 0.500, labelangle=110];
+1473 [shape=box, label="1:20"]
+1469--1474[label = 0.500, labelangle=110];
+1474 [shape=box, label="1:18"]
+1474--1475;
+1475 [shape=circle, label="45:19"]
+1475--1476[label = 0.500, labelangle=110];
+1476 [shape=box, label="0:20"]
+1475--1477[label = 0.500, labelangle=110];
+1477 [shape=box, label="1:20"]
+1455--1478[label = 0.500, labelangle=110];
+1478 [shape=box, label="1:14"]
+1478--1479;
+1479 [shape=circle, label="45:15"]
+1479--1480[label = 0.500, labelangle=110];
+1480 [shape=box, label="0:16"]
+1480--1481;
+1481 [shape=circle, label="41:17"]
+1481--1482[label = 0.500, labelangle=110];
+1482 [shape=box, label="0:18"]
+1482--1483;
+1483 [shape=circle, label="44:19"]
+1483--1484[label = 0.500, labelangle=110];
+1484 [shape=box, label="0:20"]
+1483--1485[label = 0.500, labelangle=110];
+1485 [shape=box, label="1:20"]
+1481--1486[label = 0.500, labelangle=110];
+1486 [shape=box, label="1:18"]
+1486--1487;
+1487 [shape=circle, label="40:19"]
+1487--1488[label = 0.500, labelangle=110];
+1488 [shape=box, label="0:20"]
+1487--1489[label = 0.500, labelangle=110];
+1489 [shape=box, label="1:20"]
+1479--1490[label = 0.500, labelangle=110];
+1490 [shape=box, label="1:16"]
+1490--1491;
+1491 [shape=circle, label="41:17"]
+1491--1492[label = 0.500, labelangle=110];
+1492 [shape=box, label="0:18"]
+1492--1493;
+1493 [shape=circle, label="39:19"]
+1493--1494[label = 0.500, labelangle=110];
+1494 [shape=box, label="0:20"]
+1493--1495[label = 0.500, labelangle=110];
+1495 [shape=box, label="1:20"]
+1491--1496[label = 0.500, labelangle=110];
+1496 [shape=box, label="1:18"]
+1496--1497;
+1497 [shape=circle, label="40:19"]
+1497--1498[label = 0.500, labelangle=110];
+1498 [shape=box, label="0:20"]
+1497--1499[label = 0.500, labelangle=110];
+1499 [shape=box, label="1:20"]
+1--1500[label = 0.500, labelangle=110];
+1500 [shape=box, label="1:2"]
+1500--1501;
+1501 [shape=circle, label="29:3"]
+1501--1502[label = 0.496, labelangle=110];
+1502 [shape=box, label="0:4"]
+1502--1503;
+1503 [shape=circle, label="34:5"]
+1503--1504[label = 0.500, labelangle=110];
+1504 [shape=box, label="0:6"]
+1504--1505;
+1505 [shape=circle, label="7:7"]
+1505--1506[label = 0.500, labelangle=110];
+1506 [shape=box, label="0:8"]
+1506--1507;
+1507 [shape=circle, label="33:9"]
+1507--1508[label = 0.500, labelangle=110];
+1508 [shape=box, label="0:10"]
+1508--1509;
+1509 [shape=circle, label="24:11"]
+1509--1510[label = 0.484, labelangle=110];
+1510 [shape=box, label="0:12"]
+1510--1511;
+1511 [shape=circle, label="37:13"]
+1511--1512[label = 0.467, labelangle=110];
+1512 [shape=box, label="0:14"]
+1512--1513;
+1513 [shape=circle, label="45:15"]
+1513--1514[label = 0.429, labelangle=110];
+1514 [shape=box, label="0:16"]
+1514--1515;
+1515 [shape=circle, label="43:17"]
+1515--1516[label = 0.333, labelangle=110];
+1516 [shape=box, label="0:18"]
+1515--1517[label = 0.667, labelangle=110];
+1517 [shape=box, label="1:18"]
+1517--1518;
+1518 [shape=circle, label="42:19"]
+1518--1519[label = 0.500, labelangle=110];
+1519 [shape=box, label="0:20"]
+1518--1520[label = 0.500, labelangle=110];
+1520 [shape=box, label="1:20"]
+1513--1521[label = 0.571, labelangle=110];
+1521 [shape=box, label="1:16"]
+1521--1522;
+1522 [shape=circle, label="43:17"]
+1522--1523[label = 0.500, labelangle=110];
+1523 [shape=box, label="0:18"]
+1523--1524;
+1524 [shape=circle, label="23:19"]
+1524--1525[label = 0.500, labelangle=110];
+1525 [shape=box, label="0:20"]
+1524--1526[label = 0.500, labelangle=110];
+1526 [shape=box, label="1:20"]
+1522--1527[label = 0.500, labelangle=110];
+1527 [shape=box, label="1:18"]
+1527--1528;
+1528 [shape=circle, label="44:19"]
+1528--1529[label = 0.500, labelangle=110];
+1529 [shape=box, label="0:20"]
+1528--1530[label = 0.500, labelangle=110];
+1530 [shape=box, label="1:20"]
+1511--1531[label = 0.533, labelangle=110];
+1531 [shape=box, label="1:14"]
+1531--1532;
+1532 [shape=circle, label="44:15"]
+1532--1533[label = 0.500, labelangle=110];
+1533 [shape=box, label="0:16"]
+1533--1534;
+1534 [shape=circle, label="42:17"]
+1534--1535[label = 0.500, labelangle=110];
+1535 [shape=box, label="0:18"]
+1535--1536;
+1536 [shape=circle, label="45:19"]
+1536--1537[label = 0.500, labelangle=110];
+1537 [shape=box, label="0:20"]
+1536--1538[label = 0.500, labelangle=110];
+1538 [shape=box, label="1:20"]
+1534--1539[label = 0.500, labelangle=110];
+1539 [shape=box, label="1:18"]
+1539--1540;
+1540 [shape=circle, label="40:19"]
+1540--1541[label = 0.500, labelangle=110];
+1541 [shape=box, label="0:20"]
+1540--1542[label = 0.500, labelangle=110];
+1542 [shape=box, label="1:20"]
+1532--1543[label = 0.500, labelangle=110];
+1543 [shape=box, label="1:16"]
+1543--1544;
+1544 [shape=circle, label="42:17"]
+1544--1545[label = 0.500, labelangle=110];
+1545 [shape=box, label="0:18"]
+1545--1546;
+1546 [shape=circle, label="43:19"]
+1546--1547[label = 0.500, labelangle=110];
+1547 [shape=box, label="0:20"]
+1546--1548[label = 0.500, labelangle=110];
+1548 [shape=box, label="1:20"]
+1544--1549[label = 0.500, labelangle=110];
+1549 [shape=box, label="1:18"]
+1549--1550;
+1550 [shape=circle, label="39:19"]
+1550--1551[label = 0.500, labelangle=110];
+1551 [shape=box, label="0:20"]
+1550--1552[label = 0.500, labelangle=110];
+1552 [shape=box, label="1:20"]
+1509--1553[label = 0.516, labelangle=110];
+1553 [shape=box, label="1:12"]
+1553--1554;
+1554 [shape=circle, label="43:13"]
+1554--1555[label = 0.500, labelangle=110];
+1555 [shape=box, label="0:14"]
+1555--1556;
+1556 [shape=circle, label="42:15"]
+1556--1557[label = 0.500, labelangle=110];
+1557 [shape=box, label="0:16"]
+1557--1558;
+1558 [shape=circle, label="40:17"]
+1558--1559[label = 0.500, labelangle=110];
+1559 [shape=box, label="0:18"]
+1559--1560;
+1560 [shape=circle, label="37:19"]
+1560--1561[label = 0.500, labelangle=110];
+1561 [shape=box, label="0:20"]
+1560--1562[label = 0.500, labelangle=110];
+1562 [shape=box, label="1:20"]
+1558--1563[label = 0.500, labelangle=110];
+1563 [shape=box, label="1:18"]
+1563--1564;
+1564 [shape=circle, label="41:19"]
+1564--1565[label = 0.500, labelangle=110];
+1565 [shape=box, label="0:20"]
+1564--1566[label = 0.500, labelangle=110];
+1566 [shape=box, label="1:20"]
+1556--1567[label = 0.500, labelangle=110];
+1567 [shape=box, label="1:16"]
+1567--1568;
+1568 [shape=circle, label="41:17"]
+1568--1569[label = 0.500, labelangle=110];
+1569 [shape=box, label="0:18"]
+1569--1570;
+1570 [shape=circle, label="44:19"]
+1570--1571[label = 0.500, labelangle=110];
+1571 [shape=box, label="0:20"]
+1570--1572[label = 0.500, labelangle=110];
+1572 [shape=box, label="1:20"]
+1568--1573[label = 0.500, labelangle=110];
+1573 [shape=box, label="1:18"]
+1573--1574;
+1574 [shape=circle, label="45:19"]
+1574--1575[label = 0.500, labelangle=110];
+1575 [shape=box, label="0:20"]
+1574--1576[label = 0.500, labelangle=110];
+1576 [shape=box, label="1:20"]
+1554--1577[label = 0.500, labelangle=110];
+1577 [shape=box, label="1:14"]
+1577--1578;
+1578 [shape=circle, label="41:15"]
+1578--1579[label = 0.500, labelangle=110];
+1579 [shape=box, label="0:16"]
+1579--1580;
+1580 [shape=circle, label="45:17"]
+1580--1581[label = 0.500, labelangle=110];
+1581 [shape=box, label="0:18"]
+1581--1582;
+1582 [shape=circle, label="42:19"]
+1582--1583[label = 0.500, labelangle=110];
+1583 [shape=box, label="0:20"]
+1582--1584[label = 0.500, labelangle=110];
+1584 [shape=box, label="1:20"]
+1580--1585[label = 0.500, labelangle=110];
+1585 [shape=box, label="1:18"]
+1585--1586;
+1586 [shape=circle, label="44:19"]
+1586--1587[label = 0.500, labelangle=110];
+1587 [shape=box, label="0:20"]
+1586--1588[label = 0.500, labelangle=110];
+1588 [shape=box, label="1:20"]
+1578--1589[label = 0.500, labelangle=110];
+1589 [shape=box, label="1:16"]
+1589--1590;
+1590 [shape=circle, label="40:17"]
+1590--1591[label = 0.500, labelangle=110];
+1591 [shape=box, label="0:18"]
+1591--1592;
+1592 [shape=circle, label="42:19"]
+1592--1593[label = 0.500, labelangle=110];
+1593 [shape=box, label="0:20"]
+1592--1594[label = 0.500, labelangle=110];
+1594 [shape=box, label="1:20"]
+1590--1595[label = 0.500, labelangle=110];
+1595 [shape=box, label="1:18"]
+1595--1596;
+1596 [shape=circle, label="39:19"]
+1596--1597[label = 0.500, labelangle=110];
+1597 [shape=box, label="0:20"]
+1596--1598[label = 0.500, labelangle=110];
+1598 [shape=box, label="1:20"]
+1507--1599[label = 0.500, labelangle=110];
+1599 [shape=box, label="1:10"]
+1599--1600;
+1600 [shape=circle, label="40:11"]
+1600--1601[label = 0.516, labelangle=110];
+1601 [shape=box, label="0:12"]
+1601--1602;
+1602 [shape=circle, label="43:13"]
+1602--1603[label = 0.500, labelangle=110];
+1603 [shape=box, label="0:14"]
+1603--1604;
+1604 [shape=circle, label="39:15"]
+1604--1605[label = 0.500, labelangle=110];
+1605 [shape=box, label="0:16"]
+1605--1606;
+1606 [shape=circle, label="25:17"]
+1606--1607[label = 0.500, labelangle=110];
+1607 [shape=box, label="0:18"]
+1607--1608;
+1608 [shape=circle, label="42:19"]
+1608--1609[label = 0.500, labelangle=110];
+1609 [shape=box, label="0:20"]
+1608--1610[label = 0.500, labelangle=110];
+1610 [shape=box, label="1:20"]
+1606--1611[label = 0.500, labelangle=110];
+1611 [shape=box, label="1:18"]
+1611--1612;
+1612 [shape=circle, label="41:19"]
+1612--1613[label = 0.500, labelangle=110];
+1613 [shape=box, label="0:20"]
+1612--1614[label = 0.500, labelangle=110];
+1614 [shape=box, label="1:20"]
+1604--1615[label = 0.500, labelangle=110];
+1615 [shape=box, label="1:16"]
+1615--1616;
+1616 [shape=circle, label="37:17"]
+1616--1617[label = 0.500, labelangle=110];
+1617 [shape=box, label="0:18"]
+1617--1618;
+1618 [shape=circle, label="45:19"]
+1618--1619[label = 0.500, labelangle=110];
+1619 [shape=box, label="0:20"]
+1618--1620[label = 0.500, labelangle=110];
+1620 [shape=box, label="1:20"]
+1616--1621[label = 0.500, labelangle=110];
+1621 [shape=box, label="1:18"]
+1621--1622;
+1622 [shape=circle, label="38:19"]
+1622--1623[label = 0.500, labelangle=110];
+1623 [shape=box, label="0:20"]
+1622--1624[label = 0.500, labelangle=110];
+1624 [shape=box, label="1:20"]
+1602--1625[label = 0.500, labelangle=110];
+1625 [shape=box, label="1:14"]
+1625--1626;
+1626 [shape=circle, label="20:15"]
+1626--1627[label = 0.500, labelangle=110];
+1627 [shape=box, label="0:16"]
+1627--1628;
+1628 [shape=circle, label="27:17"]
+1628--1629[label = 0.500, labelangle=110];
+1629 [shape=box, label="0:18"]
+1629--1630;
+1630 [shape=circle, label="39:19"]
+1630--1631[label = 0.500, labelangle=110];
+1631 [shape=box, label="0:20"]
+1630--1632[label = 0.500, labelangle=110];
+1632 [shape=box, label="1:20"]
+1628--1633[label = 0.500, labelangle=110];
+1633 [shape=box, label="1:18"]
+1633--1634;
+1634 [shape=circle, label="42:19"]
+1634--1635[label = 0.500, labelangle=110];
+1635 [shape=box, label="0:20"]
+1634--1636[label = 0.500, labelangle=110];
+1636 [shape=box, label="1:20"]
+1626--1637[label = 0.500, labelangle=110];
+1637 [shape=box, label="1:16"]
+1637--1638;
+1638 [shape=circle, label="41:17"]
+1638--1639[label = 0.500, labelangle=110];
+1639 [shape=box, label="0:18"]
+1639--1640;
+1640 [shape=circle, label="45:19"]
+1640--1641[label = 0.500, labelangle=110];
+1641 [shape=box, label="0:20"]
+1640--1642[label = 0.500, labelangle=110];
+1642 [shape=box, label="1:20"]
+1638--1643[label = 0.500, labelangle=110];
+1643 [shape=box, label="1:18"]
+1643--1644;
+1644 [shape=circle, label="44:19"]
+1644--1645[label = 0.500, labelangle=110];
+1645 [shape=box, label="0:20"]
+1644--1646[label = 0.500, labelangle=110];
+1646 [shape=box, label="1:20"]
+1600--1647[label = 0.484, labelangle=110];
+1647 [shape=box, label="1:12"]
+1647--1648;
+1648 [shape=circle, label="44:13"]
+1648--1649[label = 0.467, labelangle=110];
+1649 [shape=box, label="0:14"]
+1649--1650;
+1650 [shape=circle, label="45:15"]
+1650--1651[label = 0.571, labelangle=110];
+1651 [shape=box, label="0:16"]
+1651--1652;
+1652 [shape=circle, label="39:17"]
+1652--1653[label = 0.500, labelangle=110];
+1653 [shape=box, label="0:18"]
+1653--1654;
+1654 [shape=circle, label="43:19"]
+1654--1655[label = 0.500, labelangle=110];
+1655 [shape=box, label="0:20"]
+1654--1656[label = 0.500, labelangle=110];
+1656 [shape=box, label="1:20"]
+1652--1657[label = 0.500, labelangle=110];
+1657 [shape=box, label="1:18"]
+1657--1658;
+1658 [shape=circle, label="42:19"]
+1658--1659[label = 0.500, labelangle=110];
+1659 [shape=box, label="0:20"]
+1658--1660[label = 0.500, labelangle=110];
+1660 [shape=box, label="1:20"]
+1650--1661[label = 0.429, labelangle=110];
+1661 [shape=box, label="1:16"]
+1661--1662;
+1662 [shape=circle, label="43:17"]
+1662--1663[label = 0.667, labelangle=110];
+1663 [shape=box, label="0:18"]
+1663--1664;
+1664 [shape=circle, label="42:19"]
+1664--1665[label = 0.500, labelangle=110];
+1665 [shape=box, label="0:20"]
+1664--1666[label = 0.500, labelangle=110];
+1666 [shape=box, label="1:20"]
+1662--1667[label = 0.333, labelangle=110];
+1667 [shape=box, label="1:18"]
+1648--1668[label = 0.533, labelangle=110];
+1668 [shape=box, label="1:14"]
+1668--1669;
+1669 [shape=circle, label="41:15"]
+1669--1670[label = 0.500, labelangle=110];
+1670 [shape=box, label="0:16"]
+1670--1671;
+1671 [shape=circle, label="45:17"]
+1671--1672[label = 0.500, labelangle=110];
+1672 [shape=box, label="0:18"]
+1672--1673;
+1673 [shape=circle, label="42:19"]
+1673--1674[label = 0.500, labelangle=110];
+1674 [shape=box, label="0:20"]
+1673--1675[label = 0.500, labelangle=110];
+1675 [shape=box, label="1:20"]
+1671--1676[label = 0.500, labelangle=110];
+1676 [shape=box, label="1:18"]
+1676--1677;
+1677 [shape=circle, label="32:19"]
+1677--1678[label = 0.500, labelangle=110];
+1678 [shape=box, label="0:20"]
+1677--1679[label = 0.500, labelangle=110];
+1679 [shape=box, label="1:20"]
+1669--1680[label = 0.500, labelangle=110];
+1680 [shape=box, label="1:16"]
+1680--1681;
+1681 [shape=circle, label="37:17"]
+1681--1682[label = 0.500, labelangle=110];
+1682 [shape=box, label="0:18"]
+1682--1683;
+1683 [shape=circle, label="45:19"]
+1683--1684[label = 0.500, labelangle=110];
+1684 [shape=box, label="0:20"]
+1683--1685[label = 0.500, labelangle=110];
+1685 [shape=box, label="1:20"]
+1681--1686[label = 0.500, labelangle=110];
+1686 [shape=box, label="1:18"]
+1686--1687;
+1687 [shape=circle, label="39:19"]
+1687--1688[label = 0.500, labelangle=110];
+1688 [shape=box, label="0:20"]
+1687--1689[label = 0.500, labelangle=110];
+1689 [shape=box, label="1:20"]
+1505--1690[label = 0.500, labelangle=110];
+1690 [shape=box, label="1:8"]
+1690--1691;
+1691 [shape=circle, label="42:9"]
+1691--1692[label = 0.500, labelangle=110];
+1692 [shape=box, label="0:10"]
+1692--1693;
+1693 [shape=circle, label="41:11"]
+1693--1694[label = 0.516, labelangle=110];
+1694 [shape=box, label="0:12"]
+1694--1695;
+1695 [shape=circle, label="44:13"]
+1695--1696[label = 0.500, labelangle=110];
+1696 [shape=box, label="0:14"]
+1696--1697;
+1697 [shape=circle, label="43:15"]
+1697--1698[label = 0.500, labelangle=110];
+1698 [shape=box, label="0:16"]
+1698--1699;
+1699 [shape=circle, label="40:17"]
+1699--1700[label = 0.500, labelangle=110];
+1700 [shape=box, label="0:18"]
+1700--1701;
+1701 [shape=circle, label="37:19"]
+1701--1702[label = 0.500, labelangle=110];
+1702 [shape=box, label="0:20"]
+1701--1703[label = 0.500, labelangle=110];
+1703 [shape=box, label="1:20"]
+1699--1704[label = 0.500, labelangle=110];
+1704 [shape=box, label="1:18"]
+1704--1705;
+1705 [shape=circle, label="45:19"]
+1705--1706[label = 0.500, labelangle=110];
+1706 [shape=box, label="0:20"]
+1705--1707[label = 0.500, labelangle=110];
+1707 [shape=box, label="1:20"]
+1697--1708[label = 0.500, labelangle=110];
+1708 [shape=box, label="1:16"]
+1708--1709;
+1709 [shape=circle, label="45:17"]
+1709--1710[label = 0.500, labelangle=110];
+1710 [shape=box, label="0:18"]
+1710--1711;
+1711 [shape=circle, label="39:19"]
+1711--1712[label = 0.500, labelangle=110];
+1712 [shape=box, label="0:20"]
+1711--1713[label = 0.500, labelangle=110];
+1713 [shape=box, label="1:20"]
+1709--1714[label = 0.500, labelangle=110];
+1714 [shape=box, label="1:18"]
+1714--1715;
+1715 [shape=circle, label="39:19"]
+1715--1716[label = 0.500, labelangle=110];
+1716 [shape=box, label="0:20"]
+1715--1717[label = 0.500, labelangle=110];
+1717 [shape=box, label="1:20"]
+1695--1718[label = 0.500, labelangle=110];
+1718 [shape=box, label="1:14"]
+1718--1719;
+1719 [shape=circle, label="16:15"]
+1719--1720[label = 0.500, labelangle=110];
+1720 [shape=box, label="0:16"]
+1720--1721;
+1721 [shape=circle, label="27:17"]
+1721--1722[label = 0.500, labelangle=110];
+1722 [shape=box, label="0:18"]
+1722--1723;
+1723 [shape=circle, label="40:19"]
+1723--1724[label = 0.500, labelangle=110];
+1724 [shape=box, label="0:20"]
+1723--1725[label = 0.500, labelangle=110];
+1725 [shape=box, label="1:20"]
+1721--1726[label = 0.500, labelangle=110];
+1726 [shape=box, label="1:18"]
+1726--1727;
+1727 [shape=circle, label="45:19"]
+1727--1728[label = 0.500, labelangle=110];
+1728 [shape=box, label="0:20"]
+1727--1729[label = 0.500, labelangle=110];
+1729 [shape=box, label="1:20"]
+1719--1730[label = 0.500, labelangle=110];
+1730 [shape=box, label="1:16"]
+1730--1731;
+1731 [shape=circle, label="37:17"]
+1731--1732[label = 0.500, labelangle=110];
+1732 [shape=box, label="0:18"]
+1732--1733;
+1733 [shape=circle, label="45:19"]
+1733--1734[label = 0.500, labelangle=110];
+1734 [shape=box, label="0:20"]
+1733--1735[label = 0.500, labelangle=110];
+1735 [shape=box, label="1:20"]
+1731--1736[label = 0.500, labelangle=110];
+1736 [shape=box, label="1:18"]
+1736--1737;
+1737 [shape=circle, label="39:19"]
+1737--1738[label = 0.500, labelangle=110];
+1738 [shape=box, label="0:20"]
+1737--1739[label = 0.500, labelangle=110];
+1739 [shape=box, label="1:20"]
+1693--1740[label = 0.484, labelangle=110];
+1740 [shape=box, label="1:12"]
+1740--1741;
+1741 [shape=circle, label="40:13"]
+1741--1742[label = 0.533, labelangle=110];
+1742 [shape=box, label="0:14"]
+1742--1743;
+1743 [shape=circle, label="43:15"]
+1743--1744[label = 0.500, labelangle=110];
+1744 [shape=box, label="0:16"]
+1744--1745;
+1745 [shape=circle, label="45:17"]
+1745--1746[label = 0.500, labelangle=110];
+1746 [shape=box, label="0:18"]
+1746--1747;
+1747 [shape=circle, label="37:19"]
+1747--1748[label = 0.500, labelangle=110];
+1748 [shape=box, label="0:20"]
+1747--1749[label = 0.500, labelangle=110];
+1749 [shape=box, label="1:20"]
+1745--1750[label = 0.500, labelangle=110];
+1750 [shape=box, label="1:18"]
+1750--1751;
+1751 [shape=circle, label="39:19"]
+1751--1752[label = 0.500, labelangle=110];
+1752 [shape=box, label="0:20"]
+1751--1753[label = 0.500, labelangle=110];
+1753 [shape=box, label="1:20"]
+1743--1754[label = 0.500, labelangle=110];
+1754 [shape=box, label="1:16"]
+1754--1755;
+1755 [shape=circle, label="25:17"]
+1755--1756[label = 0.500, labelangle=110];
+1756 [shape=box, label="0:18"]
+1756--1757;
+1757 [shape=circle, label="39:19"]
+1757--1758[label = 0.500, labelangle=110];
+1758 [shape=box, label="0:20"]
+1757--1759[label = 0.500, labelangle=110];
+1759 [shape=box, label="1:20"]
+1755--1760[label = 0.500, labelangle=110];
+1760 [shape=box, label="1:18"]
+1760--1761;
+1761 [shape=circle, label="45:19"]
+1761--1762[label = 0.500, labelangle=110];
+1762 [shape=box, label="0:20"]
+1761--1763[label = 0.500, labelangle=110];
+1763 [shape=box, label="1:20"]
+1741--1764[label = 0.467, labelangle=110];
+1764 [shape=box, label="1:14"]
+1764--1765;
+1765 [shape=circle, label="44:15"]
+1765--1766[label = 0.429, labelangle=110];
+1766 [shape=box, label="0:16"]
+1766--1767;
+1767 [shape=circle, label="45:17"]
+1767--1768[label = 0.667, labelangle=110];
+1768 [shape=box, label="0:18"]
+1768--1769;
+1769 [shape=circle, label="37:19"]
+1769--1770[label = 0.500, labelangle=110];
+1770 [shape=box, label="0:20"]
+1769--1771[label = 0.500, labelangle=110];
+1771 [shape=box, label="1:20"]
+1767--1772[label = 0.333, labelangle=110];
+1772 [shape=box, label="1:18"]
+1765--1773[label = 0.571, labelangle=110];
+1773 [shape=box, label="1:16"]
+1773--1774;
+1774 [shape=circle, label="37:17"]
+1774--1775[label = 0.500, labelangle=110];
+1775 [shape=box, label="0:18"]
+1775--1776;
+1776 [shape=circle, label="45:19"]
+1776--1777[label = 0.500, labelangle=110];
+1777 [shape=box, label="0:20"]
+1776--1778[label = 0.500, labelangle=110];
+1778 [shape=box, label="1:20"]
+1774--1779[label = 0.500, labelangle=110];
+1779 [shape=box, label="1:18"]
+1779--1780;
+1780 [shape=circle, label="36:19"]
+1780--1781[label = 0.500, labelangle=110];
+1781 [shape=box, label="0:20"]
+1780--1782[label = 0.500, labelangle=110];
+1782 [shape=box, label="1:20"]
+1691--1783[label = 0.500, labelangle=110];
+1783 [shape=box, label="1:10"]
+1783--1784;
+1784 [shape=circle, label="27:11"]
+1784--1785[label = 0.516, labelangle=110];
+1785 [shape=box, label="0:12"]
+1785--1786;
+1786 [shape=circle, label="37:13"]
+1786--1787[label = 0.500, labelangle=110];
+1787 [shape=box, label="0:14"]
+1787--1788;
+1788 [shape=circle, label="45:15"]
+1788--1789[label = 0.500, labelangle=110];
+1789 [shape=box, label="0:16"]
+1789--1790;
+1790 [shape=circle, label="33:17"]
+1790--1791[label = 0.500, labelangle=110];
+1791 [shape=box, label="0:18"]
+1791--1792;
+1792 [shape=circle, label="39:19"]
+1792--1793[label = 0.500, labelangle=110];
+1793 [shape=box, label="0:20"]
+1792--1794[label = 0.500, labelangle=110];
+1794 [shape=box, label="1:20"]
+1790--1795[label = 0.500, labelangle=110];
+1795 [shape=box, label="1:18"]
+1795--1796;
+1796 [shape=circle, label="23:19"]
+1796--1797[label = 0.500, labelangle=110];
+1797 [shape=box, label="0:20"]
+1796--1798[label = 0.500, labelangle=110];
+1798 [shape=box, label="1:20"]
+1788--1799[label = 0.500, labelangle=110];
+1799 [shape=box, label="1:16"]
+1799--1800;
+1800 [shape=circle, label="44:17"]
+1800--1801[label = 0.500, labelangle=110];
+1801 [shape=box, label="0:18"]
+1801--1802;
+1802 [shape=circle, label="41:19"]
+1802--1803[label = 0.500, labelangle=110];
+1803 [shape=box, label="0:20"]
+1802--1804[label = 0.500, labelangle=110];
+1804 [shape=box, label="1:20"]
+1800--1805[label = 0.500, labelangle=110];
+1805 [shape=box, label="1:18"]
+1805--1806;
+1806 [shape=circle, label="38:19"]
+1806--1807[label = 0.500, labelangle=110];
+1807 [shape=box, label="0:20"]
+1806--1808[label = 0.500, labelangle=110];
+1808 [shape=box, label="1:20"]
+1786--1809[label = 0.500, labelangle=110];
+1809 [shape=box, label="1:14"]
+1809--1810;
+1810 [shape=circle, label="22:15"]
+1810--1811[label = 0.500, labelangle=110];
+1811 [shape=box, label="0:16"]
+1811--1812;
+1812 [shape=circle, label="45:17"]
+1812--1813[label = 0.500, labelangle=110];
+1813 [shape=box, label="0:18"]
+1813--1814;
+1814 [shape=circle, label="40:19"]
+1814--1815[label = 0.500, labelangle=110];
+1815 [shape=box, label="0:20"]
+1814--1816[label = 0.500, labelangle=110];
+1816 [shape=box, label="1:20"]
+1812--1817[label = 0.500, labelangle=110];
+1817 [shape=box, label="1:18"]
+1817--1818;
+1818 [shape=circle, label="43:19"]
+1818--1819[label = 0.500, labelangle=110];
+1819 [shape=box, label="0:20"]
+1818--1820[label = 0.500, labelangle=110];
+1820 [shape=box, label="1:20"]
+1810--1821[label = 0.500, labelangle=110];
+1821 [shape=box, label="1:16"]
+1821--1822;
+1822 [shape=circle, label="43:17"]
+1822--1823[label = 0.500, labelangle=110];
+1823 [shape=box, label="0:18"]
+1823--1824;
+1824 [shape=circle, label="45:19"]
+1824--1825[label = 0.500, labelangle=110];
+1825 [shape=box, label="0:20"]
+1824--1826[label = 0.500, labelangle=110];
+1826 [shape=box, label="1:20"]
+1822--1827[label = 0.500, labelangle=110];
+1827 [shape=box, label="1:18"]
+1827--1828;
+1828 [shape=circle, label="33:19"]
+1828--1829[label = 0.500, labelangle=110];
+1829 [shape=box, label="0:20"]
+1828--1830[label = 0.500, labelangle=110];
+1830 [shape=box, label="1:20"]
+1784--1831[label = 0.484, labelangle=110];
+1831 [shape=box, label="1:12"]
+1831--1832;
+1832 [shape=circle, label="45:13"]
+1832--1833[label = 0.533, labelangle=110];
+1833 [shape=box, label="0:14"]
+1833--1834;
+1834 [shape=circle, label="43:15"]
+1834--1835[label = 0.500, labelangle=110];
+1835 [shape=box, label="0:16"]
+1835--1836;
+1836 [shape=circle, label="35:17"]
+1836--1837[label = 0.500, labelangle=110];
+1837 [shape=box, label="0:18"]
+1837--1838;
+1838 [shape=circle, label="44:19"]
+1838--1839[label = 0.500, labelangle=110];
+1839 [shape=box, label="0:20"]
+1838--1840[label = 0.500, labelangle=110];
+1840 [shape=box, label="1:20"]
+1836--1841[label = 0.500, labelangle=110];
+1841 [shape=box, label="1:18"]
+1841--1842;
+1842 [shape=circle, label="38:19"]
+1842--1843[label = 0.500, labelangle=110];
+1843 [shape=box, label="0:20"]
+1842--1844[label = 0.500, labelangle=110];
+1844 [shape=box, label="1:20"]
+1834--1845[label = 0.500, labelangle=110];
+1845 [shape=box, label="1:16"]
+1845--1846;
+1846 [shape=circle, label="39:17"]
+1846--1847[label = 0.500, labelangle=110];
+1847 [shape=box, label="0:18"]
+1847--1848;
+1848 [shape=circle, label="38:19"]
+1848--1849[label = 0.500, labelangle=110];
+1849 [shape=box, label="0:20"]
+1848--1850[label = 0.500, labelangle=110];
+1850 [shape=box, label="1:20"]
+1846--1851[label = 0.500, labelangle=110];
+1851 [shape=box, label="1:18"]
+1851--1852;
+1852 [shape=circle, label="44:19"]
+1852--1853[label = 0.500, labelangle=110];
+1853 [shape=box, label="0:20"]
+1852--1854[label = 0.500, labelangle=110];
+1854 [shape=box, label="1:20"]
+1832--1855[label = 0.467, labelangle=110];
+1855 [shape=box, label="1:14"]
+1855--1856;
+1856 [shape=circle, label="43:15"]
+1856--1857[label = 0.429, labelangle=110];
+1857 [shape=box, label="0:16"]
+1857--1858;
+1858 [shape=circle, label="41:17"]
+1858--1859[label = 0.667, labelangle=110];
+1859 [shape=box, label="0:18"]
+1859--1860;
+1860 [shape=circle, label="37:19"]
+1860--1861[label = 0.500, labelangle=110];
+1861 [shape=box, label="0:20"]
+1860--1862[label = 0.500, labelangle=110];
+1862 [shape=box, label="1:20"]
+1858--1863[label = 0.333, labelangle=110];
+1863 [shape=box, label="1:18"]
+1856--1864[label = 0.571, labelangle=110];
+1864 [shape=box, label="1:16"]
+1864--1865;
+1865 [shape=circle, label="39:17"]
+1865--1866[label = 0.500, labelangle=110];
+1866 [shape=box, label="0:18"]
+1866--1867;
+1867 [shape=circle, label="41:19"]
+1867--1868[label = 0.500, labelangle=110];
+1868 [shape=box, label="0:20"]
+1867--1869[label = 0.500, labelangle=110];
+1869 [shape=box, label="1:20"]
+1865--1870[label = 0.500, labelangle=110];
+1870 [shape=box, label="1:18"]
+1870--1871;
+1871 [shape=circle, label="44:19"]
+1871--1872[label = 0.500, labelangle=110];
+1872 [shape=box, label="0:20"]
+1871--1873[label = 0.500, labelangle=110];
+1873 [shape=box, label="1:20"]
+1503--1874[label = 0.500, labelangle=110];
+1874 [shape=box, label="1:6"]
+1874--1875;
+1875 [shape=circle, label="13:7"]
+1875--1876[label = 0.500, labelangle=110];
+1876 [shape=box, label="0:8"]
+1876--1877;
+1877 [shape=circle, label="39:9"]
+1877--1878[label = 0.500, labelangle=110];
+1878 [shape=box, label="0:10"]
+1878--1879;
+1879 [shape=circle, label="37:11"]
+1879--1880[label = 0.484, labelangle=110];
+1880 [shape=box, label="0:12"]
+1880--1881;
+1881 [shape=circle, label="45:13"]
+1881--1882[label = 0.467, labelangle=110];
+1882 [shape=box, label="0:14"]
+1882--1883;
+1883 [shape=circle, label="43:15"]
+1883--1884[label = 0.429, labelangle=110];
+1884 [shape=box, label="0:16"]
+1884--1885;
+1885 [shape=circle, label="44:17"]
+1885--1886[label = 0.667, labelangle=110];
+1886 [shape=box, label="0:18"]
+1886--1887;
+1887 [shape=circle, label="38:19"]
+1887--1888[label = 0.500, labelangle=110];
+1888 [shape=box, label="0:20"]
+1887--1889[label = 0.500, labelangle=110];
+1889 [shape=box, label="1:20"]
+1885--1890[label = 0.333, labelangle=110];
+1890 [shape=box, label="1:18"]
+1883--1891[label = 0.571, labelangle=110];
+1891 [shape=box, label="1:16"]
+1891--1892;
+1892 [shape=circle, label="27:17"]
+1892--1893[label = 0.500, labelangle=110];
+1893 [shape=box, label="0:18"]
+1893--1894;
+1894 [shape=circle, label="41:19"]
+1894--1895[label = 0.500, labelangle=110];
+1895 [shape=box, label="0:20"]
+1894--1896[label = 0.500, labelangle=110];
+1896 [shape=box, label="1:20"]
+1892--1897[label = 0.500, labelangle=110];
+1897 [shape=box, label="1:18"]
+1897--1898;
+1898 [shape=circle, label="42:19"]
+1898--1899[label = 0.500, labelangle=110];
+1899 [shape=box, label="0:20"]
+1898--1900[label = 0.500, labelangle=110];
+1900 [shape=box, label="1:20"]
+1881--1901[label = 0.533, labelangle=110];
+1901 [shape=box, label="1:14"]
+1901--1902;
+1902 [shape=circle, label="42:15"]
+1902--1903[label = 0.500, labelangle=110];
+1903 [shape=box, label="0:16"]
+1903--1904;
+1904 [shape=circle, label="41:17"]
+1904--1905[label = 0.500, labelangle=110];
+1905 [shape=box, label="0:18"]
+1905--1906;
+1906 [shape=circle, label="36:19"]
+1906--1907[label = 0.500, labelangle=110];
+1907 [shape=box, label="0:20"]
+1906--1908[label = 0.500, labelangle=110];
+1908 [shape=box, label="1:20"]
+1904--1909[label = 0.500, labelangle=110];
+1909 [shape=box, label="1:18"]
+1909--1910;
+1910 [shape=circle, label="43:19"]
+1910--1911[label = 0.500, labelangle=110];
+1911 [shape=box, label="0:20"]
+1910--1912[label = 0.500, labelangle=110];
+1912 [shape=box, label="1:20"]
+1902--1913[label = 0.500, labelangle=110];
+1913 [shape=box, label="1:16"]
+1913--1914;
+1914 [shape=circle, label="40:17"]
+1914--1915[label = 0.500, labelangle=110];
+1915 [shape=box, label="0:18"]
+1915--1916;
+1916 [shape=circle, label="43:19"]
+1916--1917[label = 0.500, labelangle=110];
+1917 [shape=box, label="0:20"]
+1916--1918[label = 0.500, labelangle=110];
+1918 [shape=box, label="1:20"]
+1914--1919[label = 0.500, labelangle=110];
+1919 [shape=box, label="1:18"]
+1919--1920;
+1920 [shape=circle, label="33:19"]
+1920--1921[label = 0.500, labelangle=110];
+1921 [shape=box, label="0:20"]
+1920--1922[label = 0.500, labelangle=110];
+1922 [shape=box, label="1:20"]
+1879--1923[label = 0.516, labelangle=110];
+1923 [shape=box, label="1:12"]
+1923--1924;
+1924 [shape=circle, label="25:13"]
+1924--1925[label = 0.500, labelangle=110];
+1925 [shape=box, label="0:14"]
+1925--1926;
+1926 [shape=circle, label="27:15"]
+1926--1927[label = 0.500, labelangle=110];
+1927 [shape=box, label="0:16"]
+1927--1928;
+1928 [shape=circle, label="45:17"]
+1928--1929[label = 0.500, labelangle=110];
+1929 [shape=box, label="0:18"]
+1929--1930;
+1930 [shape=circle, label="42:19"]
+1930--1931[label = 0.500, labelangle=110];
+1931 [shape=box, label="0:20"]
+1930--1932[label = 0.500, labelangle=110];
+1932 [shape=box, label="1:20"]
+1928--1933[label = 0.500, labelangle=110];
+1933 [shape=box, label="1:18"]
+1933--1934;
+1934 [shape=circle, label="42:19"]
+1934--1935[label = 0.500, labelangle=110];
+1935 [shape=box, label="0:20"]
+1934--1936[label = 0.500, labelangle=110];
+1936 [shape=box, label="1:20"]
+1926--1937[label = 0.500, labelangle=110];
+1937 [shape=box, label="1:16"]
+1937--1938;
+1938 [shape=circle, label="18:17"]
+1938--1939[label = 0.500, labelangle=110];
+1939 [shape=box, label="0:18"]
+1939--1940;
+1940 [shape=circle, label="45:19"]
+1940--1941[label = 0.500, labelangle=110];
+1941 [shape=box, label="0:20"]
+1940--1942[label = 0.500, labelangle=110];
+1942 [shape=box, label="1:20"]
+1938--1943[label = 0.500, labelangle=110];
+1943 [shape=box, label="1:18"]
+1943--1944;
+1944 [shape=circle, label="42:19"]
+1944--1945[label = 0.500, labelangle=110];
+1945 [shape=box, label="0:20"]
+1944--1946[label = 0.500, labelangle=110];
+1946 [shape=box, label="1:20"]
+1924--1947[label = 0.500, labelangle=110];
+1947 [shape=box, label="1:14"]
+1947--1948;
+1948 [shape=circle, label="45:15"]
+1948--1949[label = 0.500, labelangle=110];
+1949 [shape=box, label="0:16"]
+1949--1950;
+1950 [shape=circle, label="43:17"]
+1950--1951[label = 0.500, labelangle=110];
+1951 [shape=box, label="0:18"]
+1951--1952;
+1952 [shape=circle, label="44:19"]
+1952--1953[label = 0.500, labelangle=110];
+1953 [shape=box, label="0:20"]
+1952--1954[label = 0.500, labelangle=110];
+1954 [shape=box, label="1:20"]
+1950--1955[label = 0.500, labelangle=110];
+1955 [shape=box, label="1:18"]
+1955--1956;
+1956 [shape=circle, label="41:19"]
+1956--1957[label = 0.500, labelangle=110];
+1957 [shape=box, label="0:20"]
+1956--1958[label = 0.500, labelangle=110];
+1958 [shape=box, label="1:20"]
+1948--1959[label = 0.500, labelangle=110];
+1959 [shape=box, label="1:16"]
+1959--1960;
+1960 [shape=circle, label="42:17"]
+1960--1961[label = 0.500, labelangle=110];
+1961 [shape=box, label="0:18"]
+1961--1962;
+1962 [shape=circle, label="41:19"]
+1962--1963[label = 0.500, labelangle=110];
+1963 [shape=box, label="0:20"]
+1962--1964[label = 0.500, labelangle=110];
+1964 [shape=box, label="1:20"]
+1960--1965[label = 0.500, labelangle=110];
+1965 [shape=box, label="1:18"]
+1965--1966;
+1966 [shape=circle, label="44:19"]
+1966--1967[label = 0.500, labelangle=110];
+1967 [shape=box, label="0:20"]
+1966--1968[label = 0.500, labelangle=110];
+1968 [shape=box, label="1:20"]
+1877--1969[label = 0.500, labelangle=110];
+1969 [shape=box, label="1:10"]
+1969--1970;
+1970 [shape=circle, label="45:11"]
+1970--1971[label = 0.484, labelangle=110];
+1971 [shape=box, label="0:12"]
+1971--1972;
+1972 [shape=circle, label="43:13"]
+1972--1973[label = 0.533, labelangle=110];
+1973 [shape=box, label="0:14"]
+1973--1974;
+1974 [shape=circle, label="28:15"]
+1974--1975[label = 0.500, labelangle=110];
+1975 [shape=box, label="0:16"]
+1975--1976;
+1976 [shape=circle, label="42:17"]
+1976--1977[label = 0.500, labelangle=110];
+1977 [shape=box, label="0:18"]
+1977--1978;
+1978 [shape=circle, label="41:19"]
+1978--1979[label = 0.500, labelangle=110];
+1979 [shape=box, label="0:20"]
+1978--1980[label = 0.500, labelangle=110];
+1980 [shape=box, label="1:20"]
+1976--1981[label = 0.500, labelangle=110];
+1981 [shape=box, label="1:18"]
+1981--1982;
+1982 [shape=circle, label="36:19"]
+1982--1983[label = 0.500, labelangle=110];
+1983 [shape=box, label="0:20"]
+1982--1984[label = 0.500, labelangle=110];
+1984 [shape=box, label="1:20"]
+1974--1985[label = 0.500, labelangle=110];
+1985 [shape=box, label="1:16"]
+1985--1986;
+1986 [shape=circle, label="41:17"]
+1986--1987[label = 0.500, labelangle=110];
+1987 [shape=box, label="0:18"]
+1987--1988;
+1988 [shape=circle, label="44:19"]
+1988--1989[label = 0.500, labelangle=110];
+1989 [shape=box, label="0:20"]
+1988--1990[label = 0.500, labelangle=110];
+1990 [shape=box, label="1:20"]
+1986--1991[label = 0.500, labelangle=110];
+1991 [shape=box, label="1:18"]
+1991--1992;
+1992 [shape=circle, label="37:19"]
+1992--1993[label = 0.500, labelangle=110];
+1993 [shape=box, label="0:20"]
+1992--1994[label = 0.500, labelangle=110];
+1994 [shape=box, label="1:20"]
+1972--1995[label = 0.467, labelangle=110];
+1995 [shape=box, label="1:14"]
+1995--1996;
+1996 [shape=circle, label="44:15"]
+1996--1997[label = 0.429, labelangle=110];
+1997 [shape=box, label="0:16"]
+1997--1998;
+1998 [shape=circle, label="42:17"]
+1998--1999[label = 0.333, labelangle=110];
+1999 [shape=box, label="0:18"]
+1998--2000[label = 0.667, labelangle=110];
+2000 [shape=box, label="1:18"]
+2000--2001;
+2001 [shape=circle, label="41:19"]
+2001--2002[label = 0.500, labelangle=110];
+2002 [shape=box, label="0:20"]
+2001--2003[label = 0.500, labelangle=110];
+2003 [shape=box, label="1:20"]
+1996--2004[label = 0.571, labelangle=110];
+2004 [shape=box, label="1:16"]
+2004--2005;
+2005 [shape=circle, label="37:17"]
+2005--2006[label = 0.500, labelangle=110];
+2006 [shape=box, label="0:18"]
+2006--2007;
+2007 [shape=circle, label="42:19"]
+2007--2008[label = 0.500, labelangle=110];
+2008 [shape=box, label="0:20"]
+2007--2009[label = 0.500, labelangle=110];
+2009 [shape=box, label="1:20"]
+2005--2010[label = 0.500, labelangle=110];
+2010 [shape=box, label="1:18"]
+2010--2011;
+2011 [shape=circle, label="40:19"]
+2011--2012[label = 0.500, labelangle=110];
+2012 [shape=box, label="0:20"]
+2011--2013[label = 0.500, labelangle=110];
+2013 [shape=box, label="1:20"]
+1970--2014[label = 0.516, labelangle=110];
+2014 [shape=box, label="1:12"]
+2014--2015;
+2015 [shape=circle, label="43:13"]
+2015--2016[label = 0.500, labelangle=110];
+2016 [shape=box, label="0:14"]
+2016--2017;
+2017 [shape=circle, label="33:15"]
+2017--2018[label = 0.500, labelangle=110];
+2018 [shape=box, label="0:16"]
+2018--2019;
+2019 [shape=circle, label="41:17"]
+2019--2020[label = 0.500, labelangle=110];
+2020 [shape=box, label="0:18"]
+2020--2021;
+2021 [shape=circle, label="38:19"]
+2021--2022[label = 0.500, labelangle=110];
+2022 [shape=box, label="0:20"]
+2021--2023[label = 0.500, labelangle=110];
+2023 [shape=box, label="1:20"]
+2019--2024[label = 0.500, labelangle=110];
+2024 [shape=box, label="1:18"]
+2024--2025;
+2025 [shape=circle, label="42:19"]
+2025--2026[label = 0.500, labelangle=110];
+2026 [shape=box, label="0:20"]
+2025--2027[label = 0.500, labelangle=110];
+2027 [shape=box, label="1:20"]
+2017--2028[label = 0.500, labelangle=110];
+2028 [shape=box, label="1:16"]
+2028--2029;
+2029 [shape=circle, label="44:17"]
+2029--2030[label = 0.500, labelangle=110];
+2030 [shape=box, label="0:18"]
+2030--2031;
+2031 [shape=circle, label="37:19"]
+2031--2032[label = 0.500, labelangle=110];
+2032 [shape=box, label="0:20"]
+2031--2033[label = 0.500, labelangle=110];
+2033 [shape=box, label="1:20"]
+2029--2034[label = 0.500, labelangle=110];
+2034 [shape=box, label="1:18"]
+2034--2035;
+2035 [shape=circle, label="41:19"]
+2035--2036[label = 0.500, labelangle=110];
+2036 [shape=box, label="0:20"]
+2035--2037[label = 0.500, labelangle=110];
+2037 [shape=box, label="1:20"]
+2015--2038[label = 0.500, labelangle=110];
+2038 [shape=box, label="1:14"]
+2038--2039;
+2039 [shape=circle, label="42:15"]
+2039--2040[label = 0.500, labelangle=110];
+2040 [shape=box, label="0:16"]
+2040--2041;
+2041 [shape=circle, label="41:17"]
+2041--2042[label = 0.500, labelangle=110];
+2042 [shape=box, label="0:18"]
+2042--2043;
+2043 [shape=circle, label="44:19"]
+2043--2044[label = 0.500, labelangle=110];
+2044 [shape=box, label="0:20"]
+2043--2045[label = 0.500, labelangle=110];
+2045 [shape=box, label="1:20"]
+2041--2046[label = 0.500, labelangle=110];
+2046 [shape=box, label="1:18"]
+2046--2047;
+2047 [shape=circle, label="37:19"]
+2047--2048[label = 0.500, labelangle=110];
+2048 [shape=box, label="0:20"]
+2047--2049[label = 0.500, labelangle=110];
+2049 [shape=box, label="1:20"]
+2039--2050[label = 0.500, labelangle=110];
+2050 [shape=box, label="1:16"]
+2050--2051;
+2051 [shape=circle, label="44:17"]
+2051--2052[label = 0.500, labelangle=110];
+2052 [shape=box, label="0:18"]
+2052--2053;
+2053 [shape=circle, label="41:19"]
+2053--2054[label = 0.500, labelangle=110];
+2054 [shape=box, label="0:20"]
+2053--2055[label = 0.500, labelangle=110];
+2055 [shape=box, label="1:20"]
+2051--2056[label = 0.500, labelangle=110];
+2056 [shape=box, label="1:18"]
+2056--2057;
+2057 [shape=circle, label="40:19"]
+2057--2058[label = 0.500, labelangle=110];
+2058 [shape=box, label="0:20"]
+2057--2059[label = 0.500, labelangle=110];
+2059 [shape=box, label="1:20"]
+1875--2060[label = 0.500, labelangle=110];
+2060 [shape=box, label="1:8"]
+2060--2061;
+2061 [shape=circle, label="23:9"]
+2061--2062[label = 0.500, labelangle=110];
+2062 [shape=box, label="0:10"]
+2062--2063;
+2063 [shape=circle, label="33:11"]
+2063--2064[label = 0.484, labelangle=110];
+2064 [shape=box, label="0:12"]
+2064--2065;
+2065 [shape=circle, label="45:13"]
+2065--2066[label = 0.533, labelangle=110];
+2066 [shape=box, label="0:14"]
+2066--2067;
+2067 [shape=circle, label="44:15"]
+2067--2068[label = 0.500, labelangle=110];
+2068 [shape=box, label="0:16"]
+2068--2069;
+2069 [shape=circle, label="37:17"]
+2069--2070[label = 0.500, labelangle=110];
+2070 [shape=box, label="0:18"]
+2070--2071;
+2071 [shape=circle, label="40:19"]
+2071--2072[label = 0.500, labelangle=110];
+2072 [shape=box, label="0:20"]
+2071--2073[label = 0.500, labelangle=110];
+2073 [shape=box, label="1:20"]
+2069--2074[label = 0.500, labelangle=110];
+2074 [shape=box, label="1:18"]
+2074--2075;
+2075 [shape=circle, label="43:19"]
+2075--2076[label = 0.500, labelangle=110];
+2076 [shape=box, label="0:20"]
+2075--2077[label = 0.500, labelangle=110];
+2077 [shape=box, label="1:20"]
+2067--2078[label = 0.500, labelangle=110];
+2078 [shape=box, label="1:16"]
+2078--2079;
+2079 [shape=circle, label="37:17"]
+2079--2080[label = 0.500, labelangle=110];
+2080 [shape=box, label="0:18"]
+2080--2081;
+2081 [shape=circle, label="41:19"]
+2081--2082[label = 0.500, labelangle=110];
+2082 [shape=box, label="0:20"]
+2081--2083[label = 0.500, labelangle=110];
+2083 [shape=box, label="1:20"]
+2079--2084[label = 0.500, labelangle=110];
+2084 [shape=box, label="1:18"]
+2084--2085;
+2085 [shape=circle, label="43:19"]
+2085--2086[label = 0.500, labelangle=110];
+2086 [shape=box, label="0:20"]
+2085--2087[label = 0.500, labelangle=110];
+2087 [shape=box, label="1:20"]
+2065--2088[label = 0.467, labelangle=110];
+2088 [shape=box, label="1:14"]
+2088--2089;
+2089 [shape=circle, label="42:15"]
+2089--2090[label = 0.429, labelangle=110];
+2090 [shape=box, label="0:16"]
+2090--2091;
+2091 [shape=circle, label="43:17"]
+2091--2092[label = 0.667, labelangle=110];
+2092 [shape=box, label="0:18"]
+2092--2093;
+2093 [shape=circle, label="41:19"]
+2093--2094[label = 0.500, labelangle=110];
+2094 [shape=box, label="0:20"]
+2093--2095[label = 0.500, labelangle=110];
+2095 [shape=box, label="1:20"]
+2091--2096[label = 0.333, labelangle=110];
+2096 [shape=box, label="1:18"]
+2089--2097[label = 0.571, labelangle=110];
+2097 [shape=box, label="1:16"]
+2097--2098;
+2098 [shape=circle, label="39:17"]
+2098--2099[label = 0.500, labelangle=110];
+2099 [shape=box, label="0:18"]
+2099--2100;
+2100 [shape=circle, label="37:19"]
+2100--2101[label = 0.500, labelangle=110];
+2101 [shape=box, label="0:20"]
+2100--2102[label = 0.500, labelangle=110];
+2102 [shape=box, label="1:20"]
+2098--2103[label = 0.500, labelangle=110];
+2103 [shape=box, label="1:18"]
+2103--2104;
+2104 [shape=circle, label="36:19"]
+2104--2105[label = 0.500, labelangle=110];
+2105 [shape=box, label="0:20"]
+2104--2106[label = 0.500, labelangle=110];
+2106 [shape=box, label="1:20"]
+2063--2107[label = 0.516, labelangle=110];
+2107 [shape=box, label="1:12"]
+2107--2108;
+2108 [shape=circle, label="43:13"]
+2108--2109[label = 0.500, labelangle=110];
+2109 [shape=box, label="0:14"]
+2109--2110;
+2110 [shape=circle, label="42:15"]
+2110--2111[label = 0.500, labelangle=110];
+2111 [shape=box, label="0:16"]
+2111--2112;
+2112 [shape=circle, label="41:17"]
+2112--2113[label = 0.500, labelangle=110];
+2113 [shape=box, label="0:18"]
+2113--2114;
+2114 [shape=circle, label="44:19"]
+2114--2115[label = 0.500, labelangle=110];
+2115 [shape=box, label="0:20"]
+2114--2116[label = 0.500, labelangle=110];
+2116 [shape=box, label="1:20"]
+2112--2117[label = 0.500, labelangle=110];
+2117 [shape=box, label="1:18"]
+2117--2118;
+2118 [shape=circle, label="45:19"]
+2118--2119[label = 0.500, labelangle=110];
+2119 [shape=box, label="0:20"]
+2118--2120[label = 0.500, labelangle=110];
+2120 [shape=box, label="1:20"]
+2110--2121[label = 0.500, labelangle=110];
+2121 [shape=box, label="1:16"]
+2121--2122;
+2122 [shape=circle, label="41:17"]
+2122--2123[label = 0.500, labelangle=110];
+2123 [shape=box, label="0:18"]
+2123--2124;
+2124 [shape=circle, label="44:19"]
+2124--2125[label = 0.500, labelangle=110];
+2125 [shape=box, label="0:20"]
+2124--2126[label = 0.500, labelangle=110];
+2126 [shape=box, label="1:20"]
+2122--2127[label = 0.500, labelangle=110];
+2127 [shape=box, label="1:18"]
+2127--2128;
+2128 [shape=circle, label="45:19"]
+2128--2129[label = 0.500, labelangle=110];
+2129 [shape=box, label="0:20"]
+2128--2130[label = 0.500, labelangle=110];
+2130 [shape=box, label="1:20"]
+2108--2131[label = 0.500, labelangle=110];
+2131 [shape=box, label="1:14"]
+2131--2132;
+2132 [shape=circle, label="42:15"]
+2132--2133[label = 0.500, labelangle=110];
+2133 [shape=box, label="0:16"]
+2133--2134;
+2134 [shape=circle, label="44:17"]
+2134--2135[label = 0.500, labelangle=110];
+2135 [shape=box, label="0:18"]
+2135--2136;
+2136 [shape=circle, label="40:19"]
+2136--2137[label = 0.500, labelangle=110];
+2137 [shape=box, label="0:20"]
+2136--2138[label = 0.500, labelangle=110];
+2138 [shape=box, label="1:20"]
+2134--2139[label = 0.500, labelangle=110];
+2139 [shape=box, label="1:18"]
+2139--2140;
+2140 [shape=circle, label="38:19"]
+2140--2141[label = 0.500, labelangle=110];
+2141 [shape=box, label="0:20"]
+2140--2142[label = 0.500, labelangle=110];
+2142 [shape=box, label="1:20"]
+2132--2143[label = 0.500, labelangle=110];
+2143 [shape=box, label="1:16"]
+2143--2144;
+2144 [shape=circle, label="45:17"]
+2144--2145[label = 0.500, labelangle=110];
+2145 [shape=box, label="0:18"]
+2145--2146;
+2146 [shape=circle, label="41:19"]
+2146--2147[label = 0.500, labelangle=110];
+2147 [shape=box, label="0:20"]
+2146--2148[label = 0.500, labelangle=110];
+2148 [shape=box, label="1:20"]
+2144--2149[label = 0.500, labelangle=110];
+2149 [shape=box, label="1:18"]
+2149--2150;
+2150 [shape=circle, label="31:19"]
+2150--2151[label = 0.500, labelangle=110];
+2151 [shape=box, label="0:20"]
+2150--2152[label = 0.500, labelangle=110];
+2152 [shape=box, label="1:20"]
+2061--2153[label = 0.500, labelangle=110];
+2153 [shape=box, label="1:10"]
+2153--2154;
+2154 [shape=circle, label="45:11"]
+2154--2155[label = 0.516, labelangle=110];
+2155 [shape=box, label="0:12"]
+2155--2156;
+2156 [shape=circle, label="41:13"]
+2156--2157[label = 0.500, labelangle=110];
+2157 [shape=box, label="0:14"]
+2157--2158;
+2158 [shape=circle, label="32:15"]
+2158--2159[label = 0.500, labelangle=110];
+2159 [shape=box, label="0:16"]
+2159--2160;
+2160 [shape=circle, label="42:17"]
+2160--2161[label = 0.500, labelangle=110];
+2161 [shape=box, label="0:18"]
+2161--2162;
+2162 [shape=circle, label="44:19"]
+2162--2163[label = 0.500, labelangle=110];
+2163 [shape=box, label="0:20"]
+2162--2164[label = 0.500, labelangle=110];
+2164 [shape=box, label="1:20"]
+2160--2165[label = 0.500, labelangle=110];
+2165 [shape=box, label="1:18"]
+2165--2166;
+2166 [shape=circle, label="37:19"]
+2166--2167[label = 0.500, labelangle=110];
+2167 [shape=box, label="0:20"]
+2166--2168[label = 0.500, labelangle=110];
+2168 [shape=box, label="1:20"]
+2158--2169[label = 0.500, labelangle=110];
+2169 [shape=box, label="1:16"]
+2169--2170;
+2170 [shape=circle, label="44:17"]
+2170--2171[label = 0.500, labelangle=110];
+2171 [shape=box, label="0:18"]
+2171--2172;
+2172 [shape=circle, label="42:19"]
+2172--2173[label = 0.500, labelangle=110];
+2173 [shape=box, label="0:20"]
+2172--2174[label = 0.500, labelangle=110];
+2174 [shape=box, label="1:20"]
+2170--2175[label = 0.500, labelangle=110];
+2175 [shape=box, label="1:18"]
+2175--2176;
+2176 [shape=circle, label="38:19"]
+2176--2177[label = 0.500, labelangle=110];
+2177 [shape=box, label="0:20"]
+2176--2178[label = 0.500, labelangle=110];
+2178 [shape=box, label="1:20"]
+2156--2179[label = 0.500, labelangle=110];
+2179 [shape=box, label="1:14"]
+2179--2180;
+2180 [shape=circle, label="44:15"]
+2180--2181[label = 0.500, labelangle=110];
+2181 [shape=box, label="0:16"]
+2181--2182;
+2182 [shape=circle, label="43:17"]
+2182--2183[label = 0.500, labelangle=110];
+2183 [shape=box, label="0:18"]
+2183--2184;
+2184 [shape=circle, label="37:19"]
+2184--2185[label = 0.500, labelangle=110];
+2185 [shape=box, label="0:20"]
+2184--2186[label = 0.500, labelangle=110];
+2186 [shape=box, label="1:20"]
+2182--2187[label = 0.500, labelangle=110];
+2187 [shape=box, label="1:18"]
+2187--2188;
+2188 [shape=circle, label="42:19"]
+2188--2189[label = 0.500, labelangle=110];
+2189 [shape=box, label="0:20"]
+2188--2190[label = 0.500, labelangle=110];
+2190 [shape=box, label="1:20"]
+2180--2191[label = 0.500, labelangle=110];
+2191 [shape=box, label="1:16"]
+2191--2192;
+2192 [shape=circle, label="38:17"]
+2192--2193[label = 0.500, labelangle=110];
+2193 [shape=box, label="0:18"]
+2193--2194;
+2194 [shape=circle, label="39:19"]
+2194--2195[label = 0.500, labelangle=110];
+2195 [shape=box, label="0:20"]
+2194--2196[label = 0.500, labelangle=110];
+2196 [shape=box, label="1:20"]
+2192--2197[label = 0.500, labelangle=110];
+2197 [shape=box, label="1:18"]
+2197--2198;
+2198 [shape=circle, label="43:19"]
+2198--2199[label = 0.500, labelangle=110];
+2199 [shape=box, label="0:20"]
+2198--2200[label = 0.500, labelangle=110];
+2200 [shape=box, label="1:20"]
+2154--2201[label = 0.484, labelangle=110];
+2201 [shape=box, label="1:12"]
+2201--2202;
+2202 [shape=circle, label="43:13"]
+2202--2203[label = 0.467, labelangle=110];
+2203 [shape=box, label="0:14"]
+2203--2204;
+2204 [shape=circle, label="41:15"]
+2204--2205[label = 0.429, labelangle=110];
+2205 [shape=box, label="0:16"]
+2205--2206;
+2206 [shape=circle, label="39:17"]
+2206--2207[label = 0.333, labelangle=110];
+2207 [shape=box, label="0:18"]
+2206--2208[label = 0.667, labelangle=110];
+2208 [shape=box, label="1:18"]
+2208--2209;
+2209 [shape=circle, label="38:19"]
+2209--2210[label = 0.500, labelangle=110];
+2210 [shape=box, label="0:20"]
+2209--2211[label = 0.500, labelangle=110];
+2211 [shape=box, label="1:20"]
+2204--2212[label = 0.571, labelangle=110];
+2212 [shape=box, label="1:16"]
+2212--2213;
+2213 [shape=circle, label="44:17"]
+2213--2214[label = 0.500, labelangle=110];
+2214 [shape=box, label="0:18"]
+2214--2215;
+2215 [shape=circle, label="40:19"]
+2215--2216[label = 0.500, labelangle=110];
+2216 [shape=box, label="0:20"]
+2215--2217[label = 0.500, labelangle=110];
+2217 [shape=box, label="1:20"]
+2213--2218[label = 0.500, labelangle=110];
+2218 [shape=box, label="1:18"]
+2218--2219;
+2219 [shape=circle, label="42:19"]
+2219--2220[label = 0.500, labelangle=110];
+2220 [shape=box, label="0:20"]
+2219--2221[label = 0.500, labelangle=110];
+2221 [shape=box, label="1:20"]
+2202--2222[label = 0.533, labelangle=110];
+2222 [shape=box, label="1:14"]
+2222--2223;
+2223 [shape=circle, label="42:15"]
+2223--2224[label = 0.500, labelangle=110];
+2224 [shape=box, label="0:16"]
+2224--2225;
+2225 [shape=circle, label="41:17"]
+2225--2226[label = 0.500, labelangle=110];
+2226 [shape=box, label="0:18"]
+2226--2227;
+2227 [shape=circle, label="40:19"]
+2227--2228[label = 0.500, labelangle=110];
+2228 [shape=box, label="0:20"]
+2227--2229[label = 0.500, labelangle=110];
+2229 [shape=box, label="1:20"]
+2225--2230[label = 0.500, labelangle=110];
+2230 [shape=box, label="1:18"]
+2230--2231;
+2231 [shape=circle, label="44:19"]
+2231--2232[label = 0.500, labelangle=110];
+2232 [shape=box, label="0:20"]
+2231--2233[label = 0.500, labelangle=110];
+2233 [shape=box, label="1:20"]
+2223--2234[label = 0.500, labelangle=110];
+2234 [shape=box, label="1:16"]
+2234--2235;
+2235 [shape=circle, label="44:17"]
+2235--2236[label = 0.500, labelangle=110];
+2236 [shape=box, label="0:18"]
+2236--2237;
+2237 [shape=circle, label="40:19"]
+2237--2238[label = 0.500, labelangle=110];
+2238 [shape=box, label="0:20"]
+2237--2239[label = 0.500, labelangle=110];
+2239 [shape=box, label="1:20"]
+2235--2240[label = 0.500, labelangle=110];
+2240 [shape=box, label="1:18"]
+2240--2241;
+2241 [shape=circle, label="41:19"]
+2241--2242[label = 0.500, labelangle=110];
+2242 [shape=box, label="0:20"]
+2241--2243[label = 0.500, labelangle=110];
+2243 [shape=box, label="1:20"]
+1501--2244[label = 0.504, labelangle=110];
+2244 [shape=box, label="1:4"]
+2244--2245;
+2245 [shape=circle, label="45:5"]
+2245--2246[label = 0.500, labelangle=110];
+2246 [shape=box, label="0:6"]
+2246--2247;
+2247 [shape=circle, label="43:7"]
+2247--2248[label = 0.492, labelangle=110];
+2248 [shape=box, label="0:8"]
+2248--2249;
+2249 [shape=circle, label="16:9"]
+2249--2250[label = 0.500, labelangle=110];
+2250 [shape=box, label="0:10"]
+2250--2251;
+2251 [shape=circle, label="41:11"]
+2251--2252[label = 0.516, labelangle=110];
+2252 [shape=box, label="0:12"]
+2252--2253;
+2253 [shape=circle, label="25:13"]
+2253--2254[label = 0.500, labelangle=110];
+2254 [shape=box, label="0:14"]
+2254--2255;
+2255 [shape=circle, label="39:15"]
+2255--2256[label = 0.500, labelangle=110];
+2256 [shape=box, label="0:16"]
+2256--2257;
+2257 [shape=circle, label="36:17"]
+2257--2258[label = 0.500, labelangle=110];
+2258 [shape=box, label="0:18"]
+2258--2259;
+2259 [shape=circle, label="40:19"]
+2259--2260[label = 0.500, labelangle=110];
+2260 [shape=box, label="0:20"]
+2259--2261[label = 0.500, labelangle=110];
+2261 [shape=box, label="1:20"]
+2257--2262[label = 0.500, labelangle=110];
+2262 [shape=box, label="1:18"]
+2262--2263;
+2263 [shape=circle, label="42:19"]
+2263--2264[label = 0.500, labelangle=110];
+2264 [shape=box, label="0:20"]
+2263--2265[label = 0.500, labelangle=110];
+2265 [shape=box, label="1:20"]
+2255--2266[label = 0.500, labelangle=110];
+2266 [shape=box, label="1:16"]
+2266--2267;
+2267 [shape=circle, label="42:17"]
+2267--2268[label = 0.500, labelangle=110];
+2268 [shape=box, label="0:18"]
+2268--2269;
+2269 [shape=circle, label="40:19"]
+2269--2270[label = 0.500, labelangle=110];
+2270 [shape=box, label="0:20"]
+2269--2271[label = 0.500, labelangle=110];
+2271 [shape=box, label="1:20"]
+2267--2272[label = 0.500, labelangle=110];
+2272 [shape=box, label="1:18"]
+2272--2273;
+2273 [shape=circle, label="40:19"]
+2273--2274[label = 0.500, labelangle=110];
+2274 [shape=box, label="0:20"]
+2273--2275[label = 0.500, labelangle=110];
+2275 [shape=box, label="1:20"]
+2253--2276[label = 0.500, labelangle=110];
+2276 [shape=box, label="1:14"]
+2276--2277;
+2277 [shape=circle, label="32:15"]
+2277--2278[label = 0.500, labelangle=110];
+2278 [shape=box, label="0:16"]
+2278--2279;
+2279 [shape=circle, label="36:17"]
+2279--2280[label = 0.500, labelangle=110];
+2280 [shape=box, label="0:18"]
+2280--2281;
+2281 [shape=circle, label="42:19"]
+2281--2282[label = 0.500, labelangle=110];
+2282 [shape=box, label="0:20"]
+2281--2283[label = 0.500, labelangle=110];
+2283 [shape=box, label="1:20"]
+2279--2284[label = 0.500, labelangle=110];
+2284 [shape=box, label="1:18"]
+2284--2285;
+2285 [shape=circle, label="44:19"]
+2285--2286[label = 0.500, labelangle=110];
+2286 [shape=box, label="0:20"]
+2285--2287[label = 0.500, labelangle=110];
+2287 [shape=box, label="1:20"]
+2277--2288[label = 0.500, labelangle=110];
+2288 [shape=box, label="1:16"]
+2288--2289;
+2289 [shape=circle, label="42:17"]
+2289--2290[label = 0.500, labelangle=110];
+2290 [shape=box, label="0:18"]
+2290--2291;
+2291 [shape=circle, label="44:19"]
+2291--2292[label = 0.500, labelangle=110];
+2292 [shape=box, label="0:20"]
+2291--2293[label = 0.500, labelangle=110];
+2293 [shape=box, label="1:20"]
+2289--2294[label = 0.500, labelangle=110];
+2294 [shape=box, label="1:18"]
+2294--2295;
+2295 [shape=circle, label="28:19"]
+2295--2296[label = 0.500, labelangle=110];
+2296 [shape=box, label="0:20"]
+2295--2297[label = 0.500, labelangle=110];
+2297 [shape=box, label="1:20"]
+2251--2298[label = 0.484, labelangle=110];
+2298 [shape=box, label="1:12"]
+2298--2299;
+2299 [shape=circle, label="42:13"]
+2299--2300[label = 0.467, labelangle=110];
+2300 [shape=box, label="0:14"]
+2300--2301;
+2301 [shape=circle, label="44:15"]
+2301--2302[label = 0.571, labelangle=110];
+2302 [shape=box, label="0:16"]
+2302--2303;
+2303 [shape=circle, label="32:17"]
+2303--2304[label = 0.500, labelangle=110];
+2304 [shape=box, label="0:18"]
+2304--2305;
+2305 [shape=circle, label="37:19"]
+2305--2306[label = 0.500, labelangle=110];
+2306 [shape=box, label="0:20"]
+2305--2307[label = 0.500, labelangle=110];
+2307 [shape=box, label="1:20"]
+2303--2308[label = 0.500, labelangle=110];
+2308 [shape=box, label="1:18"]
+2308--2309;
+2309 [shape=circle, label="40:19"]
+2309--2310[label = 0.500, labelangle=110];
+2310 [shape=box, label="0:20"]
+2309--2311[label = 0.500, labelangle=110];
+2311 [shape=box, label="1:20"]
+2301--2312[label = 0.429, labelangle=110];
+2312 [shape=box, label="1:16"]
+2312--2313;
+2313 [shape=circle, label="39:17"]
+2313--2314[label = 0.333, labelangle=110];
+2314 [shape=box, label="0:18"]
+2313--2315[label = 0.667, labelangle=110];
+2315 [shape=box, label="1:18"]
+2315--2316;
+2316 [shape=circle, label="38:19"]
+2316--2317[label = 0.500, labelangle=110];
+2317 [shape=box, label="0:20"]
+2316--2318[label = 0.500, labelangle=110];
+2318 [shape=box, label="1:20"]
+2299--2319[label = 0.533, labelangle=110];
+2319 [shape=box, label="1:14"]
+2319--2320;
+2320 [shape=circle, label="37:15"]
+2320--2321[label = 0.500, labelangle=110];
+2321 [shape=box, label="0:16"]
+2321--2322;
+2322 [shape=circle, label="32:17"]
+2322--2323[label = 0.500, labelangle=110];
+2323 [shape=box, label="0:18"]
+2323--2324;
+2324 [shape=circle, label="44:19"]
+2324--2325[label = 0.500, labelangle=110];
+2325 [shape=box, label="0:20"]
+2324--2326[label = 0.500, labelangle=110];
+2326 [shape=box, label="1:20"]
+2322--2327[label = 0.500, labelangle=110];
+2327 [shape=box, label="1:18"]
+2327--2328;
+2328 [shape=circle, label="40:19"]
+2328--2329[label = 0.500, labelangle=110];
+2329 [shape=box, label="0:20"]
+2328--2330[label = 0.500, labelangle=110];
+2330 [shape=box, label="1:20"]
+2320--2331[label = 0.500, labelangle=110];
+2331 [shape=box, label="1:16"]
+2331--2332;
+2332 [shape=circle, label="40:17"]
+2332--2333[label = 0.500, labelangle=110];
+2333 [shape=box, label="0:18"]
+2333--2334;
+2334 [shape=circle, label="36:19"]
+2334--2335[label = 0.500, labelangle=110];
+2335 [shape=box, label="0:20"]
+2334--2336[label = 0.500, labelangle=110];
+2336 [shape=box, label="1:20"]
+2332--2337[label = 0.500, labelangle=110];
+2337 [shape=box, label="1:18"]
+2337--2338;
+2338 [shape=circle, label="44:19"]
+2338--2339[label = 0.500, labelangle=110];
+2339 [shape=box, label="0:20"]
+2338--2340[label = 0.500, labelangle=110];
+2340 [shape=box, label="1:20"]
+2249--2341[label = 0.500, labelangle=110];
+2341 [shape=box, label="1:10"]
+2341--2342;
+2342 [shape=circle, label="34:11"]
+2342--2343[label = 0.516, labelangle=110];
+2343 [shape=box, label="0:12"]
+2343--2344;
+2344 [shape=circle, label="32:13"]
+2344--2345[label = 0.500, labelangle=110];
+2345 [shape=box, label="0:14"]
+2345--2346;
+2346 [shape=circle, label="39:15"]
+2346--2347[label = 0.500, labelangle=110];
+2347 [shape=box, label="0:16"]
+2347--2348;
+2348 [shape=circle, label="40:17"]
+2348--2349[label = 0.500, labelangle=110];
+2349 [shape=box, label="0:18"]
+2349--2350;
+2350 [shape=circle, label="44:19"]
+2350--2351[label = 0.500, labelangle=110];
+2351 [shape=box, label="0:20"]
+2350--2352[label = 0.500, labelangle=110];
+2352 [shape=box, label="1:20"]
+2348--2353[label = 0.500, labelangle=110];
+2353 [shape=box, label="1:18"]
+2353--2354;
+2354 [shape=circle, label="42:19"]
+2354--2355[label = 0.500, labelangle=110];
+2355 [shape=box, label="0:20"]
+2354--2356[label = 0.500, labelangle=110];
+2356 [shape=box, label="1:20"]
+2346--2357[label = 0.500, labelangle=110];
+2357 [shape=box, label="1:16"]
+2357--2358;
+2358 [shape=circle, label="42:17"]
+2358--2359[label = 0.500, labelangle=110];
+2359 [shape=box, label="0:18"]
+2359--2360;
+2360 [shape=circle, label="37:19"]
+2360--2361[label = 0.500, labelangle=110];
+2361 [shape=box, label="0:20"]
+2360--2362[label = 0.500, labelangle=110];
+2362 [shape=box, label="1:20"]
+2358--2363[label = 0.500, labelangle=110];
+2363 [shape=box, label="1:18"]
+2363--2364;
+2364 [shape=circle, label="37:19"]
+2364--2365[label = 0.500, labelangle=110];
+2365 [shape=box, label="0:20"]
+2364--2366[label = 0.500, labelangle=110];
+2366 [shape=box, label="1:20"]
+2344--2367[label = 0.500, labelangle=110];
+2367 [shape=box, label="1:14"]
+2367--2368;
+2368 [shape=circle, label="37:15"]
+2368--2369[label = 0.500, labelangle=110];
+2369 [shape=box, label="0:16"]
+2369--2370;
+2370 [shape=circle, label="42:17"]
+2370--2371[label = 0.500, labelangle=110];
+2371 [shape=box, label="0:18"]
+2371--2372;
+2372 [shape=circle, label="41:19"]
+2372--2373[label = 0.500, labelangle=110];
+2373 [shape=box, label="0:20"]
+2372--2374[label = 0.500, labelangle=110];
+2374 [shape=box, label="1:20"]
+2370--2375[label = 0.500, labelangle=110];
+2375 [shape=box, label="1:18"]
+2375--2376;
+2376 [shape=circle, label="44:19"]
+2376--2377[label = 0.500, labelangle=110];
+2377 [shape=box, label="0:20"]
+2376--2378[label = 0.500, labelangle=110];
+2378 [shape=box, label="1:20"]
+2368--2379[label = 0.500, labelangle=110];
+2379 [shape=box, label="1:16"]
+2379--2380;
+2380 [shape=circle, label="44:17"]
+2380--2381[label = 0.500, labelangle=110];
+2381 [shape=box, label="0:18"]
+2381--2382;
+2382 [shape=circle, label="42:19"]
+2382--2383[label = 0.500, labelangle=110];
+2383 [shape=box, label="0:20"]
+2382--2384[label = 0.500, labelangle=110];
+2384 [shape=box, label="1:20"]
+2380--2385[label = 0.500, labelangle=110];
+2385 [shape=box, label="1:18"]
+2385--2386;
+2386 [shape=circle, label="40:19"]
+2386--2387[label = 0.500, labelangle=110];
+2387 [shape=box, label="0:20"]
+2386--2388[label = 0.500, labelangle=110];
+2388 [shape=box, label="1:20"]
+2342--2389[label = 0.484, labelangle=110];
+2389 [shape=box, label="1:12"]
+2389--2390;
+2390 [shape=circle, label="18:13"]
+2390--2391[label = 0.467, labelangle=110];
+2391 [shape=box, label="0:14"]
+2391--2392;
+2392 [shape=circle, label="44:15"]
+2392--2393[label = 0.571, labelangle=110];
+2393 [shape=box, label="0:16"]
+2393--2394;
+2394 [shape=circle, label="41:17"]
+2394--2395[label = 0.500, labelangle=110];
+2395 [shape=box, label="0:18"]
+2395--2396;
+2396 [shape=circle, label="39:19"]
+2396--2397[label = 0.500, labelangle=110];
+2397 [shape=box, label="0:20"]
+2396--2398[label = 0.500, labelangle=110];
+2398 [shape=box, label="1:20"]
+2394--2399[label = 0.500, labelangle=110];
+2399 [shape=box, label="1:18"]
+2399--2400;
+2400 [shape=circle, label="38:19"]
+2400--2401[label = 0.500, labelangle=110];
+2401 [shape=box, label="0:20"]
+2400--2402[label = 0.500, labelangle=110];
+2402 [shape=box, label="1:20"]
+2392--2403[label = 0.429, labelangle=110];
+2403 [shape=box, label="1:16"]
+2403--2404;
+2404 [shape=circle, label="40:17"]
+2404--2405[label = 0.667, labelangle=110];
+2405 [shape=box, label="0:18"]
+2405--2406;
+2406 [shape=circle, label="39:19"]
+2406--2407[label = 0.500, labelangle=110];
+2407 [shape=box, label="0:20"]
+2406--2408[label = 0.500, labelangle=110];
+2408 [shape=box, label="1:20"]
+2404--2409[label = 0.333, labelangle=110];
+2409 [shape=box, label="1:18"]
+2390--2410[label = 0.533, labelangle=110];
+2410 [shape=box, label="1:14"]
+2410--2411;
+2411 [shape=circle, label="39:15"]
+2411--2412[label = 0.500, labelangle=110];
+2412 [shape=box, label="0:16"]
+2412--2413;
+2413 [shape=circle, label="41:17"]
+2413--2414[label = 0.500, labelangle=110];
+2414 [shape=box, label="0:18"]
+2414--2415;
+2415 [shape=circle, label="40:19"]
+2415--2416[label = 0.500, labelangle=110];
+2416 [shape=box, label="0:20"]
+2415--2417[label = 0.500, labelangle=110];
+2417 [shape=box, label="1:20"]
+2413--2418[label = 0.500, labelangle=110];
+2418 [shape=box, label="1:18"]
+2418--2419;
+2419 [shape=circle, label="35:19"]
+2419--2420[label = 0.500, labelangle=110];
+2420 [shape=box, label="0:20"]
+2419--2421[label = 0.500, labelangle=110];
+2421 [shape=box, label="1:20"]
+2411--2422[label = 0.500, labelangle=110];
+2422 [shape=box, label="1:16"]
+2422--2423;
+2423 [shape=circle, label="42:17"]
+2423--2424[label = 0.500, labelangle=110];
+2424 [shape=box, label="0:18"]
+2424--2425;
+2425 [shape=circle, label="40:19"]
+2425--2426[label = 0.500, labelangle=110];
+2426 [shape=box, label="0:20"]
+2425--2427[label = 0.500, labelangle=110];
+2427 [shape=box, label="1:20"]
+2423--2428[label = 0.500, labelangle=110];
+2428 [shape=box, label="1:18"]
+2428--2429;
+2429 [shape=circle, label="44:19"]
+2429--2430[label = 0.500, labelangle=110];
+2430 [shape=box, label="0:20"]
+2429--2431[label = 0.500, labelangle=110];
+2431 [shape=box, label="1:20"]
+2247--2432[label = 0.508, labelangle=110];
+2432 [shape=box, label="1:8"]
+2432--2433;
+2433 [shape=circle, label="27:9"]
+2433--2434[label = 0.500, labelangle=110];
+2434 [shape=box, label="0:10"]
+2434--2435;
+2435 [shape=circle, label="40:11"]
+2435--2436[label = 0.500, labelangle=110];
+2436 [shape=box, label="0:12"]
+2436--2437;
+2437 [shape=circle, label="37:13"]
+2437--2438[label = 0.500, labelangle=110];
+2438 [shape=box, label="0:14"]
+2438--2439;
+2439 [shape=circle, label="42:15"]
+2439--2440[label = 0.500, labelangle=110];
+2440 [shape=box, label="0:16"]
+2440--2441;
+2441 [shape=circle, label="25:17"]
+2441--2442[label = 0.500, labelangle=110];
+2442 [shape=box, label="0:18"]
+2442--2443;
+2443 [shape=circle, label="41:19"]
+2443--2444[label = 0.500, labelangle=110];
+2444 [shape=box, label="0:20"]
+2443--2445[label = 0.500, labelangle=110];
+2445 [shape=box, label="1:20"]
+2441--2446[label = 0.500, labelangle=110];
+2446 [shape=box, label="1:18"]
+2446--2447;
+2447 [shape=circle, label="34:19"]
+2447--2448[label = 0.500, labelangle=110];
+2448 [shape=box, label="0:20"]
+2447--2449[label = 0.500, labelangle=110];
+2449 [shape=box, label="1:20"]
+2439--2450[label = 0.500, labelangle=110];
+2450 [shape=box, label="1:16"]
+2450--2451;
+2451 [shape=circle, label="41:17"]
+2451--2452[label = 0.500, labelangle=110];
+2452 [shape=box, label="0:18"]
+2452--2453;
+2453 [shape=circle, label="38:19"]
+2453--2454[label = 0.500, labelangle=110];
+2454 [shape=box, label="0:20"]
+2453--2455[label = 0.500, labelangle=110];
+2455 [shape=box, label="1:20"]
+2451--2456[label = 0.500, labelangle=110];
+2456 [shape=box, label="1:18"]
+2456--2457;
+2457 [shape=circle, label="34:19"]
+2457--2458[label = 0.500, labelangle=110];
+2458 [shape=box, label="0:20"]
+2457--2459[label = 0.500, labelangle=110];
+2459 [shape=box, label="1:20"]
+2437--2460[label = 0.500, labelangle=110];
+2460 [shape=box, label="1:14"]
+2460--2461;
+2461 [shape=circle, label="34:15"]
+2461--2462[label = 0.500, labelangle=110];
+2462 [shape=box, label="0:16"]
+2462--2463;
+2463 [shape=circle, label="42:17"]
+2463--2464[label = 0.500, labelangle=110];
+2464 [shape=box, label="0:18"]
+2464--2465;
+2465 [shape=circle, label="36:19"]
+2465--2466[label = 0.500, labelangle=110];
+2466 [shape=box, label="0:20"]
+2465--2467[label = 0.500, labelangle=110];
+2467 [shape=box, label="1:20"]
+2463--2468[label = 0.500, labelangle=110];
+2468 [shape=box, label="1:18"]
+2468--2469;
+2469 [shape=circle, label="44:19"]
+2469--2470[label = 0.500, labelangle=110];
+2470 [shape=box, label="0:20"]
+2469--2471[label = 0.500, labelangle=110];
+2471 [shape=box, label="1:20"]
+2461--2472[label = 0.500, labelangle=110];
+2472 [shape=box, label="1:16"]
+2472--2473;
+2473 [shape=circle, label="41:17"]
+2473--2474[label = 0.500, labelangle=110];
+2474 [shape=box, label="0:18"]
+2474--2475;
+2475 [shape=circle, label="25:19"]
+2475--2476[label = 0.500, labelangle=110];
+2476 [shape=box, label="0:20"]
+2475--2477[label = 0.500, labelangle=110];
+2477 [shape=box, label="1:20"]
+2473--2478[label = 0.500, labelangle=110];
+2478 [shape=box, label="1:18"]
+2478--2479;
+2479 [shape=circle, label="42:19"]
+2479--2480[label = 0.500, labelangle=110];
+2480 [shape=box, label="0:20"]
+2479--2481[label = 0.500, labelangle=110];
+2481 [shape=box, label="1:20"]
+2435--2482[label = 0.500, labelangle=110];
+2482 [shape=box, label="1:12"]
+2482--2483;
+2483 [shape=circle, label="41:13"]
+2483--2484[label = 0.500, labelangle=110];
+2484 [shape=box, label="0:14"]
+2484--2485;
+2485 [shape=circle, label="42:15"]
+2485--2486[label = 0.500, labelangle=110];
+2486 [shape=box, label="0:16"]
+2486--2487;
+2487 [shape=circle, label="39:17"]
+2487--2488[label = 0.500, labelangle=110];
+2488 [shape=box, label="0:18"]
+2488--2489;
+2489 [shape=circle, label="36:19"]
+2489--2490[label = 0.500, labelangle=110];
+2490 [shape=box, label="0:20"]
+2489--2491[label = 0.500, labelangle=110];
+2491 [shape=box, label="1:20"]
+2487--2492[label = 0.500, labelangle=110];
+2492 [shape=box, label="1:18"]
+2492--2493;
+2493 [shape=circle, label="37:19"]
+2493--2494[label = 0.500, labelangle=110];
+2494 [shape=box, label="0:20"]
+2493--2495[label = 0.500, labelangle=110];
+2495 [shape=box, label="1:20"]
+2485--2496[label = 0.500, labelangle=110];
+2496 [shape=box, label="1:16"]
+2496--2497;
+2497 [shape=circle, label="37:17"]
+2497--2498[label = 0.500, labelangle=110];
+2498 [shape=box, label="0:18"]
+2498--2499;
+2499 [shape=circle, label="44:19"]
+2499--2500[label = 0.500, labelangle=110];
+2500 [shape=box, label="0:20"]
+2499--2501[label = 0.500, labelangle=110];
+2501 [shape=box, label="1:20"]
+2497--2502[label = 0.500, labelangle=110];
+2502 [shape=box, label="1:18"]
+2502--2503;
+2503 [shape=circle, label="34:19"]
+2503--2504[label = 0.500, labelangle=110];
+2504 [shape=box, label="0:20"]
+2503--2505[label = 0.500, labelangle=110];
+2505 [shape=box, label="1:20"]
+2483--2506[label = 0.500, labelangle=110];
+2506 [shape=box, label="1:14"]
+2506--2507;
+2507 [shape=circle, label="44:15"]
+2507--2508[label = 0.500, labelangle=110];
+2508 [shape=box, label="0:16"]
+2508--2509;
+2509 [shape=circle, label="31:17"]
+2509--2510[label = 0.500, labelangle=110];
+2510 [shape=box, label="0:18"]
+2510--2511;
+2511 [shape=circle, label="28:19"]
+2511--2512[label = 0.500, labelangle=110];
+2512 [shape=box, label="0:20"]
+2511--2513[label = 0.500, labelangle=110];
+2513 [shape=box, label="1:20"]
+2509--2514[label = 0.500, labelangle=110];
+2514 [shape=box, label="1:18"]
+2514--2515;
+2515 [shape=circle, label="39:19"]
+2515--2516[label = 0.500, labelangle=110];
+2516 [shape=box, label="0:20"]
+2515--2517[label = 0.500, labelangle=110];
+2517 [shape=box, label="1:20"]
+2507--2518[label = 0.500, labelangle=110];
+2518 [shape=box, label="1:16"]
+2518--2519;
+2519 [shape=circle, label="42:17"]
+2519--2520[label = 0.500, labelangle=110];
+2520 [shape=box, label="0:18"]
+2520--2521;
+2521 [shape=circle, label="39:19"]
+2521--2522[label = 0.500, labelangle=110];
+2522 [shape=box, label="0:20"]
+2521--2523[label = 0.500, labelangle=110];
+2523 [shape=box, label="1:20"]
+2519--2524[label = 0.500, labelangle=110];
+2524 [shape=box, label="1:18"]
+2524--2525;
+2525 [shape=circle, label="39:19"]
+2525--2526[label = 0.500, labelangle=110];
+2526 [shape=box, label="0:20"]
+2525--2527[label = 0.500, labelangle=110];
+2527 [shape=box, label="1:20"]
+2433--2528[label = 0.500, labelangle=110];
+2528 [shape=box, label="1:10"]
+2528--2529;
+2529 [shape=circle, label="7:11"]
+2529--2530[label = 0.500, labelangle=110];
+2530 [shape=box, label="0:12"]
+2530--2531;
+2531 [shape=circle, label="41:13"]
+2531--2532[label = 0.500, labelangle=110];
+2532 [shape=box, label="0:14"]
+2532--2533;
+2533 [shape=circle, label="42:15"]
+2533--2534[label = 0.500, labelangle=110];
+2534 [shape=box, label="0:16"]
+2534--2535;
+2535 [shape=circle, label="37:17"]
+2535--2536[label = 0.500, labelangle=110];
+2536 [shape=box, label="0:18"]
+2536--2537;
+2537 [shape=circle, label="36:19"]
+2537--2538[label = 0.500, labelangle=110];
+2538 [shape=box, label="0:20"]
+2537--2539[label = 0.500, labelangle=110];
+2539 [shape=box, label="1:20"]
+2535--2540[label = 0.500, labelangle=110];
+2540 [shape=box, label="1:18"]
+2540--2541;
+2541 [shape=circle, label="44:19"]
+2541--2542[label = 0.500, labelangle=110];
+2542 [shape=box, label="0:20"]
+2541--2543[label = 0.500, labelangle=110];
+2543 [shape=box, label="1:20"]
+2533--2544[label = 0.500, labelangle=110];
+2544 [shape=box, label="1:16"]
+2544--2545;
+2545 [shape=circle, label="39:17"]
+2545--2546[label = 0.500, labelangle=110];
+2546 [shape=box, label="0:18"]
+2546--2547;
+2547 [shape=circle, label="37:19"]
+2547--2548[label = 0.500, labelangle=110];
+2548 [shape=box, label="0:20"]
+2547--2549[label = 0.500, labelangle=110];
+2549 [shape=box, label="1:20"]
+2545--2550[label = 0.500, labelangle=110];
+2550 [shape=box, label="1:18"]
+2550--2551;
+2551 [shape=circle, label="44:19"]
+2551--2552[label = 0.500, labelangle=110];
+2552 [shape=box, label="0:20"]
+2551--2553[label = 0.500, labelangle=110];
+2553 [shape=box, label="1:20"]
+2531--2554[label = 0.500, labelangle=110];
+2554 [shape=box, label="1:14"]
+2554--2555;
+2555 [shape=circle, label="40:15"]
+2555--2556[label = 0.500, labelangle=110];
+2556 [shape=box, label="0:16"]
+2556--2557;
+2557 [shape=circle, label="42:17"]
+2557--2558[label = 0.500, labelangle=110];
+2558 [shape=box, label="0:18"]
+2558--2559;
+2559 [shape=circle, label="39:19"]
+2559--2560[label = 0.500, labelangle=110];
+2560 [shape=box, label="0:20"]
+2559--2561[label = 0.500, labelangle=110];
+2561 [shape=box, label="1:20"]
+2557--2562[label = 0.500, labelangle=110];
+2562 [shape=box, label="1:18"]
+2562--2563;
+2563 [shape=circle, label="37:19"]
+2563--2564[label = 0.500, labelangle=110];
+2564 [shape=box, label="0:20"]
+2563--2565[label = 0.500, labelangle=110];
+2565 [shape=box, label="1:20"]
+2555--2566[label = 0.500, labelangle=110];
+2566 [shape=box, label="1:16"]
+2566--2567;
+2567 [shape=circle, label="37:17"]
+2567--2568[label = 0.500, labelangle=110];
+2568 [shape=box, label="0:18"]
+2568--2569;
+2569 [shape=circle, label="36:19"]
+2569--2570[label = 0.500, labelangle=110];
+2570 [shape=box, label="0:20"]
+2569--2571[label = 0.500, labelangle=110];
+2571 [shape=box, label="1:20"]
+2567--2572[label = 0.500, labelangle=110];
+2572 [shape=box, label="1:18"]
+2572--2573;
+2573 [shape=circle, label="44:19"]
+2573--2574[label = 0.500, labelangle=110];
+2574 [shape=box, label="0:20"]
+2573--2575[label = 0.500, labelangle=110];
+2575 [shape=box, label="1:20"]
+2529--2576[label = 0.500, labelangle=110];
+2576 [shape=box, label="1:12"]
+2576--2577;
+2577 [shape=circle, label="44:13"]
+2577--2578[label = 0.500, labelangle=110];
+2578 [shape=box, label="0:14"]
+2578--2579;
+2579 [shape=circle, label="42:15"]
+2579--2580[label = 0.500, labelangle=110];
+2580 [shape=box, label="0:16"]
+2580--2581;
+2581 [shape=circle, label="40:17"]
+2581--2582[label = 0.500, labelangle=110];
+2582 [shape=box, label="0:18"]
+2582--2583;
+2583 [shape=circle, label="36:19"]
+2583--2584[label = 0.500, labelangle=110];
+2584 [shape=box, label="0:20"]
+2583--2585[label = 0.500, labelangle=110];
+2585 [shape=box, label="1:20"]
+2581--2586[label = 0.500, labelangle=110];
+2586 [shape=box, label="1:18"]
+2586--2587;
+2587 [shape=circle, label="41:19"]
+2587--2588[label = 0.500, labelangle=110];
+2588 [shape=box, label="0:20"]
+2587--2589[label = 0.500, labelangle=110];
+2589 [shape=box, label="1:20"]
+2579--2590[label = 0.500, labelangle=110];
+2590 [shape=box, label="1:16"]
+2590--2591;
+2591 [shape=circle, label="40:17"]
+2591--2592[label = 0.500, labelangle=110];
+2592 [shape=box, label="0:18"]
+2592--2593;
+2593 [shape=circle, label="41:19"]
+2593--2594[label = 0.500, labelangle=110];
+2594 [shape=box, label="0:20"]
+2593--2595[label = 0.500, labelangle=110];
+2595 [shape=box, label="1:20"]
+2591--2596[label = 0.500, labelangle=110];
+2596 [shape=box, label="1:18"]
+2596--2597;
+2597 [shape=circle, label="39:19"]
+2597--2598[label = 0.500, labelangle=110];
+2598 [shape=box, label="0:20"]
+2597--2599[label = 0.500, labelangle=110];
+2599 [shape=box, label="1:20"]
+2577--2600[label = 0.500, labelangle=110];
+2600 [shape=box, label="1:14"]
+2600--2601;
+2601 [shape=circle, label="41:15"]
+2601--2602[label = 0.500, labelangle=110];
+2602 [shape=box, label="0:16"]
+2602--2603;
+2603 [shape=circle, label="42:17"]
+2603--2604[label = 0.500, labelangle=110];
+2604 [shape=box, label="0:18"]
+2604--2605;
+2605 [shape=circle, label="38:19"]
+2605--2606[label = 0.500, labelangle=110];
+2606 [shape=box, label="0:20"]
+2605--2607[label = 0.500, labelangle=110];
+2607 [shape=box, label="1:20"]
+2603--2608[label = 0.500, labelangle=110];
+2608 [shape=box, label="1:18"]
+2608--2609;
+2609 [shape=circle, label="38:19"]
+2609--2610[label = 0.500, labelangle=110];
+2610 [shape=box, label="0:20"]
+2609--2611[label = 0.500, labelangle=110];
+2611 [shape=box, label="1:20"]
+2601--2612[label = 0.500, labelangle=110];
+2612 [shape=box, label="1:16"]
+2612--2613;
+2613 [shape=circle, label="35:17"]
+2613--2614[label = 0.500, labelangle=110];
+2614 [shape=box, label="0:18"]
+2614--2615;
+2615 [shape=circle, label="37:19"]
+2615--2616[label = 0.500, labelangle=110];
+2616 [shape=box, label="0:20"]
+2615--2617[label = 0.500, labelangle=110];
+2617 [shape=box, label="1:20"]
+2613--2618[label = 0.500, labelangle=110];
+2618 [shape=box, label="1:18"]
+2618--2619;
+2619 [shape=circle, label="42:19"]
+2619--2620[label = 0.500, labelangle=110];
+2620 [shape=box, label="0:20"]
+2619--2621[label = 0.500, labelangle=110];
+2621 [shape=box, label="1:20"]
+2245--2622[label = 0.500, labelangle=110];
+2622 [shape=box, label="1:6"]
+2622--2623;
+2623 [shape=circle, label="40:7"]
+2623--2624[label = 0.508, labelangle=110];
+2624 [shape=box, label="0:8"]
+2624--2625;
+2625 [shape=circle, label="24:9"]
+2625--2626[label = 0.516, labelangle=110];
+2626 [shape=box, label="0:10"]
+2626--2627;
+2627 [shape=circle, label="43:11"]
+2627--2628[label = 0.515, labelangle=110];
+2628 [shape=box, label="0:12"]
+2628--2629;
+2629 [shape=circle, label="36:13"]
+2629--2630[label = 0.529, labelangle=110];
+2630 [shape=box, label="0:14"]
+2630--2631;
+2631 [shape=circle, label="41:15"]
+2631--2632[label = 0.556, labelangle=110];
+2632 [shape=box, label="0:16"]
+2632--2633;
+2633 [shape=circle, label="42:17"]
+2633--2634[label = 0.400, labelangle=110];
+2634 [shape=box, label="0:18"]
+2634--2635;
+2635 [shape=circle, label="37:19"]
+2635--2636[label = 0.500, labelangle=110];
+2636 [shape=box, label="0:20"]
+2635--2637[label = 0.500, labelangle=110];
+2637 [shape=box, label="1:20"]
+2633--2638[label = 0.600, labelangle=110];
+2638 [shape=box, label="1:18"]
+2638--2639;
+2639 [shape=circle, label="38:19"]
+2639--2640[label = 0.333, labelangle=110];
+2640 [shape=box, label="0:20"]
+2639--2641[label = 0.667, labelangle=110];
+2641 [shape=box, label="1:20"]
+2641--2642;
+2642 [shape=circle, label="34:21"]
+2642--2643[label = 0.500, labelangle=110];
+2643 [shape=box, label="0:22"]
+2642--2644[label = 0.500, labelangle=110];
+2644 [shape=box, label="1:22"]
+2631--2645[label = 0.444, labelangle=110];
+2645 [shape=box, label="1:16"]
+2645--2646;
+2646 [shape=circle, label="39:17"]
+2646--2647[label = 0.500, labelangle=110];
+2647 [shape=box, label="0:18"]
+2647--2648;
+2648 [shape=circle, label="38:19"]
+2648--2649[label = 0.500, labelangle=110];
+2649 [shape=box, label="0:20"]
+2648--2650[label = 0.500, labelangle=110];
+2650 [shape=box, label="1:20"]
+2646--2651[label = 0.500, labelangle=110];
+2651 [shape=box, label="1:18"]
+2651--2652;
+2652 [shape=circle, label="44:19"]
+2652--2653[label = 0.500, labelangle=110];
+2653 [shape=box, label="0:20"]
+2652--2654[label = 0.500, labelangle=110];
+2654 [shape=box, label="1:20"]
+2629--2655[label = 0.471, labelangle=110];
+2655 [shape=box, label="1:14"]
+2655--2656;
+2656 [shape=circle, label="42:15"]
+2656--2657[label = 0.500, labelangle=110];
+2657 [shape=box, label="0:16"]
+2657--2658;
+2658 [shape=circle, label="35:17"]
+2658--2659[label = 0.500, labelangle=110];
+2659 [shape=box, label="0:18"]
+2659--2660;
+2660 [shape=circle, label="34:19"]
+2660--2661[label = 0.500, labelangle=110];
+2661 [shape=box, label="0:20"]
+2660--2662[label = 0.500, labelangle=110];
+2662 [shape=box, label="1:20"]
+2658--2663[label = 0.500, labelangle=110];
+2663 [shape=box, label="1:18"]
+2663--2664;
+2664 [shape=circle, label="39:19"]
+2664--2665[label = 0.500, labelangle=110];
+2665 [shape=box, label="0:20"]
+2664--2666[label = 0.500, labelangle=110];
+2666 [shape=box, label="1:20"]
+2656--2667[label = 0.500, labelangle=110];
+2667 [shape=box, label="1:16"]
+2667--2668;
+2668 [shape=circle, label="41:17"]
+2668--2669[label = 0.500, labelangle=110];
+2669 [shape=box, label="0:18"]
+2669--2670;
+2670 [shape=circle, label="38:19"]
+2670--2671[label = 0.500, labelangle=110];
+2671 [shape=box, label="0:20"]
+2670--2672[label = 0.500, labelangle=110];
+2672 [shape=box, label="1:20"]
+2668--2673[label = 0.500, labelangle=110];
+2673 [shape=box, label="1:18"]
+2673--2674;
+2674 [shape=circle, label="44:19"]
+2674--2675[label = 0.500, labelangle=110];
+2675 [shape=box, label="0:20"]
+2674--2676[label = 0.500, labelangle=110];
+2676 [shape=box, label="1:20"]
+2627--2677[label = 0.485, labelangle=110];
+2677 [shape=box, label="1:12"]
+2677--2678;
+2678 [shape=circle, label="20:13"]
+2678--2679[label = 0.500, labelangle=110];
+2679 [shape=box, label="0:14"]
+2679--2680;
+2680 [shape=circle, label="35:15"]
+2680--2681[label = 0.500, labelangle=110];
+2681 [shape=box, label="0:16"]
+2681--2682;
+2682 [shape=circle, label="39:17"]
+2682--2683[label = 0.500, labelangle=110];
+2683 [shape=box, label="0:18"]
+2683--2684;
+2684 [shape=circle, label="37:19"]
+2684--2685[label = 0.500, labelangle=110];
+2685 [shape=box, label="0:20"]
+2684--2686[label = 0.500, labelangle=110];
+2686 [shape=box, label="1:20"]
+2682--2687[label = 0.500, labelangle=110];
+2687 [shape=box, label="1:18"]
+2687--2688;
+2688 [shape=circle, label="42:19"]
+2688--2689[label = 0.500, labelangle=110];
+2689 [shape=box, label="0:20"]
+2688--2690[label = 0.500, labelangle=110];
+2690 [shape=box, label="1:20"]
+2680--2691[label = 0.500, labelangle=110];
+2691 [shape=box, label="1:16"]
+2691--2692;
+2692 [shape=circle, label="42:17"]
+2692--2693[label = 0.500, labelangle=110];
+2693 [shape=box, label="0:18"]
+2693--2694;
+2694 [shape=circle, label="32:19"]
+2694--2695[label = 0.500, labelangle=110];
+2695 [shape=box, label="0:20"]
+2694--2696[label = 0.500, labelangle=110];
+2696 [shape=box, label="1:20"]
+2692--2697[label = 0.500, labelangle=110];
+2697 [shape=box, label="1:18"]
+2697--2698;
+2698 [shape=circle, label="37:19"]
+2698--2699[label = 0.500, labelangle=110];
+2699 [shape=box, label="0:20"]
+2698--2700[label = 0.500, labelangle=110];
+2700 [shape=box, label="1:20"]
+2678--2701[label = 0.500, labelangle=110];
+2701 [shape=box, label="1:14"]
+2701--2702;
+2702 [shape=circle, label="37:15"]
+2702--2703[label = 0.500, labelangle=110];
+2703 [shape=box, label="0:16"]
+2703--2704;
+2704 [shape=circle, label="34:17"]
+2704--2705[label = 0.500, labelangle=110];
+2705 [shape=box, label="0:18"]
+2705--2706;
+2706 [shape=circle, label="36:19"]
+2706--2707[label = 0.500, labelangle=110];
+2707 [shape=box, label="0:20"]
+2706--2708[label = 0.500, labelangle=110];
+2708 [shape=box, label="1:20"]
+2704--2709[label = 0.500, labelangle=110];
+2709 [shape=box, label="1:18"]
+2709--2710;
+2710 [shape=circle, label="42:19"]
+2710--2711[label = 0.500, labelangle=110];
+2711 [shape=box, label="0:20"]
+2710--2712[label = 0.500, labelangle=110];
+2712 [shape=box, label="1:20"]
+2702--2713[label = 0.500, labelangle=110];
+2713 [shape=box, label="1:16"]
+2713--2714;
+2714 [shape=circle, label="39:17"]
+2714--2715[label = 0.500, labelangle=110];
+2715 [shape=box, label="0:18"]
+2715--2716;
+2716 [shape=circle, label="32:19"]
+2716--2717[label = 0.500, labelangle=110];
+2717 [shape=box, label="0:20"]
+2716--2718[label = 0.500, labelangle=110];
+2718 [shape=box, label="1:20"]
+2714--2719[label = 0.500, labelangle=110];
+2719 [shape=box, label="1:18"]
+2719--2720;
+2720 [shape=circle, label="38:19"]
+2720--2721[label = 0.500, labelangle=110];
+2721 [shape=box, label="0:20"]
+2720--2722[label = 0.500, labelangle=110];
+2722 [shape=box, label="1:20"]
+2625--2723[label = 0.484, labelangle=110];
+2723 [shape=box, label="1:10"]
+2723--2724;
+2724 [shape=circle, label="22:11"]
+2724--2725[label = 0.484, labelangle=110];
+2725 [shape=box, label="0:12"]
+2725--2726;
+2726 [shape=circle, label="34:13"]
+2726--2727[label = 0.533, labelangle=110];
+2727 [shape=box, label="0:14"]
+2727--2728;
+2728 [shape=circle, label="39:15"]
+2728--2729[label = 0.500, labelangle=110];
+2729 [shape=box, label="0:16"]
+2729--2730;
+2730 [shape=circle, label="37:17"]
+2730--2731[label = 0.500, labelangle=110];
+2731 [shape=box, label="0:18"]
+2731--2732;
+2732 [shape=circle, label="43:19"]
+2732--2733[label = 0.500, labelangle=110];
+2733 [shape=box, label="0:20"]
+2732--2734[label = 0.500, labelangle=110];
+2734 [shape=box, label="1:20"]
+2730--2735[label = 0.500, labelangle=110];
+2735 [shape=box, label="1:18"]
+2735--2736;
+2736 [shape=circle, label="42:19"]
+2736--2737[label = 0.500, labelangle=110];
+2737 [shape=box, label="0:20"]
+2736--2738[label = 0.500, labelangle=110];
+2738 [shape=box, label="1:20"]
+2728--2739[label = 0.500, labelangle=110];
+2739 [shape=box, label="1:16"]
+2739--2740;
+2740 [shape=circle, label="42:17"]
+2740--2741[label = 0.500, labelangle=110];
+2741 [shape=box, label="0:18"]
+2741--2742;
+2742 [shape=circle, label="41:19"]
+2742--2743[label = 0.500, labelangle=110];
+2743 [shape=box, label="0:20"]
+2742--2744[label = 0.500, labelangle=110];
+2744 [shape=box, label="1:20"]
+2740--2745[label = 0.500, labelangle=110];
+2745 [shape=box, label="1:18"]
+2745--2746;
+2746 [shape=circle, label="43:19"]
+2746--2747[label = 0.500, labelangle=110];
+2747 [shape=box, label="0:20"]
+2746--2748[label = 0.500, labelangle=110];
+2748 [shape=box, label="1:20"]
+2726--2749[label = 0.467, labelangle=110];
+2749 [shape=box, label="1:14"]
+2749--2750;
+2750 [shape=circle, label="42:15"]
+2750--2751[label = 0.429, labelangle=110];
+2751 [shape=box, label="0:16"]
+2751--2752;
+2752 [shape=circle, label="41:17"]
+2752--2753[label = 0.667, labelangle=110];
+2753 [shape=box, label="0:18"]
+2753--2754;
+2754 [shape=circle, label="39:19"]
+2754--2755[label = 0.500, labelangle=110];
+2755 [shape=box, label="0:20"]
+2754--2756[label = 0.500, labelangle=110];
+2756 [shape=box, label="1:20"]
+2752--2757[label = 0.333, labelangle=110];
+2757 [shape=box, label="1:18"]
+2750--2758[label = 0.571, labelangle=110];
+2758 [shape=box, label="1:16"]
+2758--2759;
+2759 [shape=circle, label="41:17"]
+2759--2760[label = 0.500, labelangle=110];
+2760 [shape=box, label="0:18"]
+2760--2761;
+2761 [shape=circle, label="33:19"]
+2761--2762[label = 0.500, labelangle=110];
+2762 [shape=box, label="0:20"]
+2761--2763[label = 0.500, labelangle=110];
+2763 [shape=box, label="1:20"]
+2759--2764[label = 0.500, labelangle=110];
+2764 [shape=box, label="1:18"]
+2764--2765;
+2765 [shape=circle, label="39:19"]
+2765--2766[label = 0.500, labelangle=110];
+2766 [shape=box, label="0:20"]
+2765--2767[label = 0.500, labelangle=110];
+2767 [shape=box, label="1:20"]
+2724--2768[label = 0.516, labelangle=110];
+2768 [shape=box, label="1:12"]
+2768--2769;
+2769 [shape=circle, label="42:13"]
+2769--2770[label = 0.500, labelangle=110];
+2770 [shape=box, label="0:14"]
+2770--2771;
+2771 [shape=circle, label="37:15"]
+2771--2772[label = 0.500, labelangle=110];
+2772 [shape=box, label="0:16"]
+2772--2773;
+2773 [shape=circle, label="41:17"]
+2773--2774[label = 0.500, labelangle=110];
+2774 [shape=box, label="0:18"]
+2774--2775;
+2775 [shape=circle, label="43:19"]
+2775--2776[label = 0.500, labelangle=110];
+2776 [shape=box, label="0:20"]
+2775--2777[label = 0.500, labelangle=110];
+2777 [shape=box, label="1:20"]
+2773--2778[label = 0.500, labelangle=110];
+2778 [shape=box, label="1:18"]
+2778--2779;
+2779 [shape=circle, label="36:19"]
+2779--2780[label = 0.500, labelangle=110];
+2780 [shape=box, label="0:20"]
+2779--2781[label = 0.500, labelangle=110];
+2781 [shape=box, label="1:20"]
+2771--2782[label = 0.500, labelangle=110];
+2782 [shape=box, label="1:16"]
+2782--2783;
+2783 [shape=circle, label="39:17"]
+2783--2784[label = 0.500, labelangle=110];
+2784 [shape=box, label="0:18"]
+2784--2785;
+2785 [shape=circle, label="43:19"]
+2785--2786[label = 0.500, labelangle=110];
+2786 [shape=box, label="0:20"]
+2785--2787[label = 0.500, labelangle=110];
+2787 [shape=box, label="1:20"]
+2783--2788[label = 0.500, labelangle=110];
+2788 [shape=box, label="1:18"]
+2788--2789;
+2789 [shape=circle, label="36:19"]
+2789--2790[label = 0.500, labelangle=110];
+2790 [shape=box, label="0:20"]
+2789--2791[label = 0.500, labelangle=110];
+2791 [shape=box, label="1:20"]
+2769--2792[label = 0.500, labelangle=110];
+2792 [shape=box, label="1:14"]
+2792--2793;
+2793 [shape=circle, label="37:15"]
+2793--2794[label = 0.500, labelangle=110];
+2794 [shape=box, label="0:16"]
+2794--2795;
+2795 [shape=circle, label="41:17"]
+2795--2796[label = 0.500, labelangle=110];
+2796 [shape=box, label="0:18"]
+2796--2797;
+2797 [shape=circle, label="44:19"]
+2797--2798[label = 0.500, labelangle=110];
+2798 [shape=box, label="0:20"]
+2797--2799[label = 0.500, labelangle=110];
+2799 [shape=box, label="1:20"]
+2795--2800[label = 0.500, labelangle=110];
+2800 [shape=box, label="1:18"]
+2800--2801;
+2801 [shape=circle, label="43:19"]
+2801--2802[label = 0.500, labelangle=110];
+2802 [shape=box, label="0:20"]
+2801--2803[label = 0.500, labelangle=110];
+2803 [shape=box, label="1:20"]
+2793--2804[label = 0.500, labelangle=110];
+2804 [shape=box, label="1:16"]
+2804--2805;
+2805 [shape=circle, label="43:17"]
+2805--2806[label = 0.500, labelangle=110];
+2806 [shape=box, label="0:18"]
+2806--2807;
+2807 [shape=circle, label="35:19"]
+2807--2808[label = 0.500, labelangle=110];
+2808 [shape=box, label="0:20"]
+2807--2809[label = 0.500, labelangle=110];
+2809 [shape=box, label="1:20"]
+2805--2810[label = 0.500, labelangle=110];
+2810 [shape=box, label="1:18"]
+2810--2811;
+2811 [shape=circle, label="38:19"]
+2811--2812[label = 0.500, labelangle=110];
+2812 [shape=box, label="0:20"]
+2811--2813[label = 0.500, labelangle=110];
+2813 [shape=box, label="1:20"]
+2623--2814[label = 0.492, labelangle=110];
+2814 [shape=box, label="1:8"]
+2814--2815;
+2815 [shape=circle, label="43:9"]
+2815--2816[label = 0.500, labelangle=110];
+2816 [shape=box, label="0:10"]
+2816--2817;
+2817 [shape=circle, label="33:11"]
+2817--2818[label = 0.516, labelangle=110];
+2818 [shape=box, label="0:12"]
+2818--2819;
+2819 [shape=circle, label="37:13"]
+2819--2820[label = 0.500, labelangle=110];
+2820 [shape=box, label="0:14"]
+2820--2821;
+2821 [shape=circle, label="34:15"]
+2821--2822[label = 0.500, labelangle=110];
+2822 [shape=box, label="0:16"]
+2822--2823;
+2823 [shape=circle, label="44:17"]
+2823--2824[label = 0.500, labelangle=110];
+2824 [shape=box, label="0:18"]
+2824--2825;
+2825 [shape=circle, label="41:19"]
+2825--2826[label = 0.500, labelangle=110];
+2826 [shape=box, label="0:20"]
+2825--2827[label = 0.500, labelangle=110];
+2827 [shape=box, label="1:20"]
+2823--2828[label = 0.500, labelangle=110];
+2828 [shape=box, label="1:18"]
+2828--2829;
+2829 [shape=circle, label="41:19"]
+2829--2830[label = 0.500, labelangle=110];
+2830 [shape=box, label="0:20"]
+2829--2831[label = 0.500, labelangle=110];
+2831 [shape=box, label="1:20"]
+2821--2832[label = 0.500, labelangle=110];
+2832 [shape=box, label="1:16"]
+2832--2833;
+2833 [shape=circle, label="42:17"]
+2833--2834[label = 0.500, labelangle=110];
+2834 [shape=box, label="0:18"]
+2834--2835;
+2835 [shape=circle, label="44:19"]
+2835--2836[label = 0.500, labelangle=110];
+2836 [shape=box, label="0:20"]
+2835--2837[label = 0.500, labelangle=110];
+2837 [shape=box, label="1:20"]
+2833--2838[label = 0.500, labelangle=110];
+2838 [shape=box, label="1:18"]
+2838--2839;
+2839 [shape=circle, label="41:19"]
+2839--2840[label = 0.500, labelangle=110];
+2840 [shape=box, label="0:20"]
+2839--2841[label = 0.500, labelangle=110];
+2841 [shape=box, label="1:20"]
+2819--2842[label = 0.500, labelangle=110];
+2842 [shape=box, label="1:14"]
+2842--2843;
+2843 [shape=circle, label="41:15"]
+2843--2844[label = 0.500, labelangle=110];
+2844 [shape=box, label="0:16"]
+2844--2845;
+2845 [shape=circle, label="44:17"]
+2845--2846[label = 0.500, labelangle=110];
+2846 [shape=box, label="0:18"]
+2846--2847;
+2847 [shape=circle, label="42:19"]
+2847--2848[label = 0.500, labelangle=110];
+2848 [shape=box, label="0:20"]
+2847--2849[label = 0.500, labelangle=110];
+2849 [shape=box, label="1:20"]
+2845--2850[label = 0.500, labelangle=110];
+2850 [shape=box, label="1:18"]
+2850--2851;
+2851 [shape=circle, label="42:19"]
+2851--2852[label = 0.500, labelangle=110];
+2852 [shape=box, label="0:20"]
+2851--2853[label = 0.500, labelangle=110];
+2853 [shape=box, label="1:20"]
+2843--2854[label = 0.500, labelangle=110];
+2854 [shape=box, label="1:16"]
+2854--2855;
+2855 [shape=circle, label="39:17"]
+2855--2856[label = 0.500, labelangle=110];
+2856 [shape=box, label="0:18"]
+2856--2857;
+2857 [shape=circle, label="36:19"]
+2857--2858[label = 0.500, labelangle=110];
+2858 [shape=box, label="0:20"]
+2857--2859[label = 0.500, labelangle=110];
+2859 [shape=box, label="1:20"]
+2855--2860[label = 0.500, labelangle=110];
+2860 [shape=box, label="1:18"]
+2860--2861;
+2861 [shape=circle, label="42:19"]
+2861--2862[label = 0.500, labelangle=110];
+2862 [shape=box, label="0:20"]
+2861--2863[label = 0.500, labelangle=110];
+2863 [shape=box, label="1:20"]
+2817--2864[label = 0.484, labelangle=110];
+2864 [shape=box, label="1:12"]
+2864--2865;
+2865 [shape=circle, label="44:13"]
+2865--2866[label = 0.467, labelangle=110];
+2866 [shape=box, label="0:14"]
+2866--2867;
+2867 [shape=circle, label="41:15"]
+2867--2868[label = 0.571, labelangle=110];
+2868 [shape=box, label="0:16"]
+2868--2869;
+2869 [shape=circle, label="39:17"]
+2869--2870[label = 0.500, labelangle=110];
+2870 [shape=box, label="0:18"]
+2870--2871;
+2871 [shape=circle, label="38:19"]
+2871--2872[label = 0.500, labelangle=110];
+2872 [shape=box, label="0:20"]
+2871--2873[label = 0.500, labelangle=110];
+2873 [shape=box, label="1:20"]
+2869--2874[label = 0.500, labelangle=110];
+2874 [shape=box, label="1:18"]
+2874--2875;
+2875 [shape=circle, label="22:19"]
+2875--2876[label = 0.500, labelangle=110];
+2876 [shape=box, label="0:20"]
+2875--2877[label = 0.500, labelangle=110];
+2877 [shape=box, label="1:20"]
+2867--2878[label = 0.429, labelangle=110];
+2878 [shape=box, label="1:16"]
+2878--2879;
+2879 [shape=circle, label="42:17"]
+2879--2880[label = 0.333, labelangle=110];
+2880 [shape=box, label="0:18"]
+2879--2881[label = 0.667, labelangle=110];
+2881 [shape=box, label="1:18"]
+2881--2882;
+2882 [shape=circle, label="39:19"]
+2882--2883[label = 0.500, labelangle=110];
+2883 [shape=box, label="0:20"]
+2882--2884[label = 0.500, labelangle=110];
+2884 [shape=box, label="1:20"]
+2865--2885[label = 0.533, labelangle=110];
+2885 [shape=box, label="1:14"]
+2885--2886;
+2886 [shape=circle, label="39:15"]
+2886--2887[label = 0.500, labelangle=110];
+2887 [shape=box, label="0:16"]
+2887--2888;
+2888 [shape=circle, label="42:17"]
+2888--2889[label = 0.500, labelangle=110];
+2889 [shape=box, label="0:18"]
+2889--2890;
+2890 [shape=circle, label="38:19"]
+2890--2891[label = 0.500, labelangle=110];
+2891 [shape=box, label="0:20"]
+2890--2892[label = 0.500, labelangle=110];
+2892 [shape=box, label="1:20"]
+2888--2893[label = 0.500, labelangle=110];
+2893 [shape=box, label="1:18"]
+2893--2894;
+2894 [shape=circle, label="37:19"]
+2894--2895[label = 0.500, labelangle=110];
+2895 [shape=box, label="0:20"]
+2894--2896[label = 0.500, labelangle=110];
+2896 [shape=box, label="1:20"]
+2886--2897[label = 0.500, labelangle=110];
+2897 [shape=box, label="1:16"]
+2897--2898;
+2898 [shape=circle, label="37:17"]
+2898--2899[label = 0.500, labelangle=110];
+2899 [shape=box, label="0:18"]
+2899--2900;
+2900 [shape=circle, label="42:19"]
+2900--2901[label = 0.500, labelangle=110];
+2901 [shape=box, label="0:20"]
+2900--2902[label = 0.500, labelangle=110];
+2902 [shape=box, label="1:20"]
+2898--2903[label = 0.500, labelangle=110];
+2903 [shape=box, label="1:18"]
+2903--2904;
+2904 [shape=circle, label="41:19"]
+2904--2905[label = 0.500, labelangle=110];
+2905 [shape=box, label="0:20"]
+2904--2906[label = 0.500, labelangle=110];
+2906 [shape=box, label="1:20"]
+2815--2907[label = 0.500, labelangle=110];
+2907 [shape=box, label="1:10"]
+2907--2908;
+2908 [shape=circle, label="41:11"]
+2908--2909[label = 0.516, labelangle=110];
+2909 [shape=box, label="0:12"]
+2909--2910;
+2910 [shape=circle, label="34:13"]
+2910--2911[label = 0.500, labelangle=110];
+2911 [shape=box, label="0:14"]
+2911--2912;
+2912 [shape=circle, label="37:15"]
+2912--2913[label = 0.500, labelangle=110];
+2913 [shape=box, label="0:16"]
+2913--2914;
+2914 [shape=circle, label="44:17"]
+2914--2915[label = 0.500, labelangle=110];
+2915 [shape=box, label="0:18"]
+2915--2916;
+2916 [shape=circle, label="42:19"]
+2916--2917[label = 0.500, labelangle=110];
+2917 [shape=box, label="0:20"]
+2916--2918[label = 0.500, labelangle=110];
+2918 [shape=box, label="1:20"]
+2914--2919[label = 0.500, labelangle=110];
+2919 [shape=box, label="1:18"]
+2919--2920;
+2920 [shape=circle, label="42:19"]
+2920--2921[label = 0.500, labelangle=110];
+2921 [shape=box, label="0:20"]
+2920--2922[label = 0.500, labelangle=110];
+2922 [shape=box, label="1:20"]
+2912--2923[label = 0.500, labelangle=110];
+2923 [shape=box, label="1:16"]
+2923--2924;
+2924 [shape=circle, label="36:17"]
+2924--2925[label = 0.500, labelangle=110];
+2925 [shape=box, label="0:18"]
+2925--2926;
+2926 [shape=circle, label="44:19"]
+2926--2927[label = 0.500, labelangle=110];
+2927 [shape=box, label="0:20"]
+2926--2928[label = 0.500, labelangle=110];
+2928 [shape=box, label="1:20"]
+2924--2929[label = 0.500, labelangle=110];
+2929 [shape=box, label="1:18"]
+2929--2930;
+2930 [shape=circle, label="42:19"]
+2930--2931[label = 0.500, labelangle=110];
+2931 [shape=box, label="0:20"]
+2930--2932[label = 0.500, labelangle=110];
+2932 [shape=box, label="1:20"]
+2910--2933[label = 0.500, labelangle=110];
+2933 [shape=box, label="1:14"]
+2933--2934;
+2934 [shape=circle, label="44:15"]
+2934--2935[label = 0.500, labelangle=110];
+2935 [shape=box, label="0:16"]
+2935--2936;
+2936 [shape=circle, label="39:17"]
+2936--2937[label = 0.500, labelangle=110];
+2937 [shape=box, label="0:18"]
+2937--2938;
+2938 [shape=circle, label="36:19"]
+2938--2939[label = 0.500, labelangle=110];
+2939 [shape=box, label="0:20"]
+2938--2940[label = 0.500, labelangle=110];
+2940 [shape=box, label="1:20"]
+2936--2941[label = 0.500, labelangle=110];
+2941 [shape=box, label="1:18"]
+2941--2942;
+2942 [shape=circle, label="42:19"]
+2942--2943[label = 0.500, labelangle=110];
+2943 [shape=box, label="0:20"]
+2942--2944[label = 0.500, labelangle=110];
+2944 [shape=box, label="1:20"]
+2934--2945[label = 0.500, labelangle=110];
+2945 [shape=box, label="1:16"]
+2945--2946;
+2946 [shape=circle, label="38:17"]
+2946--2947[label = 0.500, labelangle=110];
+2947 [shape=box, label="0:18"]
+2947--2948;
+2948 [shape=circle, label="42:19"]
+2948--2949[label = 0.500, labelangle=110];
+2949 [shape=box, label="0:20"]
+2948--2950[label = 0.500, labelangle=110];
+2950 [shape=box, label="1:20"]
+2946--2951[label = 0.500, labelangle=110];
+2951 [shape=box, label="1:18"]
+2951--2952;
+2952 [shape=circle, label="37:19"]
+2952--2953[label = 0.500, labelangle=110];
+2953 [shape=box, label="0:20"]
+2952--2954[label = 0.500, labelangle=110];
+2954 [shape=box, label="1:20"]
+2908--2955[label = 0.484, labelangle=110];
+2955 [shape=box, label="1:12"]
+2955--2956;
+2956 [shape=circle, label="27:13"]
+2956--2957[label = 0.533, labelangle=110];
+2957 [shape=box, label="0:14"]
+2957--2958;
+2958 [shape=circle, label="39:15"]
+2958--2959[label = 0.500, labelangle=110];
+2959 [shape=box, label="0:16"]
+2959--2960;
+2960 [shape=circle, label="37:17"]
+2960--2961[label = 0.500, labelangle=110];
+2961 [shape=box, label="0:18"]
+2961--2962;
+2962 [shape=circle, label="44:19"]
+2962--2963[label = 0.500, labelangle=110];
+2963 [shape=box, label="0:20"]
+2962--2964[label = 0.500, labelangle=110];
+2964 [shape=box, label="1:20"]
+2960--2965[label = 0.500, labelangle=110];
+2965 [shape=box, label="1:18"]
+2965--2966;
+2966 [shape=circle, label="42:19"]
+2966--2967[label = 0.500, labelangle=110];
+2967 [shape=box, label="0:20"]
+2966--2968[label = 0.500, labelangle=110];
+2968 [shape=box, label="1:20"]
+2958--2969[label = 0.500, labelangle=110];
+2969 [shape=box, label="1:16"]
+2969--2970;
+2970 [shape=circle, label="44:17"]
+2970--2971[label = 0.500, labelangle=110];
+2971 [shape=box, label="0:18"]
+2971--2972;
+2972 [shape=circle, label="42:19"]
+2972--2973[label = 0.500, labelangle=110];
+2973 [shape=box, label="0:20"]
+2972--2974[label = 0.500, labelangle=110];
+2974 [shape=box, label="1:20"]
+2970--2975[label = 0.500, labelangle=110];
+2975 [shape=box, label="1:18"]
+2975--2976;
+2976 [shape=circle, label="37:19"]
+2976--2977[label = 0.500, labelangle=110];
+2977 [shape=box, label="0:20"]
+2976--2978[label = 0.500, labelangle=110];
+2978 [shape=box, label="1:20"]
+2956--2979[label = 0.467, labelangle=110];
+2979 [shape=box, label="1:14"]
+2979--2980;
+2980 [shape=circle, label="42:15"]
+2980--2981[label = 0.429, labelangle=110];
+2981 [shape=box, label="0:16"]
+2981--2982;
+2982 [shape=circle, label="44:17"]
+2982--2983[label = 0.667, labelangle=110];
+2983 [shape=box, label="0:18"]
+2983--2984;
+2984 [shape=circle, label="38:19"]
+2984--2985[label = 0.500, labelangle=110];
+2985 [shape=box, label="0:20"]
+2984--2986[label = 0.500, labelangle=110];
+2986 [shape=box, label="1:20"]
+2982--2987[label = 0.333, labelangle=110];
+2987 [shape=box, label="1:18"]
+2980--2988[label = 0.571, labelangle=110];
+2988 [shape=box, label="1:16"]
+2988--2989;
+2989 [shape=circle, label="39:17"]
+2989--2990[label = 0.500, labelangle=110];
+2990 [shape=box, label="0:18"]
+2990--2991;
+2991 [shape=circle, label="34:19"]
+2991--2992[label = 0.500, labelangle=110];
+2992 [shape=box, label="0:20"]
+2991--2993[label = 0.500, labelangle=110];
+2993 [shape=box, label="1:20"]
+2989--2994[label = 0.500, labelangle=110];
+2994 [shape=box, label="1:18"]
+2994--2995;
+2995 [shape=circle, label="44:19"]
+2995--2996[label = 0.500, labelangle=110];
+2996 [shape=box, label="0:20"]
+2995--2997[label = 0.500, labelangle=110];
+2997 [shape=box, label="1:20"]
+}

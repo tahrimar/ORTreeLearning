@@ -1,0 +1,108 @@
+graph G {
+splines=true;
+1 [shape=box, label = "root" ]
+1--2;
+2 [shape=circle, label="2:1"]
+2--48[label = 0.960, labelangle=110];
+48 [shape=box, label="48:2"]
+48--3;
+3 [shape=circle, label="3:3"]
+3--25[label = 0.279, labelangle=110];
+25 [shape=box, label="25:4"]
+25--4;
+4 [shape=circle, label="4:5"]
+4--14[label = 1.000, labelangle=110];
+14 [shape=box, label="14:6"]
+14--5;
+5 [shape=circle, label="5:7"]
+5--9[label = 0.039, labelangle=110];
+9 [shape=box, label="9:8"]
+9--6;
+6 [shape=circle, label="6:9"]
+6--7[label = 0.436, labelangle=110];
+7 [shape=box, label="7:10"]
+6--8[label = 0.564, labelangle=110];
+8 [shape=box, label="8:10"]
+5--13[label = 0.302, labelangle=110];
+13 [shape=box, label="13:8"]
+13--6;
+4--24[label = 1.000, labelangle=110];
+24 [shape=box, label="24:6"]
+24--15;
+15 [shape=circle, label="15:7"]
+15--9[label = 0.256, labelangle=110];
+15--13[label = 0.403, labelangle=110];
+3--47[label = 0.721, labelangle=110];
+47 [shape=box, label="47:4"]
+47--26;
+26 [shape=circle, label="26:5"]
+26--36[label = 1.000, labelangle=110];
+36 [shape=box, label="36:6"]
+36--27;
+27 [shape=circle, label="27:7"]
+27--31[label = 0.169, labelangle=110];
+31 [shape=box, label="31:8"]
+31--28;
+28 [shape=circle, label="28:9"]
+28--7[label = 0.683, labelangle=110];
+28--8[label = 0.317, labelangle=110];
+27--35[label = 0.130, labelangle=110];
+35 [shape=box, label="35:8"]
+35--28;
+26--46[label = 1.000, labelangle=110];
+46 [shape=box, label="46:6"]
+46--37;
+37 [shape=circle, label="37:7"]
+37--31[label = 0.126, labelangle=110];
+37--35[label = 0.575, labelangle=110];
+2--94[label = 0.040, labelangle=110];
+94 [shape=box, label="94:2"]
+94--49;
+49 [shape=circle, label="49:3"]
+49--71[label = 0.279, labelangle=110];
+71 [shape=box, label="71:4"]
+71--50;
+50 [shape=circle, label="50:5"]
+50--60[label = 1.000, labelangle=110];
+60 [shape=box, label="60:6"]
+60--51;
+51 [shape=circle, label="51:7"]
+51--55[label = 0.521, labelangle=110];
+55 [shape=box, label="55:8"]
+55--52;
+52 [shape=circle, label="52:9"]
+52--7[label = 0.445, labelangle=110];
+52--8[label = 0.555, labelangle=110];
+51--59[label = 0.056, labelangle=110];
+59 [shape=box, label="59:8"]
+59--52;
+50--70[label = 1.000, labelangle=110];
+70 [shape=box, label="70:6"]
+70--61;
+61 [shape=circle, label="61:7"]
+61--55[label = 0.377, labelangle=110];
+61--59[label = 0.046, labelangle=110];
+49--93[label = 0.721, labelangle=110];
+93 [shape=box, label="93:4"]
+93--72;
+72 [shape=circle, label="72:5"]
+72--82[label = 1.000, labelangle=110];
+82 [shape=box, label="82:6"]
+82--73;
+73 [shape=circle, label="73:7"]
+73--77[label = 0.837, labelangle=110];
+77 [shape=box, label="77:8"]
+77--74;
+74 [shape=circle, label="74:9"]
+74--7[label = 0.939, labelangle=110];
+74--8[label = 0.061, labelangle=110];
+73--81[label = 0.063, labelangle=110];
+81 [shape=box, label="81:8"]
+81--74;
+72--92[label = 1.000, labelangle=110];
+92 [shape=box, label="92:6"]
+92--83;
+83 [shape=circle, label="83:7"]
+83--77[label = 0.061, labelangle=110];
+83--81[label = 0.039, labelangle=110];
+}

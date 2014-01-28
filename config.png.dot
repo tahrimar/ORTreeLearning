@@ -1,0 +1,22 @@
+graph G {
+splines=true;
+0 [shape=box, label = "root" ]
+0--1;
+1 [shape=circle, label=47]
+1--2[label = 0.500, labelangle=110];
+2 [shape=box, label=0]
+2--3;
+3 [shape=circle, label=15]
+3--4[label = 0.500, labelangle=110];
+4 [shape=box, label=0]
+3--752[label = 0.500, labelangle=110];
+752 [shape=box, label=1]
+752--753;
+753 [shape=circle, label=42]
+753--754[label = 0.508, labelangle=110];
+754 [shape=box, label=0]
+753--1133[label = 0.492, labelangle=110];
+1133 [shape=box, label=1]
+1--1500[label = 0.500, labelangle=110];
+1500 [shape=box, label=1]
+}

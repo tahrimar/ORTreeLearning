@@ -1,0 +1,8 @@
+graph G {
+splines=true;
+51 [shape=circle, label="1:13"]
+51--52[label = 0.500, labelangle=110];
+52 [shape=box, label="0:14"]
+51--53[label = 0.500, labelangle=110];
+53 [shape=box, label="1:14"]
+}

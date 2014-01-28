@@ -1,0 +1,40 @@
+graph G {
+splines=true;
+1 [shape=box, label = "root" ]
+1--2;
+2 [shape=circle, label="0:1"]
+2--3[label = 0.069, labelangle=110];
+3 [shape=box, label="0:2:0"]
+2--4[label = 0.931, labelangle=110];
+4 [shape=box, label="1:2:0"]
+1--5;
+5 [shape=circle, label="1:1"]
+5--6[label = 0.728, labelangle=110];
+6 [shape=box, label="0:2:0"]
+5--7[label = 0.272, labelangle=110];
+7 [shape=box, label="1:2:0"]
+1--8;
+8 [shape=circle, label="2:1"]
+8--9[label = 0.106, labelangle=110];
+9 [shape=box, label="0:2:0"]
+8--10[label = 0.894, labelangle=110];
+10 [shape=box, label="1:2:0"]
+1--11;
+11 [shape=circle, label="4:1"]
+11--15[label = 0.629, labelangle=110];
+15 [shape=box, label="0:2"]
+15--12;
+12 [shape=circle, label="3:3"]
+12--13[label = 0.154, labelangle=110];
+13 [shape=box, label="0:4:0"]
+12--14[label = 0.846, labelangle=110];
+14 [shape=box, label="1:4:0"]
+11--19[label = 0.371, labelangle=110];
+19 [shape=box, label="1:2"]
+19--16;
+16 [shape=circle, label="3:3"]
+16--17[label = 0.643, labelangle=110];
+17 [shape=box, label="0:4:0"]
+16--18[label = 0.357, labelangle=110];
+18 [shape=box, label="1:4:0"]
+}

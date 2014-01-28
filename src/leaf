@@ -1,0 +1,64 @@
+			if(ds.scopeSize() > 0){
+				
+				
+				
+				if(dsEntropy == 0.0 && ds.size() > 0){
+					
+					Q = new Distribution();
+					
+					Q.addToScope(ds.getVariables());
+					
+					Q.initializeParameters(ds.scopeSize()+1);
+					
+					ds.print("");
+					
+					//System.out.println("Original Sample : "+Arrays.toString(ds.getDataInstance(0)));
+					
+					int[] sample_ = ds.project(ds.getDataInstance(ds.getDataIndex(0)));
+					
+					System.out.println("Sample : "+Arrays.toString(sample_));
+					
+					int index = Util.toInteger(sample_);
+					
+					nAND.setConstantSample(index);
+					
+					double probSample_ = 0.8 + Math.random() * (1-0.8);
+					
+					System.out.println("Constant sample : "+Arrays.toString(sample_)+" Index : "+index+" Probability : "+probSample_);
+					
+					Q.addParameter(index, probSample_);
+					
+					
+					for(int i=0; i<ds.scopeSize()+1; i++){
+						
+						//if(i == index)
+							//continue;
+						
+						//int[] sample_i = Util.toArray(i, ds.scopeSize());
+						
+						//int HamDistance = Util.hamdist(index, i);
+						
+						double prob_i = probSample_ * Math.pow(Math.E, -1*i);
+						
+						Q.addParameter(i, prob_i);								
+						
+					}
+					
+					Q.normalize();							
+					
+					//Q.print();							
+					
+			
+				}
+				
+				else if(dsEntropy == Double.NaN){
+					
+					nAND.setConstantSample(0);
+					
+					Q.addToScope(ds.getVariables());
+					
+					Q.initializeParameters(1);
+					
+					Q.setParameter(0, 1/Math.pow(2, ds.scopeSize()));
+				}
+			

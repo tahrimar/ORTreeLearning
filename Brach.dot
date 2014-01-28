@@ -1,0 +1,4 @@
+graph G {
+splines=true;
+0 [shape=box, label = "root" ]
+}

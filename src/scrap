@@ -1,0 +1,240 @@
+					//tree.draw(tree.getRoot(), uaiFile+"Original", "Original Tree...", 1);
+					
+					//tree.print(tree.getRoot(), 0, "");
+					
+					//tree.getErrorDistribution();
+					
+					//Util.halt();
+					//Tree.print(tree.getRoot(), 0, "OR Tree...");
+					
+					//gm.constructGraph();
+					
+					//((BayesianNetwork) gm).Moralize();
+				
+					//((BayesianNetwork) gm).makeUndirected();
+						
+					/*ANDORTree aoTree = new ANDORTree();
+					
+					Node aoRoot = aoTree.buildTree(gm, null);
+					
+					aoTree.draw(aoRoot, uaiFile, "", 0);*/
+					
+					//aoTree.print(aoRoot, 0);
+					
+					//aoTree.mergeBottomUP();
+					
+					//aoTree.draw(aoRoot, uaiFile+"merged", "Drawing merged tree", 0);
+					
+					//Util.halt();
+					
+					
+					//tree.draw(uaiFile+".png", "drawing network...");
+					
+					
+					//tree.validate(tree.getRoot(), validationDS);
+					
+					//Util.halt("Note down the LL...");
+					//tree.updateLevelInfo(tree.getRoot(), 0);					
+					
+					//tree.clearEvidence(tree.getRoot());
+					
+					//double LLValid = tree.computeLL(testDS)/testDS.size();
+					
+					//System.out.println("Original LL on example "+i+" : "+LLOriginal+" Validated LL : "+LLValid);
+					
+					//System.out.println("Level count after validating : "+tree.levelCount());
+					//Util.halt();
+					
+					//LL = tree.computeLL(validationDS)/validationDS.size();
+					
+					//System.out.println("Learned LL of example "+i+" on validation: "+LL);
+					
+					//tree.runValidation(tree.getLeaves(), validationDS);
+					
+					//LL = tree.computeLL(testDS)/testDS.size();
+					
+					//System.out.println("LL of example "+i+" on test after validation : "+LL);
+					
+					//tree.draw(tree.getRoot(), uaiFile+"Original", "Original Tree...", 0);
+					
+					//System.out.println("Number of levels before pruning : "+tree.levelCount());
+					
+					//Util.halt();
+					
+					//tree.pruneBottomUp(validationDS);
+					
+					//tree.pruneTopDown(tree.getRoot(), validationDS, new ArrayList<Integer>());
+					
+					//double LL_prune = tree.computeLL(testDS)/testDS.size(); 
+					
+					//System.out.println("LL of example "+i+" after pruning : "+LL_prune);
+					
+					//System.out.println("Increase in likelihood : "+(LL_prune - LL));
+					
+					//Util.halt();
+					
+					//tree.draw(tree.getRoot(), uaiFile+"Pruned", "after merge...", 1);
+					
+					//System.out.println("Number of levels after pruning : "+tree.levelCount());
+					
+					//tree.draw(tree.getRoot(), uaiFile+"unMerged", "");
+					
+					//tree.clearEvidence(tree.getRoot());
+					
+					/*tree.runValidation(tree.getLeaves(), validationDS);
+					
+					tree.clearEvidence(tree.getRoot());
+					
+					LL = tree.computeLL(testDS)/testDS.size();
+					
+					System.out.println("LL of example "+i+" on test after validation : "+LL);*/
+										
+					//LL = tree.computeLL(validationDS)/validationDS.size();
+					
+					//System.out.println("Learned LL of example "+i+" on validation: "+LL);
+					/*double LL_before = tree.computeLL(testDS)/testDS.size();
+					
+					tree.clearEvidence(tree.getRoot());
+					
+					tree.mergeBottomUp(validationDS);
+					
+					tree.clearEvidence(tree.getRoot());
+					
+					double LL_after = tree.computeLL(testDS)/testDS.size(); 
+					
+					System.out.println("LL before merge : "+LL_before+" LL after merge : "+LL_after);
+					
+					System.out.println("Increase in LL of example "+i+" after merging : "+(LL_after-LL_before));
+									
+					//tree.draw(tree.getRoot(), uaiFile+"Merged", "after merge...", 0);*/
+					
+					//Util.halt();
+				
+				
+				
+					/*if(ds.entropy() == 0.0){
+				
+				//if the entropy of the data is 0 then stop recursing further and construct a leaf node				
+				//Util.halt("Entropy 0, Weight = "+weight);
+			
+				//ds.print("");
+				
+				//Util.halt("Entropy is zero");			
+				
+				newAND.setToLeaf();				
+				
+				newAND.addDataset(ds);
+				
+				if(ds.scopeSize() < (int)(this.variableCount * 0.25)){
+					
+					//Util.halt("DONT CARE COUNT = "+newAND.dontCareCount());
+					newAND.setFunctionValue(1);//0.5+(Math.random()*(2)));
+					
+				}	
+				
+				else
+					newAND.setFunctionValue(2);
+				
+				if(ds.scopeSize() < (int)(this.variableCount*0.75))
+					newAND.setFunctionValue(0.75+Math.random()*0.1);
+				
+				else
+					newAND.setFunctionValue(0.5+Math.random()*(0.5));
+					
+				//this.leafDontCares.add(ds.getVariables());
+				newAND.computeZ();
+				this.leafCount++;
+				return newAND;
+				
+				
+			}
+			
+			
+			
+			
+			/*if(ds.size() == 1 && ds.scopeSize() > 0){
+				
+				//only one uniform sample left
+				///ds.print("");
+				newAND.setToLeaf();				
+				
+				newAND.addDataset(ds);
+				
+				newAND.setFunctionValue(1);
+				
+					
+				//this.leafDontCares.add(ds.getVariables());
+				
+				this.leafCount++;
+				return newAND;
+			}
+			
+			else if(ds.size() == 0 && ds.scopeSize() > 0){	//the edge weight will be zero
+				
+				//create leaf with don't care variables
+				newAND.setToLeaf();
+				//newAND.addDontCares(ds.getVariables());
+				newAND.computeZ();
+				
+				if(newAND.dontCareCount() < (int)(this.variableCount * 0.75)){
+					
+					//Util.halt("DONT CARE COUNT = "+newAND.dontCareCount());
+					newAND.setFunctionValue(0.5);//0.5+(Math.random()*(2)));
+					
+				}	
+				
+				else
+					newAND.setFunctionValue(0.5+Math.random()*(0.1));
+				
+				newAND.setFunctionValue(0.5+Math.random()*0.1);
+				
+				newAND.addDataset(ds);
+				//this.leafDontCares.add(ds.getVariables());
+				
+				this.leafCount++;
+				return newAND;
+			}
+			
+			else if(ds.scopeSize() == 0){
+				
+				//all the variables have been conditioned. 
+				newAND.setToLeaf();
+				newAND.setFunctionValue(1.0);
+				newAND.computeZ();
+				this.leafCount++;
+				return newAND;
+			}
+			
+			//else {//recurse if the entropy is non-zero*/
+					
+					
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+			
+				/*if(dataset_i.size() == 0){
+					
+					//The original data has zero entropy for var = i. Place x% of this original data into this empty dataset.
+					
+					Util.halt("Size of the dataset is zero!");
+						
+					int percentCount = (int) Math.ceil((double)ds.size() * 0.1);
+					
+					System.out.println("Original dataset size = "+dataset_i.size()+" percent count = "+percentCount);
+						
+					int[] dsSample = Dataset.copySample(ds.getDataInstance(ds.getDataIndex(0)));
+						
+					Dataset newDataset = new Dataset();
+					newDataset.setVariables(dataset_i.getVariables());
+					
+					
+					for(int j=0; j<percentCount; j++){
+						
+						newDataset.addDataInstance(dsSample);
+						newDataset.addDataIndex(j);
+						
+					}
+												
+					child = createAND(newDataset, i, level+1, weight);
+				}
+				
+				else*/					

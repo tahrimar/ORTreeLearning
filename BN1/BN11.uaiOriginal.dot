@@ -1,0 +1,88 @@
+graph G {
+splines=true;
+0 [shape=box, label = "root" ]
+0--1;
+1 [shape=circle, label="3:1"]
+1--2[label = 0.550, labelangle=110];
+2 [shape=box, label="0:2"]
+2--3;
+3 [shape=circle, label="2:3"]
+3--4[label = 0.727, labelangle=110];
+4 [shape=box, label="0:4"]
+4--5;
+5 [shape=circle, label="0:5"]
+5--6[label = 0.250, labelangle=110];
+6 [shape=box, label="0:6"]
+6--7;
+7 [shape=circle, label="4:7"]
+7--8[label = 0.500, labelangle=110];
+8 [shape=box, label="0:8:1"]
+7--9[label = 0.500, labelangle=110];
+9 [shape=box, label="1:8:1"]
+5--10[label = 0.750, labelangle=110];
+10 [shape=box, label="1:6"]
+10--11;
+11 [shape=circle, label="1:7"]
+11--12[label = 0.667, labelangle=110];
+12 [shape=box, label="0:8"]
+12--13;
+13 [shape=circle, label="4:9"]
+13--14[label = 0.250, labelangle=110];
+14 [shape=box, label="0:10:1"]
+13--15[label = 0.750, labelangle=110];
+15 [shape=box, label="1:10:3"]
+11--16[label = 0.333, labelangle=110];
+16 [shape=box, label="1:8"]
+16--17;
+17 [shape=circle, label="4:9"]
+17--18[label = 0.010, labelangle=110];
+18 [shape=box, label="0:10:0"]
+17--19[label = 0.990, labelangle=110];
+19 [shape=box, label="1:10:2"]
+3--20[label = 0.273, labelangle=110];
+20 [shape=box, label="1:4"]
+20--21;
+21 [shape=circle, label="0:5"]
+21--22[label = 0.010, labelangle=110];
+22 [shape=box, label="0:6:0"]
+21--23[label = 0.990, labelangle=110];
+23 [shape=box, label="1:6:3"]
+1--24[label = 0.450, labelangle=110];
+24 [shape=box, label="1:2"]
+24--25;
+25 [shape=circle, label="1:3"]
+25--26[label = 0.667, labelangle=110];
+26 [shape=box, label="0:4"]
+26--27;
+27 [shape=circle, label="0:5"]
+27--28[label = 0.167, labelangle=110];
+28 [shape=box, label="0:6:1"]
+27--29[label = 0.833, labelangle=110];
+29 [shape=box, label="1:6"]
+29--30;
+30 [shape=circle, label="2:7"]
+30--31[label = 0.800, labelangle=110];
+31 [shape=box, label="0:8"]
+31--32;
+32 [shape=circle, label="4:9"]
+32--33[label = 0.250, labelangle=110];
+33 [shape=box, label="0:10:1"]
+32--34[label = 0.750, labelangle=110];
+34 [shape=box, label="1:10:3"]
+30--35[label = 0.200, labelangle=110];
+35 [shape=box, label="1:8:1"]
+25--36[label = 0.333, labelangle=110];
+36 [shape=box, label="1:4"]
+36--37;
+37 [shape=circle, label="0:5"]
+37--38[label = 0.333, labelangle=110];
+38 [shape=box, label="0:6:1"]
+37--39[label = 0.667, labelangle=110];
+39 [shape=box, label="1:6"]
+39--40;
+40 [shape=circle, label="2:7"]
+40--41[label = 0.500, labelangle=110];
+41 [shape=box, label="0:8:1"]
+40--42[label = 0.500, labelangle=110];
+42 [shape=box, label="1:8:1"]
+}

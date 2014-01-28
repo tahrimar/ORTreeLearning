@@ -1,0 +1,4 @@
+graph G {
+splines=true;
+0 [shape=circle, label=0]
+}

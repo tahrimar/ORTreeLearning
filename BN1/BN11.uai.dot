@@ -1,0 +1,58 @@
+graph G {
+splines=true;
+1 [shape=box, label = "root" ]
+1--2;
+2 [shape=circle, label="2:1"]
+2--12[label = 0.705, labelangle=110];
+12 [shape=box, label="0:2"]
+12--3;
+3 [shape=circle, label="4:3"]
+3--7[label = 0.156, labelangle=110];
+7 [shape=box, label="0:4"]
+7--4;
+4 [shape=circle, label="0:5"]
+4--5[label = 0.643, labelangle=110];
+5 [shape=box, label="0:6:0"]
+4--6[label = 0.357, labelangle=110];
+6 [shape=box, label="1:6:0"]
+3--11[label = 0.844, labelangle=110];
+11 [shape=box, label="1:4"]
+11--8;
+8 [shape=circle, label="0:5"]
+8--9[label = 0.380, labelangle=110];
+9 [shape=box, label="0:6:0"]
+8--10[label = 0.620, labelangle=110];
+10 [shape=box, label="1:6:0"]
+2--22[label = 0.295, labelangle=110];
+22 [shape=box, label="1:2"]
+22--13;
+13 [shape=circle, label="4:3"]
+13--17[label = 0.156, labelangle=110];
+17 [shape=box, label="0:4"]
+17--14;
+14 [shape=circle, label="0:5"]
+14--15[label = 0.956, labelangle=110];
+15 [shape=box, label="0:6:0"]
+14--16[label = 0.044, labelangle=110];
+16 [shape=box, label="1:6:0"]
+13--21[label = 0.844, labelangle=110];
+21 [shape=box, label="1:4"]
+21--18;
+18 [shape=circle, label="0:5"]
+18--19[label = 0.011, labelangle=110];
+19 [shape=box, label="0:6:0"]
+18--20[label = 0.989, labelangle=110];
+20 [shape=box, label="1:6:0"]
+1--23;
+23 [shape=circle, label="1:1"]
+23--24[label = 0.671, labelangle=110];
+24 [shape=box, label="0:2:0"]
+23--25[label = 0.329, labelangle=110];
+25 [shape=box, label="1:2:0"]
+1--26;
+26 [shape=circle, label="3:1"]
+26--27[label = 0.525, labelangle=110];
+27 [shape=box, label="0:2:0"]
+26--28[label = 0.475, labelangle=110];
+28 [shape=box, label="1:2:0"]
+}

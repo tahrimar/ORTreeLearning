@@ -1,0 +1,19 @@
+AND.OR learning
+
+Given data construct an OR tree based on some ordering
+
+Assign weights to the edges in the OR tree - weights are relative counts of the variables in the data.
+
+Try to find context specific independencies, conditional independencies and determinism in the data by means of exact/approximate merging of subtrees in the original tree.
+
+		The dependencies are based on user defined ordering!
+		
+Generalize the OR decision tree. 
+
+Approximate the structure of the markov network.
+
+
+1. choose variables based on maximum entropy
+2. build tree fully
+3. stopping criteria - number of samples, uniform distribution (can be approximated)
+4. test set likelihood

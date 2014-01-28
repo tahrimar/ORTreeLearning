@@ -1,0 +1,11 @@
+digraph G {
+splines=true;
+0 [shape=circle, label=0]
+1 [shape=circle, label=1]
+2 [shape=circle, label=2]
+3 [shape=circle, label=3]
+4 [shape=circle, label=4]
+2->4;
+3->4;
+3->0;
+}

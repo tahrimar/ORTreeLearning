@@ -1,0 +1,186 @@
+	/**
+	 * Only applicable for Bayesian networks with a topological ordering
+	 * This method generates samples from a Bayesian network
+	 * @param order
+	 */
+	void generateSamples(ArrayList<Variable> order, int N){
+		
+		order = new ArrayList<Variable>();
+		
+		for(int i=0; i<this.getNumberOfVariables(); i++){
+				
+			if(order.contains(this.getVariableByIndex(i)))
+				continue;
+			
+			else
+				topologicalOrder(order, this.getVariableByIndex(i));
+		}
+				
+		System.out.println("Topological order : "+Variable.getIdentifiers(order));
+		
+		ArrayList<int[]> samples = new ArrayList<int[]>();
+		
+		for(int i=0; i<N; i++){
+			
+			int [] sample = new int[this.getNumberOfVariables()];
+			
+			for(int j=0; j<order.size(); j++){
+				
+				//get the j-th variable
+				Variable var_j = order.get(j);
+				
+				//get the potentials of the variable
+				
+				Potential cpt_j = var_j.getPotential(0);
+				
+				ArrayList<Variable> parents_j = this.parents.get(var_j.getID());
+				
+				double rand = Math.random();
+				
+				if(parents_j.size() == 0){
+					
+					int k=0;
+					
+					double r = cpt_j.getParameter(0);
+					
+					while(r<rand){
+						
+						k++;
+						if(k == var_j.getDomain()-1)
+							break;
+						var_j.setValue(k);
+						r = r + cpt_j.getParameter(k);
+					}
+					
+					sample[var_j.getID()] = k;	
+					var_j.setValue(k);
+					
+				}
+				
+				else{
+					
+					int k =0;
+					var_j.setValue(0);
+					
+					double r = cpt_j.instantiate();
+					
+					while(r<rand){
+						
+						k++;
+						if(k == var_j.getDomain()-1)
+							break;
+						var_j.setValue(k);
+						r = r + cpt_j.instantiate();
+					}
+					
+					sample[var_j.getID()] = k;	
+					var_j.setValue(k);
+					
+				}		
+				
+			}
+			
+			System.out.println("Generated Sample : "+Arrays.toString(sample));
+			//Util.waitForInput();
+			samples.add(sample);
+		}
+		
+		for(int i=0; i<order.size(); i++){
+			
+			int count_i = 0;
+			
+			for(int j=0; j<N; j++)
+				if(samples.get(j)[order.get(i).getID()] == 1)
+					count_i++;
+			
+			System.out.println(order.get(i).getID()+" \t"+(double)count_i/N);
+			
+		}
+	}
+	
+	void topologicalOrder(ArrayList<Variable> order, Variable v){
+		
+		ArrayList<Variable> parents_v = this.parents.get(v.getID());
+		
+		System.out.println("Parents of "+v.getID()+" : "+Variable.getIdentifiers(parents_v));
+		
+		if(parents_v == null){
+			
+			order.add(v);
+			return;
+		}
+		
+		
+		else if(order.containsAll(parents_v)){
+			
+			order.add(v);
+			return;
+		}
+		
+		else{
+			
+			parents_v.removeAll(order);
+		
+			for(int i=0; i<parents_v.size(); i++)
+			topologicalOrder(order, parents_v.get(i));
+		
+			order.add(v);
+			return;
+			
+		}	
+	}
+	
+	
+	
+		for(int i=0; i<BNset.size(); i++){
+				
+				int[] evidence = BNset.getDataInstance(i);
+				
+				gm.setEvidence(evidVars, evidence);
+				
+				double prob = gm.probOfEvidence();
+				
+				//System.out.println("Probability of evidence "+Arrays.toString(evidence)+" : "+prob);
+				
+				if(prob == 0){
+					
+					Util.halt("Probability of sample is 0.0");
+					continue;
+					
+				}	
+				
+				logLikelihood = logLikelihood + Math.log10(prob)/Math.log10(2);				
+				
+			}
+			
+			System.out.println("\nExact likelihood of the data = "+logLikelihood);
+			
+			GraphicalModel m = GraphicalModel.learnParameters(gm, BNset);
+			
+			//m.print();
+			
+			logLikelihood = 0.0;
+			
+			for(int i=0; i<BNset.size(); i++){
+				
+				int[] evidence = BNset.getDataInstance(i);
+				
+				m.setEvidence(evidVars, evidence);
+				
+				double prob = m.probOfEvidence();
+				
+				//System.out.println("Probability of evidence "+Arrays.toString(evidence)+" : "+prob);
+				
+				if(prob == 0){
+					
+					Util.halt("Probability of sample is 0.0");
+					continue;
+					
+				}	
+				
+				logLikelihood = logLikelihood + Math.log10(prob)/Math.log10(2);				
+				
+			}
+			
+			System.out.println("\nBNLearn likelihood of the data = "+logLikelihood);
+			
